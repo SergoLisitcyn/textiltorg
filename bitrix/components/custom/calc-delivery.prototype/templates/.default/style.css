@@ -1,0 +1,16 @@
+.delivery-button-container {
+    margin: 18px 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+#calc-result {
+    overflow: hidden;
+}
+
+.calc-result-column {
+    width: 50%;
+    float: left;
+}

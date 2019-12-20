@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Конкурсы";
+$arDirProperties = Array(
+
+);
+?>

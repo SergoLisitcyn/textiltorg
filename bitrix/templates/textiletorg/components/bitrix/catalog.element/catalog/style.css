@@ -1,0 +1,368 @@
+.color_red {
+    color: #ff0000!important;
+}
+.message-cart {
+    border: 1px solid #ff0000;
+    position: absolute;
+    border-radius: 6px;
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 0 0 0;
+
+}
+.acsia_ic{
+	width: 32px;
+    height: 32px;
+    background: url(/bitrix/images/sprites/sprites.png);
+    background-position: -300px -300px;
+}
+
+.message-cart p {
+    margin: 0 0 10px;
+    text-align: center !important;
+}
+
+.gift_block .message-cart {
+    width: 200px;
+    left: 50%;
+    top: 100px;
+    margin-left: -111px;
+}
+
+.gift_blocks .gift_block .name {
+    line-height: 1.2;
+    min-height: 32px;
+}
+
+#gift-wrap-data {
+    display: none;
+}
+
+#gift-wrap-data.show {
+    display: inline;
+}
+
+.pr_small_paper_img {
+    width: 20px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.old-price big {
+    text-decoration: line-through;
+}
+.old-price .cls-price {	 
+    color: #ff0000;
+    text-align: center;
+    text-decoration: line-through;
+	font-size: 22px;
+	font-family: verdana, tahoma, arial;
+}
+.new_price {
+	padding-left:60px;
+	/*margin-left:20px;*/
+}
+.margin-delivery {
+    margin-right: 20px;
+}
+
+.item_one .denom-price {
+    font-size: 28px;
+    margin: 0 0 0 63px;
+    color: #555;
+}
+
+.item_one .denom-price small {
+    font-size: 22px;
+}
+
+.item_one .to-order {
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.equiment-html
+{
+    padding: 0 0 0 23px;
+}
+
+a.readmore-js-toggle {
+    font-family: 'AvenirNextCyr', Verdana, Tahoma, Arial !important;
+    font-size: 12px;
+    text-decoration: none;
+    color: #56aa47;
+    margin-top: 10px;
+}
+
+.button:disabled {
+    opacity: .5;
+    cursor: default;
+}
+
+.catalog-element-catalog .eshop-item-param .eshop-item-param-name .tooltip-message,
+.catalog-element-catalog .eshop-item-param .eshop-item-param-name .tooltip-message a,
+.catalog-element-catalog .eshop-item-param .eshop-item-param-name .tooltip-message i {
+    cursor: pointer !important;
+}
+.catalog-element-catalog .eshop-item-param .eshop-item-param-name .tooltip-message a {
+    border-bottom: 1px solid #555 !important;
+}
+.catalog-element-catalog #item .eshop-item-param .eshop-item-param-name .tooltip-message a:hover {
+    color: #ff0000 !important;
+    border-color: #ff0000 !important;
+}
+
+.catalog-element-catalog .eshop-item-param #tooltipe-message {
+    background: #e3e4e5;
+    border-radius: 0;
+    border: 1px solid #a2a2a2;
+    color: #ff0000;
+    right: 0;
+    text-transform: none;
+    width: 260px;
+    bottom: 30px;
+    left: 100%;
+    margin-left: -80px;
+    overflow: visible;
+}
+.info_block_incart .info_block_incart_title {
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.catalog-element-catalog .eshop-item-param #tooltipe-message:after {
+    content: " ";
+    height: 15px;
+    width: 13px;
+    background: url("images/triangle.png") no-repeat;
+    position: absolute;
+    bottom: -13px;
+    left: 30px;
+}
+.catalog-element-catalog .info_block_incart {
+    width: 796px;
+    padding: 20px;
+    background: #f7f7f3;
+    margin: 50px 0px 50px;
+    font-size: 14px;
+    float: left;
+}
+.catalog-element-catalog .grey_block.grey_block_icons.only_here {
+    box-sizing: border-box;
+    width: 100%;
+}
+.catalog-element-catalog .grey_block.grey_block_icons.only_here .only_here_text {
+    font-size: 11.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.catalog-element-catalog .grey_block.grey_block_icons.only_here .tooltip-message {
+    margin-left: 5px;
+}
+.catalog-element-catalog .grey_block.grey_block_icons.only_here .tooltip-message img {
+    width: 15px;
+    height: 15px;
+}
+.catalog-element-catalog .gift_buy {
+    position: absolute;
+    display: block;
+    width: 122px;
+    height: 104px;
+    background-image: url(images/gift_buy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    right: 35px;
+    bottom: -15px;
+    z-index: 3;
+}
+.catalog-element-catalog .gift_buy .tooltip-message {
+    width: 100%;
+    height: 100%;
+}
+
+.catalog-element-catalog .gift_buy #tooltipe-message {
+    background: #e3e4e5;
+    border-radius: 0;
+    border: 1px solid #a2a2a2;
+    color: #ff0000;
+    right: 0;
+    text-transform: none;
+    width: auto;
+    min-width: 200px;
+    top: auto;
+    left: auto;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 117px;
+    overflow: visible;
+}
+
+.catalog-element-catalog .gift_buy #tooltipe-message ul {
+    margin-left: 18px;
+}
+.catalog-element-catalog .gift_buy #tooltipe-message ul li {
+    margin-bottom: 8px;
+}
+
+
+.catalog-element-catalog .gift_buy #tooltipe-message:after {
+    content: " ";
+    height: 15px;
+    width: 13px;
+    background: url("images/triangle.png") no-repeat;
+    position: absolute;
+    bottom: -13px;
+    right: 55px;
+}
+
+label.deliveries-title {
+    float: left;
+    margin: 0 3px 0 0;
+}
+
+span.deliveries {
+    display: inline-block;
+    margin: 6px 0 0 0;
+    line-height: 1.4;
+}
+
+ul.info-list-by {
+    list-style: none;
+}
+
+ul.info-list-by li {
+    line-height: 1.3;
+    margin: 0 0 8px;
+}
+
+ul.info-list-by li label {
+    color: red;
+    font-weight: bold;
+}
+
+ul.info-list-by li.icon-1 {
+    background: url(images/proizvoditel.png) 0 50% no-repeat;
+    padding: 0 0 0 30px;
+}
+
+ul.info-list-by li.icon-2 {
+    background: url(images/postav.png) 0 50% no-repeat;
+    padding: 0 0 0 30px;
+}
+
+ul.info-list-by li.icon-3 {
+    background: url(images/servis_centr.png) 0 50% no-repeat;
+    padding: 0 0 0 30px;
+}
+#popup-offers {
+    width: 800px;
+    display: none;
+}
+#popup-offers .gift_block.add-overlay:before {
+    content: "Добавлено в корзину";
+    position: absolute;
+    z-index: 10;
+    top: -15px;
+    bottom: 50px;
+    left: 15px;
+    right: 15px;
+    background: rgba(245, 235, 39, 0.9);
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 170px;
+}
+.catalog-element-catalog #item_har .display-properties {
+    text-transform: uppercase;
+    font-family: "AvenirNextCyrMedium";
+    font-size: 18px;
+    color: black;
+    margin: 20px 0;
+}
+.eshop-item-param li {
+    padding: 10px!important;
+    overflow: hidden;
+}
+#item .img .picture_gallery.cont_main_img_cart {
+    display: table-cell;
+    vertical-align: middle;
+}
+.eshop-item-detailed__custom-field-name {
+    text-transform: uppercase;
+    font-family: "AvenirNextCyrMedium";
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.textinfo.red-line {
+    border-top: 1px solid #ff0000;
+    margin-top: 30px;
+    padding-top: 30px !important;
+}
+
+.catalog-element-catalog .politra {
+    padding-left: 34px;
+    background: url("images/politra.png") no-repeat left center;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    background-size: 30px 27px;
+    margin-top: 40px;
+}
+.catalog-element-catalog .politra span {
+    border-bottom: 1px dashed #555;
+}
+
+#item .tabs .tabNavigation li a {
+    top: 2px;
+}
+#item .tabs .tabNavigation li a.selected {
+    top: 0;
+    height: 26px;
+    line-height: 26px;
+    color: #fff !important;
+}
+#item .tabs .tabNavigation li a:hover {
+	background: #ff0000;
+	color: #fff !important;
+}
+.gift_blocks {
+    text-align: center;
+    padding: 35px 25px 10px;
+    overflow: hidden;
+}
+.gift_blocks .gift_block:nth-child(3n+1) {
+    clear: both;
+}
+.gift_blocks .gift_block {
+    float: left;
+    width: 33.33%;
+    min-height: 200px;
+    position: relative;
+}
+.gift_blocks .gift_block .img {
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 3px;
+}
+.gift_blocks .gift_block .name {
+    line-height: 1.2;
+    min-height: 32px;
+}
+.footer_button_block .silver_button {
+    padding: 7px;
+    width: 211px;
+}
+.gift_blocks .gift_block .incart_input {
+    margin: 20px auto;
+    font-size: 16px;
+    padding: 6px 0px!important;
+}
+.gift_blocks .gift_block .price {
+    font-weight: bold;
+    color: #010101;
+    margin-top: -4px;
+}

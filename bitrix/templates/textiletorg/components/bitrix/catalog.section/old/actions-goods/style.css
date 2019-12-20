@@ -1,0 +1,29 @@
+.action-products-container {
+    margin-top: 20px;
+}
+
+.action-products {
+    border-bottom: 1px dashed #F39507;
+}
+.action-products-item {
+    border-top: 1px dashed #F39507;
+    overflow: hidden;
+    padding: 10px 5px;
+}
+.action-products-item  img{
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.action-products-item a {
+    margin: 4px 0;
+    display: block;
+    float: left;
+    cursor: pointer !important;
+    color: #000 !important;
+}
+
+.action-products-item a .big_red {
+    color: #ff0000;
+    font-size: 15px;
+}

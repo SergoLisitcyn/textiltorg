@@ -1,0 +1,217 @@
+#static-block {display: none}
+.bx_compare .bx_sort_container{
+	margin-bottom:34px;
+	height: 34px;
+}
+.bx_compare .bx_sort_container .sorttext{
+	font-size:18px;
+	display:inline-block;
+	margin-right: 8px;
+}
+.bx_compare .bx_sort_container .sortbutton{
+	font-family: "AvenirNextCyr", verdana, tahoma, arial !important;
+}
+.bx_compare .bx_sort_container .sortbutton {
+	margin-right: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px 5px 16px 16px;
+	-moz-border-radius: 5px 5px 16px 16px;
+	-webkit-border-radius: 5px 5px 16px 16px;
+	-o-border-radius: 5px 5px 16px 16px;
+	text-decoration: none;
+	position: relative;
+	padding: 5px 20px;
+	font-size: 11px;
+	background: linear-gradient(to top, #F5EB27, #F5EB27);
+	background: -moz-linear-gradient(to top, #F5EB27, #F5EB27);
+	background: -webkit-linear-gradient(to top, #F5EB27, #F5EB27);
+	background: -o-linear-gradient(to top, #F5EB27, #F5EB27);
+}
+.bx_compare .bx_sort_container .sortbutton.current,
+.bx_compare .bx_sort_container .sortbutton:hover {
+	background: linear-gradient(to top, #ff0000, #ff0000);
+	color: #fff;
+}
+.bx_compare .bx_sort_container .sortbutton.current{
+	padding: 9px 20px;
+	top: 4px;
+}
+.bx_compare .bx_filtren_container{
+	padding:20px 10px;
+	border-radius:2px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.bx_compare .bx_filtren_container h5{
+	font-size:15px;
+	margin:0 0 23px 0;
+	text-shadow:0 1px 1px #fff;
+}
+.bx_compare .bx_filtren_container ul{
+	margin:0;
+	padding:0;
+}
+.bx_compare .bx_filtren_container ul li{
+	position:relative;
+	display:inline-block;
+	width: 20%;
+	margin-right:0px;
+	margin-bottom:10px;
+	padding-left:0px;
+	vertical-align:top;
+	min-height: 40px;
+	float: left;
+}
+.bx_compare .bx_filtren_container ul li span{
+	font-family: "AvenirNextCyrMedium",verdana,tahoma,arial;
+	font-size:16px;
+	line-height:20px;
+	text-decoration:none;
+	color:#555656;
+}
+.bx_compare .bx_filtren_container ul li > span{
+	position: relative;
+}
+.bx_compare .bx_filtren_container ul li > span > span{
+	position: absolute;
+	left: 0px;
+}
+.bx_compare .bx_filtren_container ul li label{
+	padding-left: 25px;
+	padding-right: 10px;
+	display: inline-table;
+}
+.bx_compare .table_compare table{
+	border-collapse: collapse;
+	margin-top: 10px;
+	/*margin: auto;*/
+	width: 50%;
+}
+.bx_compare .table_compare table tr td{
+	font-size:16px;
+	position:relative;
+	padding:30px 20px;
+	text-align:left;
+	white-space: nowrap;
+}
+.bx_compare .table_compare table tr:nth-child(even) td{
+	background:#f9f9f9;
+}
+.bx_compare .table_compare table tr td:first-child{
+	font-weight:bold;
+	/*white-space:nowrap;*/
+	color:#3d4345;
+}
+.bx_compare .table_compare table tr td a.delite:hover{
+	border-bottom: 2px dashed #ff0000;
+}
+.bx_compare .table_compare table tr td a.delite{
+	color: #ff0000;
+	text-decoration: none;
+	border-bottom: 2px dashed #ccc;
+}
+.bx_compare .table_compare table tr td a:hover{
+	text-decoration:none;
+}
+.bx_compare .table_compare table tr td.bx_compare_del_col{
+	text-align:center;
+}
+.bx_compare .table_compare table tr td.bx_compare_del_col a{
+	font-size:11px;
+}
+.table_compare .name {
+	text-decoration: none;
+	display: block;
+}
+table.data-table tr {
+	height: 80px;
+}
+/* SCROLLABLE * /
+.bx_compare .table_compare table {
+	table-layout: fixed;
+	width: 100%;
+	*margin-left: -100px;/*ie7* /
+}
+.bx_compare .table_compare table td {
+	vertical-align: top;
+	/*border-top: 1px solid #ccc;* /
+	/*padding:10px;* /
+	width:200px;
+}
+.bx_compare .table_compare table tr td:first-child {
+	position:absolute;
+	*position: relative; /*ie7* /
+	left:-250px;
+	width:250px;
+}
+
+.table-outer {position:relative;overflow:hidden;}
+.table-inner {
+	/*overflow-x:scroll;* /
+	/*overflow-y:visible;* /
+	width:700px;
+	margin-left:250px;
+}
+*/
+.table_compare {
+	overflow:hidden;
+}
+.table_compare table.data-table tr td:first-child {
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+#labels {
+	width:290px;
+	overflow:hidden;
+	position:absolute;
+	background:#FFFFFF;
+}
+#tables-wrapper .table-inner
+{
+	margin-left:290px;
+}
+#tables-wrapper .table-inner table tr td:first-child
+{
+	display:none;
+}
+
+/*BTN*/
+
+.inyourcart {
+	text-decoration: none;
+	/*margin: 0 auto;*/
+	width: 50px;
+}
+
+.tac{text-align: center;}
+
+.bx_compare .bx_filtren_container .compare-params-label {
+	font-family: AvenirNextCyr, verdana, tahoma, arial;
+	line-height: 1em;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 0 0 23px 0;
+}
+.popup-offers .gift_block.add-overlay::before {
+	content: "Добавлено в корзину";
+	position: absolute;
+	z-index: 10;
+	top: -15px;
+	bottom: 50px;
+	left: 15px;
+	right: 15px;
+	font-size: 13px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	line-height: 170px;
+	background: rgba(245, 235, 39, 0.9);
+}
+.compare-title {
+	margin-top: 40px;
+	font-size: 25px;
+	text-transform: uppercase;
+}

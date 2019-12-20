@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Elna";
+$arDirProperties = Array(
+
+);
+?>

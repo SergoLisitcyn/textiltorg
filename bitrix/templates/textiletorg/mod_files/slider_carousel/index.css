@@ -1,0 +1,43 @@
+#container_dop_img{
+	width: 574px;
+	overflow: hidden;
+}
+ 
+ 
+#container_dop_img div{
+	border:1px solid #555;
+	float: left;
+	width: 55px;
+	height: 55px;
+	margin: 0 5px 5px 0;	
+	display: table;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #f1f1f1;	
+	position: relative;
+	z-index: 9;
+	position: absolute;
+	top: 0px;
+	overflow: hidden;
+}
+ 
+#container_dop_img div > a{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+ }
+#carouselRight{
+position: absolute;
+top: 20px;
+left: 0px;
+cursor: pointer;
+}
+
+#carouselLeft{
+position: absolute;
+top: 20px;
+left: 285px;
+cursor: pointer;
+}

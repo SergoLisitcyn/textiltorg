@@ -1,0 +1,1 @@
+<?define("bxmaker_smsnotice_TEMPORARY_CACHE", "c2YFBHE1Awg8BHhlVjAELQYj");?>

@@ -1,0 +1,11 @@
+.list_of_all_citys .listcity {
+    display: none;
+}
+
+.list_of_all_citys .listcity.show {
+    display: block;
+}
+
+.listalfabet li {
+    padding: 0 3px !important;
+}

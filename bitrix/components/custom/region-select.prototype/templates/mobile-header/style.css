@@ -1,0 +1,82 @@
+.region-select-prototype-mobile-header .sity.select-region-container {
+    display: inline-block;
+    background: url(/bitrix/templates/textiletorg_mobile/img/sity.png) no-repeat;
+    padding-left: 25px;
+}
+.region-select-prototype-mobile-header .sity.select-region-container .select-city {
+    white-space: nowrap;
+    border-bottom: 2px dashed #fff;
+    font-size: 14px;
+    color: #fff;
+    font-family:AvenirNextCyr;
+    letter-spacing: 1px;
+}
+.select-region-hidden {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    min-width: 290px;
+    width: 50%;
+    height: auto;
+    background: #dbd9dc;
+	z-index:99;
+}
+#delect-region-search {
+    display: none;
+}
+#delect-region-search.open {
+    display: block;
+}
+#delect-region-search .wrap-input {
+    padding: 17px;
+}
+#delect-region-search input {
+    height: 30px;
+    width: 100%;
+    box-sizing:border-box;
+    padding: 0px 5px;
+    margin: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: verdana;
+    font-style: italic;
+    vertical-align: top;
+}
+#delect-region-search .no-result {
+    display: none;
+    color: #ff0000;
+    text-align: left;
+    padding-left: 18px;
+    padding-bottom: 15px;
+}
+#delect-region-search .city {
+    text-align: left;
+    margin: 0 17px;
+    border-top: 1px solid #555555;
+    line-height: 20px;
+    padding: 10px 8px;
+    font-size: 16px;
+    color: #222222;
+}
+#delect-region-search .city.selected {
+    background: #555555;
+    margin: 0;
+    border-color: #555555;
+    padding-left: 25px;
+    padding-right: 25px;    
+    color: #ff0000;
+}
+
+#delect-region-search .city .red {
+    color: #ff0000;
+}
+#delect-region-search .close {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    background: url("images/close.png") no-repeat;
+    top: 0;
+    left: -64px;
+}

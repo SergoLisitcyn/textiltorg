@@ -1,0 +1,71 @@
+.product-slider-wrap {
+    display: none;
+}
+.product-slider {
+    padding: 0px;
+    margin-left: -4px;
+    margin-bottom: 42px;
+}
+.product-slider .slick-slide img {
+    margin: 0 auto;
+}
+.product-slider-item-img {
+    height: 200px;
+}
+.product-slider-item {
+    margin: 0 5px;
+    text-align: center;
+}
+.product-slider-item-border {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 18px 20px;
+}
+.slick-prev {
+    left: 20px!important;
+    z-index: 9!important;
+}
+.slick-next {
+    right: 14px!important;
+    z-index: 9!important;
+}
+.product-slider a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+.product-slider-item-price span {
+    color: #e52324;
+    font-size: 28px;
+}
+.product-slider-item-price {
+    font-size: 20px;
+    margin: 0;
+}
+a.product-slider-item-add-to-cart {
+    background: #e52324;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: "AvenirNextCyrDemi";
+}
+a.product-slider-item-one-click-order {
+    background: #f2e654;
+    font-size: 14px!important;
+    font-weight: bold;
+}
+.product-slider-item-btn {
+    padding: 10px 30px;
+}
+.product-slider-item-btn a {
+    font-size: 16px;
+    border-radius: 4px 4px 10px 10px;
+    display: block;
+    padding: 6px;
+    border: none;
+}
+.product-slider .title-product {
+    margin-bottom: 30px;
+    height: 40px;
+}

@@ -1,0 +1,94 @@
+.message-cart-sidebar {
+    border: 1px solid #ff0000;
+    position: absolute;
+    border-radius: 6px;
+    background: #fff;
+    padding: 10px;
+    text-align: center !important;
+    margin: 5px 0 0 0;
+    z-index: 10;
+    top: 45px;
+}
+
+.message-cart-sidebar  p {
+    margin: 0 0 10px;
+    text-align: center !important;
+}
+
+.canbeint2 .buybtn {
+    position: relative;
+}
+
+.box_block .item {
+   width: 100%;
+   border-top: 2px solid silver;
+   padding: 20px 0;
+}
+
+.box_block .item .buybtn {
+    margin-top: 15px;
+}
+
+.catalog-section-more-goods-sidebar .box_head {
+    color: #555;
+
+    background: #F5EB27; /* Old browsers */
+    background: -moz-linear-gradient(top,  #F5EB27 0%, #F5EB27 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #F5EB27 0%,#F5EB27 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #F5EB27 0%,#F5EB27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5EB27', endColorstr='#F5EB27',GradientType=0 ); /* IE6-9 */
+}
+
+.catalog-section-more-goods-sidebar .box_head .question {
+    width: 15px;
+    height: 15px;
+    /*background: url("images/question.png") no-repeat;*/
+	background: url(/bitrix/images/sprites/sprites.png) no-repeat;
+	background-position: -50px -150px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.catalog-section-more-goods-sidebar .box_head .question #tooltipe-message {
+    background: #e3e4e5;
+    border-radius: 0;
+    border: 1px solid #a2a2a2;
+    color: #ff0000;
+    right: 0;
+    text-transform: none;
+    width: 260px;
+    bottom: 30px;
+    left: auto;
+    right: -30px;
+    overflow: visible;
+}
+.catalog-section-more-goods-sidebar .box_head .question #tooltipe-message:after {
+    content: " ";
+    height: 15px;
+    width: 13px;
+    background: url("images/triangle.png") no-repeat;
+    position: absolute;
+    bottom: -13px;
+    right: 30px;
+}
+
+.catalog-section-more-goods-sidebar .name a.linked_item_title {
+    color: #555;
+    font-size: 14px !important;
+    font-weight: normal;
+    font-family: AvenirNextCyr, verdana, tahoma, arial !important;
+    text-decoration: underline;
+}
+
+.catalog-section-more-goods-sidebar .item input.inyourcart {
+    /*background: url("images/add.png") no-repeat !important;
+    box-shadow: none;
+    width: 94px;
+    height: 20px;*/
+	background: url(/bitrix/images/sprites/add.png) no-repeat /**/;
+	/*background-position: -50px -1027px;*/
+    box-shadow: none;
+    width: 94px;
+    height: 20px;
+}

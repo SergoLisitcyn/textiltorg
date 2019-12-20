@@ -1,0 +1,12 @@
+.custom-musiconoff-default {
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    left: -32px;
+    width: 27px;
+    height: 23px;
+    background: url("images/volume.png");
+}
+.custom-musiconoff-default.off {
+    background-position-x: 27px;
+}

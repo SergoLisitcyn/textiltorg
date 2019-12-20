@@ -1,0 +1,63 @@
+/* For modern browsers */
+.row:before,
+.row:after {
+   content: "";
+   display: table;
+}
+.row:after {
+   clear: both;
+}
+
+/* для IE6-7 */
+.row {
+   zoom: 1;
+   margin: 0 -5px;
+}
+
+.row * {
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.col-sm-5 {
+	float: left;
+	width: 45%;
+	padding: 0 5px;
+}
+
+.col-sm-2 {
+	float: left;
+	width: 10%;
+	text-align: center;
+	padding: 0 5px;
+}
+
+.form-control {
+	width: 100%;
+	margin: 0 0 10px !important;
+}
+
+select.form-control {
+	height: 174px !important;
+}
+
+.col-sm-2 .adm-btn {
+    width: 100%;
+    margin: 0 auto 6px;
+    display: block;
+    max-width: 40px;
+}
+
+.col-sm-6 {
+	width: 50%;
+	float: left;
+	padding: 0 5px;
+}
+
+.col-sm-6 .adm-btn {
+	width: 100%;
+}
+
+.form-control + select.form-control {
+    height: 138px !important;
+}

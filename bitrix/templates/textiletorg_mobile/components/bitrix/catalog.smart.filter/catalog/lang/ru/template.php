@@ -1,0 +1,11 @@
+<?
+$MESS ['CT_BCSF_FILTER_TITLE'] = "Подбор параметров";
+$MESS ['CT_BCSF_FILTER_FROM'] = "От";
+$MESS ['CT_BCSF_FILTER_TO'] = "До";
+$MESS ['CT_BCSF_SET_FILTER'] = "Показать";
+$MESS ['CT_BCSF_CLOSE_FILTER'] = "Закрыть поиск";
+$MESS ['CT_BCSF_DEL_FILTER'] = "Сбросить";
+$MESS ['CT_BCSF_FILTER_COUNT'] = "Показать #ELEMENT_COUNT# шт.";
+$MESS ['CT_BCSF_FILTER_SHOW'] = "Показать";
+$MESS ['CT_BCSF_FILTER_ALL'] = "Все";
+?>

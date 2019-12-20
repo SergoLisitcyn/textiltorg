@@ -1,0 +1,2 @@
+/home/bitrix/ext_www/textiletorg.ru/parser/sku-file.php	[710] file from the Internet
+/home/bitrix/ext_www/textiletorg.ru/parser/sku-add.php	[710] file from the Internet

@@ -1,0 +1,55 @@
+#results table b {
+    font-family: Arial;
+    font-weight: bold;
+    color: #ff0000;
+    background: #F5EB27;
+}
+
+#results table a b {
+    font-size: 16px;
+}
+.catalog-search-prototype-default small {
+    display: block;
+    font-size: 17px;
+    margin: 20px 0 13px;
+}
+.seares {
+	background: #fff;
+    text-align: left;
+	padding: 50px 15px 35px;
+	position:relative;
+	display:none;
+}
+.seares .close {
+    width: 20px !important;
+    height: 20px !important;
+    position: absolute !important;
+    background: url(/bitrix/components/custom/region-select.prototype/templates/mobile-header/images/close.png) no-repeat !important;
+    background-size: cover !important;
+    top: 15px !important;
+    right: 15px !important;
+    z-index: 9999;
+}
+#searchresults {
+	display:none;
+}
+#searchresults .word {
+	color:#ff0000;
+}
+#results a {
+	color:#000;
+	font-weight:800;
+}
+#results a span {
+	color:#ff0000;
+}
+#header .header-table td {
+	border-bottom: 1px dashed #ff0000;
+    color: #5a5a5a;
+    font-size: 14px;
+	padding: 10px 0;
+}
+#header .header-table td {
+	border-bottom: 0;
+	padding-bottom:0;
+}

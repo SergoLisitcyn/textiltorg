@@ -1,0 +1,30 @@
+.sorter_block #sort {
+    border-radius: 5px 5px 15px 15px;
+    border: 1px solid #dddfdf
+}
+.sorter_block #sort select {
+    width: 208px;
+    border: none;
+    background: #fff;
+    padding: 4px;
+}
+
+.sorter_block #page-count {
+    border-radius: 5px 5px 15px 15px;
+    border: 1px solid #dddfdf;
+}
+.sorter_block #page-count select {
+    width: 85px;
+    border: none;
+    background: #fff;
+    padding: 4px;
+}
+.sorter div:nth-of-type(3n+3) {
+    display: none;
+}
+.sorter_block #status  {
+    display: none;
+}
+.sorter_block #status select {
+    display: none;
+}

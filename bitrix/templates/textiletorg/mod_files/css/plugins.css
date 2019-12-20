@@ -1,0 +1,83 @@
+
+/* Plugin: ami_ajax_responder start */
+div.amiListProgress{ display: none; position: absolute; min-height: 32px; background: #fff; opacity: 0.6; }
+div.amiListProgress img{ position: absolute; left: 50%; top: 50%; margin: -16px 0px 0px -16px;}
+div.ami_resp_prev, div.ami_resp_next, div.ami_resp_reload, div.ami_resp_play_pause{ display: -moz-inline-stack; display: inline-block; zoom: 1; *display: inline; width: 16px; height: 16px; background: url(/mod_files/ce_images/ajax_resp_icons.png) no-repeat; cursor: pointer; }
+div.ami_resp_prev{}
+div.ami_resp_next{ background-position: -16px 0px; }
+div.ami_resp_reload{ background-position: -64px 0px; }
+div.ami_resp_play_pause{ background-position: -48px 0px; }
+div.ami_resp_pause{ background-position: -32px 0px; }
+div.ami_resp_play_pause_disabled{ display: none; }
+div.ami_resp_prev_disabled, div.ami_resp_next_disabled{ cursor: default; filter: alpha(opacity=30); opacity: 0.3; -moz-opacity: 0.3; }
+
+div.ami_resp_outer_articles{ display: block; border: 1px dashed #777; padding: 10px; margin: 5px; }
+div.ami_resp_inner_articles{ }
+div.ami_resp_row_articles{ padding-top: 5px; }
+div.ami_resp_row_fdate_articles, div.ami_resp_row_header_articles{ display: inline; }
+div.ami_resp_row_fdate_articles{ font-weight: bold; padding-right: 5px; }
+div.ami_resp_row_announce_articles{ }
+
+div.ami_resp_outer_blog{ display: block; border: 1px dashed #777; padding: 10px; margin: 5px; }
+div.ami_resp_inner_blog{ }
+div.ami_resp_row_blog{ padding-top: 5px; }
+div.ami_resp_row_fdate_blog, div.ami_resp_row_header_blog{ display: inline; }
+div.ami_resp_row_fdate_blog{ font-weight: bold; padding-right: 5px; }
+div.ami_resp_row_announce_blog{ }
+
+div.ami_resp_outer_eshop_item{ display: block;  }
+div.ami_resp_inner_eshop_item{ }
+div.ami_resp_row_eshop_item{ padding-top: 5px; }
+div.ami_resp_row_fdate_eshop_item, div.ami_resp_row_header_eshop_item{ text-align:center;  }
+.ami_picture{ min-height: 170px;}
+div.ami_resp_row_header_eshop_item a, div.ami_resp_row_header_eshop_item a:hover, div.ami_resp_row_header_eshop_item a:visited {font-size: 1.1em;}
+div.ami_resp_row_header_eshop_item  .a_addtocart {font-size: 0.9em!important;}
+
+div.ami_resp_row_fdate_eshop_item{ font-weight: bold; padding-right: 5px; }
+div.ami_resp_row_announce_eshop_item{ }
+
+div.ami_resp_outer_files{ display: block; border: 1px dashed #777; padding: 10px; margin: 5px; }
+div.ami_resp_inner_files{ }
+div.ami_resp_row_files{ padding-top: 5px; }
+div.ami_resp_row_fdate_files, div.ami_resp_row_header_files{ display: inline; }
+div.ami_resp_row_fdate_files{ font-weight: bold; padding-right: 5px; }
+div.ami_resp_row_announce_files{ }
+
+div.ami_resp_outer_kb_item{ display: block; border: 1px dashed #777; padding: 10px; margin: 5px; }
+div.ami_resp_inner_kb_item{ }
+div.ami_resp_row_kb_item{ padding-top: 5px; }
+div.ami_resp_row_fdate_kb_item, div.ami_resp_row_header_kb_item{ display: inline; }
+div.ami_resp_row_fdate_kb_item{ font-weight: bold; padding-right: 5px; }
+div.ami_resp_row_announce_kb_item{ }
+
+div.ami_resp_outer_news{ display: block; border: 1px dashed #777; padding: 10px; margin: 5px; }
+div.ami_resp_inner_news{ }
+div.ami_resp_row_news{ padding-top: 5px; }
+div.ami_resp_row_fdate_news, div.ami_resp_row_header_news{ display: inline; }
+div.ami_resp_row_fdate_news{ font-weight: bold; padding-right: 5px; }
+div.ami_resp_row_announce_news{ }
+
+div.ami_resp_outer_photoalbum{ display: block; border: 1px dashed #777; padding: 10px; margin: 5px; }
+div.ami_resp_inner_photoalbum{ }
+div.ami_resp_row_photoalbum{ padding-top: 5px; }
+div.ami_resp_row_fdate_photoalbum, div.ami_resp_row_header_photoalbum{ display: inline; }
+div.ami_resp_row_fdate_photoalbum{ font-weight: bold; padding-right: 5px; }
+div.ami_resp_row_announce_photoalbum{ }
+
+div.ami_resp_outer_portfolio_item{ display: block; border: 1px dashed #777; padding: 10px; margin: 5px; }
+div.ami_resp_inner_portfolio_item{ }
+div.ami_resp_row_portfolio_item{ padding-top: 5px; }
+div.ami_resp_row_fdate_portfolio_item, div.ami_resp_row_header_portfolio_item{ display: inline; }
+div.ami_resp_row_fdate_portfolio_item{ font-weight: bold; padding-right: 5px; }
+div.ami_resp_row_announce_portfolio_item{ }
+
+div.ami_resp_outer_stickers{ display: block; border: 1px dashed #777; padding: 10px; margin: 5px; }
+div.ami_resp_inner_stickers{ }
+div.ami_resp_row_stickers{ padding-top: 5px; }
+div.ami_resp_row_fdate_stickers, div.ami_resp_row_header_stickers{ display: inline; }
+div.ami_resp_row_fdate_stickers{ font-weight: bold; padding-right: 5px; }
+div.ami_resp_row_announce_stickers{ }
+
+.ami_resp_header{   display: block;
+    padding-bottom: 15px;}
+/* Plugin: ami_ajax_responder end */

@@ -1,0 +1,76 @@
+.menu_home .slick-prev:before, 
+.menu_home .slick-next:before {
+    content: ' ';
+}
+.menu_home .slick-prev, 
+.menu_home .slick-next {
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+	background-size: contain;
+    background-position: center  center;
+    z-index: 1;
+	top:35px !important;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+    width: 14px !important;
+    height: 14px !important;
+	background-repeat:no-repeat !important;
+	background-position: center center !important;
+}
+.menu_home .slick-prev {
+    background-image: url("images/left.png") !important;
+    left: 20px;
+}
+.menu_home .slick-next {
+    background-image: url("images/right.png") !important;
+    right: 20px;
+}
+#wrapper .content_block .menu_home .main_center_menu_plit_big {
+}
+#wrapper .content_block .menu_home .main_center_menu_plit_big .mcm_img {
+    border: 0;
+}
+.sub-menu li{
+	    display: inline-block;
+    width: 49%;
+    text-align: center;
+    vertical-align: top;
+	padding:25px 0;
+	height:140px;
+}
+.slick-slide img{
+	display:inline !important;
+}
+.sub-menu{
+	position: relative;
+    z-index: 999;
+}
+.sub-menu ul{
+	padding:10px 0px 10px 0px !important;
+}
+.sub-menu a {
+	text-decoration:none !important;
+}
+.sub-menu .img {
+	height:110px;
+}
+.sub-menu .cell {
+	background-image:url('images/bg-slide.png');
+	background-size: cover;
+	color:#000;
+	text-decoration: none;
+    font-size: 15px;
+	font-weight:400;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+	padding:5px 25px;
+	box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: AvenirNextCyr;
+    src: url(AvenirNextCyr-Regular.otf);
+}
+@font-face {
+font-family: "AvenirNextCyrBold";
+  src: url("../fonts/AvenirNextCyr-Bold.eot");
+  src: local('☺'),
+  url("../fonts/AvenirNextCyr-Bold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/AvenirNextCyr-Bold.woff") format("woff"),
+  url("../fonts/AvenirNextCyr-Bold.ttf") format("truetype"),
+  url("../fonts/AvenirNextCyr-Bold.otf"),
+  url("../fonts/AvenirNextCyr-Bold.svg#PT Serif") format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+font-family: "AvenirNextCyrDemi";
+  src: url("../fonts/AvenirNextCyr-Demi.eot");
+  src: local('☺'),
+  url("../fonts/AvenirNextCyr-Demi.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/AvenirNextCyr-Demi.woff") format("woff"),
+  url("../fonts/AvenirNextCyr-Demi.ttf") format("truetype"),
+  url("../fonts/AvenirNextCyr-Demi.otf"),
+  url("../fonts/AvenirNextCyr-Demi.svg#PT Serif") format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+font-family: "AvenirNextCyrMedium";
+  src: url("../fonts/AvenirNextCyr-Medium.eot");
+  src: local('☺'),
+  url("../fonts/AvenirNextCyr-Medium.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/AvenirNextCyr-Medium.woff") format("woff"),
+  url("../fonts/AvenirNextCyr-Medium.ttf") format("truetype"),
+  url("../fonts/AvenirNextCyr-Medium.otf"),
+  url("../fonts/AvenirNextCyr-Medium.svg#PT Serif") format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-DEMIITALIC; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-DEMIITALIC.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-BOLD; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-BOLD.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-BOLDITALIC; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-BOLDITALIC.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-HEAVY; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-HEAVY.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-HEAVYITALIC; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-HEAVYITALIC.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-ITALIC; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-ITALIC.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-LIGHT; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-LIGHT.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-LIGHTITALIC; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-LIGHTITALIC.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-MEDIUM; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-MEDIUM.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-MEDIUMITALIC; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-MEDIUMITALIC.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-THIN; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-THIN.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-THINITALIC; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-THINITALIC.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-ULTRALIGHT; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-ULTRALIGHT.OTF); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: AVENIRNEXTCYR-ULTRALIGHTIT; /* Имя шрифта */
+	src: url(AVENIRNEXTCYR-ULTRALIGHTIT.OTF); /* Путь к файлу со шрифтом */
+}

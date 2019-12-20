@@ -1,0 +1,26 @@
+.seares {position: absolute; width: 1200px; max-height: 800px}
+.seares #results .title {color:#dd2928; font-size: 18px; text-transform: uppercase;}
+.seares #results .more {margin-top: 42px}
+.seares #results .more a {color:#56aa47!important; font-size: 14px;}
+.seares #results .sku {color:#000000; font-size: 16px;}
+.seares #results {margin-top: 10px;}
+.seares #results .image {margin-right: 33px}
+.seares #results .name {position: absolute; top: 0;}
+.seares #results .name div {display: block}
+.seares #results .price {float: right; font-size: 24px; color:#dd2928;}
+.seares #results ul li div {display: inline-block;}
+.seares #results ul li {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.seares #results ul {padding: 50px; list-style: none;}
+.seares #results ul b {
+    font-family: Arial;
+    font-weight: bold;
+    color: #ff0000;
+    background: yellow;
+}
+.seares #results a {text-decoration: none;}
+.mCSB_scrollTools {visibility: hidden!important;}

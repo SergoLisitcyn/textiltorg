@@ -1,0 +1,19 @@
+#catalog-sort {
+    margin: 0 auto 18px;
+}
+
+#catalog-sort .sorter_name {
+    margin: 0 0 8px;
+}
+
+#catalog-sort select {
+    height: 35px;
+    width: 100%;
+    border: 2px solid #d8d9d9;
+    padding: 0 8px;
+    border-radius: 2px;
+}
+
+#catalog-sort .sorter_block {
+    margin: 0 0 14px;
+}

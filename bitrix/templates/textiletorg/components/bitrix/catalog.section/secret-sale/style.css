@@ -1,0 +1,235 @@
+body .itemlist .item .item_content .left ul.inner_sub li {
+    margin-bottom: 3px;
+    height: 46px;
+}
+
+body .itemlist .item .item_content .left .inner li a {
+    width: auto;
+    height: auto;
+}
+.acsia_ic_min{
+	width: 26px;
+    height: 26px;
+    background: url(/bitrix/images/sprites/sprites.png);
+    background-position: -400px -1080px;
+
+}
+
+.message-cart {
+    border: 1px solid #ff0000;
+    position: absolute;
+    border-radius: 6px;
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 0 0 0;
+    z-index: 10;
+}
+
+.message-cart p {
+    margin: 0 0 10px;
+}
+
+.as-credit-info {
+    margin: 0 0 14px !important;
+}
+
+.old-price {
+    margin: 0 0 0px;
+}
+
+.old-price big {
+    text-decoration: line-through;
+}
+
+.old-price small {
+    font-size: 16px;
+}
+.old-span{
+	font-size: 16px;
+font-family: /*AvenirNextCyrMedium;*/"AvenirNextCyrBold",verdana,tahoma,arial;
+font-weight: normal;
+	display: inline-block;
+    text-decoration: line-through;
+}
+.gift_block .message-cart {
+    width: 200px;
+    left: 50%;
+    top: 100px;
+    margin-left: -111px;
+}
+
+
+.ucen_ic:before{
+	content:"";
+	position: relative;
+    top: 0px;
+    display: block;
+	float:left;
+	/*position: absolute;*/
+	  /*padding-top: 5px;*/
+	background:url(/bitrix/images/sprites/ucen.png) no-repeat;
+/*	background-position:-670px -1080px;*/
+	width:26px;
+	height: 26px;
+	  padding-right: 10px;
+	  
+	
+}
+
+.gift_blocks .gift_block .name {
+    line-height: 1.2;
+    min-height: 32px;
+}
+
+.grid-list .denom-price {
+    font-size: 20px;
+    margin: 0 0 16px;
+    color: #555;
+}
+
+.grid-list .denom-price big {
+    font-size: 20px;
+    font-family: "AvenirNextCyrBold",verdana,tahoma,arial;
+}
+
+.grid-list .to-order {
+    font-size: 16px;
+    color: #ff0000;
+}
+
+.tooltip-message-click .overviews {
+
+}
+
+.tooltip-message-click .overviews strong {
+    display: block;
+    margin: 0 0 10px;
+}
+
+.overviews {
+    cursor: default !important;
+}
+
+.itemlist .item .bottom .left .overviews ul li a {
+    font-size: 12px !important;
+    margin: 0 0 8px;
+    line-height: 1.1;
+    display: inline-block;
+    cursor: pointer !important;
+}
+.itemlist .item .bottom .left .overviews ul li a:hover {
+    color: #FF3D00;
+}
+
+p + .desc-delimiter:not(.show) + a {
+    margin-top: -15px;
+    position: absolute;
+}
+
+.desc-delimiter.show p:last-child {
+    margin-bottom: 0;
+}
+
+.desc-delimiter {
+    display: none;
+}
+
+.desc-delimiter.show {
+    display: block;
+}
+.grid-list .label-action {
+    background: #dd1117;
+    color: #fff;
+    font-size: 11px;
+    font-family: "AvenirNextCyrBold",verdana,tahoma,arial;
+    width: 75px;
+    height: 22px;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 5px;
+}
+.grid-list .label-action .wrap-actions {
+    position: absolute;
+    left: 50px;
+    top: -5px;
+    padding-left: 35px;
+    display: none;
+    z-index: 10;
+}
+.grid-list .label-action:hover .wrap-actions {
+    display: block;
+}   
+.grid-list .label-action .wrap-actions .actions-block {
+    background: #f2f2f2;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    color: #555;
+    padding: 5px 0;
+    width: 220px;
+    font-family: AvenirNextCyr, verdana, tahoma, arial;
+}
+.grid-list .label-action .wrap-actions .actions-block .header {
+    font-size: 14px;
+    text-align: center;
+}
+.grid-list .label-action .wrap-actions .actions-block a {
+    color: #dd1117 !important;
+    font-size: 14px !important;
+    text-align: center;
+    clear: both;
+}
+
+
+h1.catalog-action-title
+{
+	text-align:center !important;
+	font-size:22px !important;
+	margin-top: -4px !important;
+	margin-bottom: 10px !important;
+}
+
+h1.catalog-action-title-single
+{
+	text-align:center !important;
+	font-size:22px !important;
+	margin-top: -4px !important;
+	margin-bottom: 19px !important;
+}
+
+.section-title-action-description
+{
+	padding-bottom:1px;
+}
+
+.section-title-action-description > p
+{
+	font-size:14px;
+	text-align:center;
+	color:#555555;
+}
+.section-title-action-description > p:first-child
+{
+	margin-bottom:4px;
+}
+.section-title-action-description > p > strong
+{
+	font-size:18px;
+	font-family: "AvenirNextCyrBold"
+}
+.section-title-action-description > p > strong > span
+{
+	color:#FF0000;
+}
+.section-title-action-description > p > span
+{
+	font-size:10px;
+}
+
+.grid-list .itemgrid.last-link .item:last-child:after
+{
+	display:none;
+}

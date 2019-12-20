@@ -1,0 +1,258 @@
+.show-more {display: none}
+.khayr_main_comment {
+	position:relative;
+	padding-top: 8px;
+}
+.khayr_main_comment .clear {
+	clear: both;
+}
+.khayr_main_comment .pt10 {
+	padding-top: 10px;
+}
+.khayr_main_comment .w-45 {
+	width: 45%;
+}
+.khayr_main_comment .comments {
+	border-top: 1px solid #eb1c23;
+	margin: 0 0 20px;
+}
+.khayr_main_comment > .comments {
+	border-top: none;
+	margin: 0;
+}
+.khayr_main_comment > .comments .leavefeedback {
+	border-top: none;
+	padding: 0 0 15px 0;
+}
+.khayr_main_comment > .comments .leavefeedback a {
+	font-size: 20px;
+}
+.khayr_main_comment .comments .stock {
+	border-bottom: 1px solid #eb1c23;
+	position: relative;
+	float: none;
+	width: 100%;
+	margin: 0;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.khayr_main_comment .comments .stock {
+	border-bottom: 1px solid #eb1c23;
+	padding: 12px 10px;
+	position: relative;
+	overflow: hidden;
+}
+.khayr_main_comment .comments .stock:last-child {
+	border-bottom: 1px solid #eb1c23;
+}
+.khayr_main_comment .comments .stock .collapse_text_wrapper {
+	overflow: hidden;
+	max-height: 61px;
+}
+.khayr_main_comment .comments .stock .collapse_text {
+
+}
+.khayr_main_comment .comments .stock .collapse_link {
+	display: block;
+	margin-top: 10px;
+}
+.khayr_main_comment .comments .userImg {
+	width: 25%;
+	float: left;
+}
+.khayr_main_comment .comments .userImg img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+.khayr_main_comment .comments .userImg + .userInfo {
+	margin-left: 26%;
+}
+.khayr_main_comment .comments .stock .userName {
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #ed1b23;
+	font-size: 14px;
+	font-family: AvenirNextCyrBold, verdana, tahoma, arial !important;
+}
+.khayr_main_comment .comments .stock .userDate p {
+	color: #000 !important;
+	clear: none;
+}
+.khayr_main_comment .comments .stock .userInfo p {
+	clear: none;
+}
+.khayr_main_comment .comments .stock .userInfo span {
+	background: #a88a37;
+	display: block;
+	padding: 10px 14px;
+}
+.khayr_main_comment .comments .stock .userText + .stock {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+.khayr_main_comment .comments .stock .userText img:not([alt=CAPTCHA]) {
+	float: left;
+	max-width: 50px;
+	max-height: 50px;
+	padding: 0 10px 10px 0;
+}
+.khayr_main_comment .comments .stock .userText a {
+	color: #555;
+	text-decoration: none;
+}
+.khayr_main_comment .comments .stock .userText .action {
+	text-align: right;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.khayr_main_comment .comments .stock .userText .action .form.comment {
+	text-align: left;
+}
+.khayr_main_comment .comments .stock .stock {
+	margin-left: 40px;
+}
+.khayr_main_comment .comments .stock .stock .stock {
+	margin-left: 80px;
+}
+.khayr_main_comment .form {
+	margin-bottom: 20px;
+}
+.khayr_main_comment .form form {
+	display: block;
+	width: 100%;
+}
+.khayr_main_comment .form.comment input[type="submit"] {
+	margin: 0;
+	display: block;
+	width: 136px;
+}
+.khayr_main_comment form textarea {
+	padding: 0px!important;
+}
+.khayr_main_comment form input,
+.khayr_main_comment form select,
+.khayr_main_comment form textarea,
+.khayr_main_comment textarea {
+	padding: 4px 6px;
+	border: 1px solid #d8d4d4;
+	border-radius: 5px !important;
+	margin: 5px 0 5px;
+	line-height: 16px;
+	font-family: AvenirNextCyr, verdana, tahoma, arial;
+	font-size: 15px;
+	position: relative;
+	z-index: 1;
+}
+.khayr_main_comment form textarea {
+	display: block;
+	margin: 0 0 20px;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.khayr_main_comment form input[type="text"],
+.khayr_main_comment form input[type="password"] {
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	padding: 0px!important;
+}
+.khayr_main_comment form input[type="checkbox"],
+.khayr_main_comment form input[type="radio"] {
+	border: none;
+}
+.khayr_main_comment form label {
+	margin: 0 5px 0 0;
+	cursor: pointer;
+}
+.khayr_main_comment form label * {
+	vertical-align: middle;
+}
+.khayr_main_comment form label input {
+	margin: 0 2px 0 0;
+}
+.khayr_main_comment form input[type="submit"],
+.khayr_main_comment form button,
+.khayr_main_comment button,
+.khayr_main_comment a.button,
+.khayr_main_comment a.button:visited {
+	padding: 10px 20px;
+}
+.khayr_main_comment a.button {
+	max-width: 120px;
+}
+.khayr_main_comment form button,
+.khayr_main_comment button,
+.khayr_main_comment a.button,
+.khayr_main_comment a.button:visited {
+
+}
+.khayr_main_comment form input[type="submit"]:hover,
+.khayr_main_comment form button:hover,
+.khayr_main_comment button:hover,
+.khayr_main_comment a.button:hover {
+
+}
+/*.khayr_main_comment .close {
+	float: right;
+	margin-right: 10px;
+	margin-top: 9px;
+	background:url('img/delete.gif') no-repeat 0 0;
+	width:16px;
+	height:16px;
+}*/
+.khayr_main_comment .form_for {
+	display:none;
+}
+.khayr_main_comment .comments .stock .userText .rating-vote span.rating-vote-result,
+.khayr_main_comment .comments .stock .userText .rating-vote a {
+	margin: 0;
+}
+.khayr_main_comment_suc_exp {
+	position: fixed;
+	height: 30px;
+	width: 100%;
+	background: #0B690B;
+	color: #FFF;
+	font-weight: bold;
+	padding: 10px;
+	z-index: 10000001;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	cursor:pointer;
+	display:none;
+}
+.khayr_main_comment_err_exp {
+	display:none;
+	cursor:pointer;
+	position: fixed;
+	height: 30px;
+	width: 100%;
+	background: #690B0B;
+	color: #FFF;
+	font-weight: bold;
+	padding: 10px;
+	z-index: 10000001;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+}
+
+.khayr_main_comment .form.comment {
+	text-align: left;
+}
+
+.khayr_main_comment .form.comment .red_button {
+	text-align: center;
+	background: #e60000;
+	font-size: 17px;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.khayr_main_comment .comments .show_comment,
+.khayr_main_comment .comments .hide_comment {
+	color: #000 !important;
+}
+
+.leavefeedback {}

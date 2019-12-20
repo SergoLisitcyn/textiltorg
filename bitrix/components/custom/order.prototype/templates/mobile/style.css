@@ -1,0 +1,98 @@
+input.error {
+    border-color: #ff0000;
+}
+.custom_select {
+    position:relative;
+}
+.select_view {
+    background: url(/bitrix/templates/textiletorg_mobile/img/select_grey.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 33px 33px;
+    position: relative;
+    border: 2px solid #d8d9d9;
+    border-radius: 3px;
+    padding: 7px;
+    display:flex;
+}
+.select_options {
+    border: 1px solid #ff0000;
+    position: absolute;
+    z-index: 99999;
+    padding: 0 10px;
+    max-height: 250px;
+    overflow: auto;
+    background:#fff;
+    display:none;
+}
+.select_options.active {
+    display:block;
+}
+.select_options > div {
+    border-bottom: 2px solid #d8d9d9;
+    padding: 15px 15px;
+    position:relative;
+}
+.option-selected:before {
+    content: "";
+    display: inline-block;
+    background: url(/bitrix/templates/textiletorg_mobile/img/select_green.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 9px;
+    width: 12px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+.select_options > div:last-child {
+    border-bottom:0;
+}
+.form #order-form .div_confirm_column_ownd_l table tr, .form #order-form .div_confirm_column_ownd_l tbody tr, .form #order-form .div_confirm_column_ownd_r table tr, .form #order-form .div_confirm_column_ownd_r tbody tr, .form #order-form .div_confirm_column_ownd_l, .form #order-form .div_confirm_column_ownd_r {
+    overflow:inherit !important;
+}
+.select_view_choose:after {
+    content: "";
+    display: inline-block;
+    background: url(/bitrix/templates/textiletorg_mobile/img/select_green.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+}
+.div_confirm_column_ownd_r {
+    position: relative;
+    z-index: 9999;
+}
+#sberbank-order-btn {
+    display: none;
+}
+#tinkoff-order-btn {
+    display: none;
+}
+.red_button_mob {
+    display: inline-block;
+    color: white !important;
+    background: #ff0000;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    text-decoration: none;
+    border: none!important;
+    font-size: 18px;
+    font-family: 'AvenirNextCyrBold',verdana,tahoma,arial!important;
+    font-weight: normal;
+    line-height: 44px!important;
+    height: inherit!important;
+    width: 100% !important;
+    padding: 8px 40px!important;
+    text-align: center!important;
+    cursor: pointer;
+    margin-top: 25px;
+}
+input.red_button_mob {
+    line-height: 50px!important;
+}

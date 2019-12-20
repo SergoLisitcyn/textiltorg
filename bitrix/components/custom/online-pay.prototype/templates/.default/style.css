@@ -1,0 +1,58 @@
+#online-pay-form {
+    display: none;
+    width: 240px;
+}
+
+#online-pay-form form {
+    width: 210px;
+    margin: 0 auto;
+}
+
+#online-pay-form label {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    display: block;
+}
+
+#online-pay-form input[type=text] {
+    line-height: 30px;
+    height: 30px;
+    padding: 0px 10px;
+    font-style: 14px;
+    border: 1px solid #d8d4d4;
+    box-shadow: 0 1px 1px #DDDDDD inset;
+    width: 190px;
+}
+
+#online-pay-form input[type=text].error {
+    border-color: #cc0508;
+}
+
+#online-pay-form .button {
+    margin-top: 20px;
+    padding: 8px 15px;
+}
+.online-pay-sidebar .ic{
+    background:  url(/bitrix/images/sprites/sprites.png) center 10px no-repeat;
+	 background-position: -50px -87px;
+	width: 42px;
+	height: 42px; 	
+	margin: auto;
+}
+.online-pay-sidebar a {
+    /*background: url(images/pay.png) center 10px no-repeat;*/
+    border-top: 1px solid #e3e4e5;
+    border-left: 1px solid #e3e4e5;
+    font-weight: bold;
+    font-size: 14px;
+    /*padding: 55px 0 25px;*/
+	padding: 10px 0 25px;
+    text-align: center;
+    font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    color: #555;
+    text-decoration: none;
+    letter-spacing: 0.4px;
+}

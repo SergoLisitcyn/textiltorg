@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Husqvarna";
+$arDirProperties = Array(
+
+);
+?>

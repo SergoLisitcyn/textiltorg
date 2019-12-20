@@ -1,0 +1,117 @@
+.suggestions-suggestions strong {color: red!important;}
+.modal-backdrop{
+    z-index: 100;
+}
+#sberbank-order-btn {
+    display: none;
+}
+#tinkoff-order-btn {
+    display: none;
+}
+#calc-container,
+#calc-container-express {
+    margin: 5px 0 0 0;
+}
+
+#calc-container strong,
+#calc-container-express strong {
+    font-family: AvenirNextCyrBold;
+}
+
+.cart-calc-sum {
+    width: 200px;
+}
+
+#kladr_autocomplete ul {
+    margin: 0 0 0 1px;
+    border: none !important;
+}
+
+#kladr_autocomplete ul li {
+    border: 1px solid #c4c4c4;
+    border-top: none;
+    color: #555 !important;
+}
+
+#kladr_autocomplete ul li a {
+    color: #555 !important;
+    font-family: AvenirNextCyr !important;
+}
+
+#kladr_autocomplete ul li strong {
+    font-weight: 400;
+}
+
+#kladr_autocomplete ul li:first-child {
+    border-top: 1px solid #c4c4c4;
+}
+
+#kladr_autocomplete ul li strong {
+    color: #ff0000;
+}
+
+#calc-container.hidden,
+#calc-container-express.hidden{
+    display: none;
+}
+
+select.chosen-select {
+    width: 100%;
+    visibility: hidden;
+    height: 30px;
+}
+
+.chosen-icon+.chosen-container .chosen-results li.group-option {
+    padding-left: 6px;
+    background: none;
+}
+.chosen-icon+.chosen-container .chosen-results li.group-option:hover {
+    color: #ff0000;
+}
+
+.chosen-icon+.chosen-container .chosen-results li.highlighted {
+    color: #ff0000;
+}
+
+.chosen-container .chosen-results li.group-result {
+    font: 14px/1.3 'AvenirNextCyrBold', Verdana, Tahoma, Arial !important;
+    padding-left: 20px;
+
+}
+.chosen-container .chosen-results li.group-result::before{
+	content:"";
+	float: left;
+	background: url(/bitrix/images/sprites/sprites.png);
+	background-position:-50px -387px;
+	width: 14px;
+	height: 14px;
+	padding-right:10px;
+}
+
+.chosen-container .chosen-results li.group-result.shop {
+    background: url('/bitrix/templates/textiletorg/img/shop.png') 0 50% no-repeat;
+    background-size: 15px;
+}
+
+p.middle-title {
+    margin-top: 12px;
+}
+
+#order-form .skritoe_pole {
+    display: none;
+}
+#order-form .custom-select {
+    position: relative;
+}
+/*#order-form .custom-select {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    background: #fff url("images/arrow-select.png") no-repeat right;*/
+/*}*/
+#order-form .custom-select select {
+    width: auto !important;
+    outline: none;
+}
+#order-form #gift {
+    width: 616px !important;
+}

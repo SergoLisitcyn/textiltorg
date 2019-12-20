@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Merrylock";
+$arDirProperties = Array(
+
+);
+?>

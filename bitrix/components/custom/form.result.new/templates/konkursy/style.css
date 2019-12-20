@@ -1,0 +1,66 @@
+.blocks-form-inner {
+	overflow:hidden;
+}
+#competition{
+	max-width: 574px;
+	margin:15px 0px;
+}
+.textiletorg-fotm-resilt-new-konkursy{}
+.blocks-form-inner div {
+	width: 50%;
+	float: left;
+	vertical-align: top;
+}
+.textiletorg-fotm-resilt-new-konkursy > div {
+	padding: 15px 0px 5px;
+	border-top: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	margin: 5px 0px 15px;
+}
+.textiletorg-fotm-resilt-new-konkursy label{
+	width: 60px;
+	padding-right: 20px;
+	text-align: right;
+	float: left;
+	vertical-align: top;
+	display: block;
+	line-height: 30px;
+}
+.textiletorg-fotm-resilt-new-konkursy div > label:nth-child(even){
+	padding-right: 0px;
+}
+.textiletorg-fotm-resilt-new-konkursy input[type="submit"]{
+	clear: both;
+	display: block!important;
+	margin: 15px auto 0px;
+	border-radius: 3px;
+}
+.textiletorg-fotm-resilt-new-konkursy #SIMPLE_QUESTION_189{
+	width: 468px;
+}
+.textiletorg-fotm-resilt-new-konkursy input[type="text"]{
+	line-height: 30px;
+	height: 30px;
+	padding: 0px 10px;
+	width: 180px;
+	font-style: 14px;
+	border: 1px solid #d8d4d4;
+	box-shadow: 0 1px 1px #DDDDDD inset;
+}
+.textiletorg-fotm-resilt-new-konkursy label, .textiletorg-fotm-resilt-new-konkursy input[type="text"]{
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+.textiletorg-fotm-resilt-new-konkursy textarea{
+	font-style: 14px;
+	padding: 5px 10px;
+	line-height: 15px;
+	border: 1px solid #d8d4d4;
+	box-shadow: 0 1px 1px #DDDDDD inset;
+	width: 468px;
+	border-radius: 3px;
+	resize: none;
+}
+.textiletorg-fotm-resilt-new-konkursy .inputfile {
+    margin-top: 10px;
+}

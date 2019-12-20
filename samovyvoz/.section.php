@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Самовывоз";
+$arDirProperties = Array(
+
+);
+?>

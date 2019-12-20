@@ -1,0 +1,49 @@
+.system-page-navigation-modern-ajax {
+    position: relative;
+    margin-top: 10px;
+}
+.system-page-navigation-modern-ajax a {
+    color: #ff0000 !important;
+    font-size: 14px;
+    font-family: "AvenirNextCyrBold", verdana, tahoma, arial;
+    padding: 0 4px;
+    text-decoration: none !important;
+}
+.system-page-navigation-modern-ajax .select {
+    font-family: "AvenirNextCyrBold", verdana, tahoma, arial;
+    background: #ff0000;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    line-height: 26px;
+    color: #fff;
+    font-size: 14px;
+}
+.system-page-navigation-modern-ajax .show-more5 {
+    color: #ff0000;
+    font-size: 12.5px;
+    text-align: center;
+    width: 100px;
+    padding-top: 65px;
+    padding: 55px 0 0;
+    background: url(images/plus.png) no-repeat top center;
+    background-size: 50px;
+    cursor: pointer;
+    margin: 10px auto 14px;
+}
+.system-page-navigation-modern-ajax .loader {
+    position: absolute;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("images/loader.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.system-page-navigation-modern-ajax .pagination {
+    margin: 25px auto;
+}

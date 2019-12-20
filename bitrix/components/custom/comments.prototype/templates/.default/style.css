@@ -1,0 +1,9 @@
+#item_rev .comments .title-comments {
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.comments ul {padding: 0; list-style-type: none;}
+.comments ul li {margin-bottom: 40px;}
+.comments .name {font-size: 20px;}

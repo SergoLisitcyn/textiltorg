@@ -1,0 +1,150 @@
+.spoiler-body {padding-bottom: 5px; overflow: hidden;}
+.uz_filter_field_box {display:block;text-align:left;margin:0;}
+.uz_filter_field_box h4 {
+	padding-left: 10px;
+	color: #555;
+	font-weight: normal;
+	font-size: 12px;
+	
+}
+.slp_hd {
+	background: rgba(0, 0, 0, 0) url("/mod_files/ce_images/template_images/filter_right.png") no-repeat scroll 1px 6px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.slp_sh {
+	font-size: 12px !important;
+	font-weight: normal !important;
+}
+#price_vals_box {
+	display: block;
+	margin: 0 auto;
+}
+.brands {display:block !important;}
+#brandsUL {
+	margin-top: 5px;
+	width:100%;
+	margin-bottom: 10px;
+}
+#brandsUL div{
+	width: 92px !important;
+}
+#brandsUL > div, .uz_filter_field_box .cbrow {
+	display:block;
+	width: 100%;
+	float :left;
+	margin-right:6px;
+}
+.box.filter .brands input, .check_brands input {margin-right: 5px;}
+.cbrow > label {
+	padding-top: 2px;
+	display: block;
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+.uz_filter_field_box .cbrow input {
+	margin-right: 5px;
+	float: left;
+	display: inline-block;
+	margin-top: 3px;
+	text-align:left;
+	margin-left: 0;
+}
+.cbrow.even_filter {margin-right:0;}
+.uz_filter_btn {clear: both;}
+#price_interval_slider{
+height: 2px !important;
+}
+#price_interval_slider a  {background:none !important;}
+#price_interval_slider .ui-corner-all.uz-slide-handler-left {
+	width: 0;
+	height: 0;
+	border-bottom: 15px solid red !important; 
+	border-left: 15px solid transparent !important;
+	margin-left: -14px !important;
+}
+#price_interval_slider .ui-corner-all.uz-slide-handler-right {
+	width: 0;
+	height: 0;
+	border-bottom: 15px solid red !important;
+	border-right: 15px solid transparent !important;	
+}
+
+#price_vals_box input[name="price_from"], #price_vals_box input[name="price_to"] {
+	width: 40px;
+	margin: 5px 0;
+}
+#price_interval_slider .ui-corner-all.uz-slide-handler-right {
+	margin-left: 2px !important;
+}
+.uz_filter_field_box .spoiler-title h4 {text-decoration:none; background:url(../ce_images/template_images/filter_right.png) 1px 6px no-repeat;cursor:pointer;margin-top:3px;margin-bottom:3px}
+.uz_filter_field_box .spoiler-title.closed h4 {text-decoration:none;background: url(../ce_images/template_images/filter_bottom.png) 0 8px no-repeat;}
+#formFilterID { padding-right: 5px; }
+#formFilterID > .spoiler-title {color: #F69500;text-decoration:underline;cursor:pointer;margin-top:0}
+/********MODIFY INPUT SELECT***************/
+.form__select-wrapper {margin-top:0;}
+.form__select-wrapper:before {
+	content: "▼";
+	position: absolute;
+	display: block;
+	right: 5px;
+	top: 0;
+	color: #ff0000;
+	font-size: 16px;
+	transform: scale(1,0.5);
+	-moz-transform: scale(1,0.5);
+	-webkit-transform: scale(1,0.5);
+	-o-transform: scale(1,0.5);
+	-ms-transform: scale(1,0.5);
+}
+.form__select {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 186px;
+	height: 20px;
+	padding: 0 0;
+	border: 0;
+	border-radius: 5px;
+	background: transparent;
+	background-color: rgba(0,0,0,0);
+	-webkit-appearance: none;
+}
+.form__checkbox-label{
+	position: relative;
+	display: block;
+	background: none;
+	vertical-align: baseline;
+}
+.form__checkbox:nth-of-type(n)+.form__checkbox-label:before, .form__checkbox:nth-of-type(n)+.form__checkbox-label-text:before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin:	0;
+	border: 1px solid #626366;
+	vertical-align: middle;
+	z-index: 5;
+	border-radius: 3px;
+	background: white;
+}
+.form__checkbox-label:nth-of-type(n):after, .form__checkbox-label-text:nth-of-type(n):after {
+	content: "✓";
+	position: absolute;
+	top: -3px;
+	left: 1px;
+	display: none;
+	width: 20px;
+	height: 20px;
+	background-position: 0 0;
+	background-color: transparent;
+	color: #ff0000;
+	font-size: 18px;
+	font-smooth: always;
+	text-align: center;
+	transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+}

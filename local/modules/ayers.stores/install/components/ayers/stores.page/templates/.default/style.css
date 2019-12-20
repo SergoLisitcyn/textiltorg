@@ -1,0 +1,31 @@
+#as-stores-page {
+
+}
+
+#as-stores-page .as-stores-page-list {
+    width: 500px;
+    margin: 0 0 8px;
+}
+
+#as-stores-page .as-stores-page-item {
+    margin: 0 0 8px;
+}
+
+#as-stores-page .as-stores-page-item-time small{
+    display: block;
+}
+
+#as-stores-page-hide.hide {
+    display: none;
+}
+
+#as-stores-page .as-stores-page-title {
+    font: 16px/1.3 AvenirNextCyrBold, verdana, tahoma, arial;
+    margin: 0 0 8px;
+    padding: 0 0 0 20px;
+    background: url('/bitrix/templates/textiletorg/img/vydacha.png') 0 50% no-repeat;
+}
+
+#as-stores-page .as-stores-page-title.shop {
+    background: url('/bitrix/templates/textiletorg/img/shop.png') 0 50% no-repeat;
+}

@@ -1,0 +1,102 @@
+@import "config";
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+@charset "UTF-8";
+
+body{
+	font-family: AvenirNextCyr, verdana, tahoma, arial;
+	&.title_page{
+		h1{
+			font-size:17px;
+			font-weight:bold;
+			color:#494949;
+			font-family: AvenirNextCyrBold, verdana, tahoma, arial;
+			text-align:center;
+		}
+	}
+	h1{
+		margin-top:7px;
+		font-size:16px;
+		font-weight:bold;
+		color:#494949;
+		font-family: "AvenirNextCyrMedium", verdana, tahoma, arial;
+		text-align:center;
+	}
+	h2{
+		font-size:14px;
+		font-family: AvenirNextCyrBold, verdana, tahoma, arial;
+	}
+	strong{
+		font-weight:bold;
+	}
+	.text-red{
+		color:$color_red;
+	}
+	.content_block{
+		font-size:15px;
+		color:#555;
+		a{
+			color: $color_blue;
+		}
+		ul{
+			&.list-red{
+				padding:10px 0px 10px 0px!important;
+				li{
+					background: url('mod_files/img/list-red.png') no-repeat left center;
+					padding-left: 15px;
+					margin-bottom: 5px;
+					list-style: none;
+				}
+			}
+		}
+		.text-center{
+			text-align:center;
+		}
+		p{
+			margin-bottom:15px;
+			img{
+				padding:15px 0px;
+			}
+		}
+		.shop-list{
+			list-style: none;
+			padding: 0px!important;
+			li{
+				overflow:hidden;
+				.shop-info{
+					display:inline-block;
+					padding-bottom:10px;
+					border-bottom:1px solid $color_red;
+					margin-bottom:10px;
+					.shop-town{
+						font-weight:bold;
+						font-size:15px;
+						color:#555;
+						margin-bottom:10px;
+					}
+				}
+				&:last-child{
+					.shop-info{
+						border-bottom:none;
+					}
+				}
+			}
+		}
+	}
+}

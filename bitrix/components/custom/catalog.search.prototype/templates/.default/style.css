@@ -1,0 +1,15 @@
+#results table b {
+    font-family: Arial;
+    font-weight: bold;
+    color: #ff0000;
+    background: yellow;
+}
+
+#results table a b {
+    font-size: 16px;
+}
+.catalog-search-prototype-default small {
+    display: block;
+    font-size: 17px;
+    margin: 20px 0 13px;
+}

@@ -1,0 +1,61 @@
+.listcity li {
+    display: inline-block;
+    list-style-type: none;
+    font-family: AvenirNextCyr, verdana, tahoma, arial !important;
+    width: 24%;
+    margin: 7px 0;
+    vertical-align: top;
+    color: #555;
+}
+.listcity {padding: 0}
+.listcity li span:hover {cursor: pointer; color: #56aa47;}
+.listcity li.house {
+    width: 21%;
+    padding-left: 30px;
+    padding-top: 5px;
+    position: relative;
+    background: url(/bitrix/templates/textiletorg/mod_files/css/../../img/ico-town-house.png) left bottom no-repeat;
+}
+.listalfabet {
+    list-style: none outside none;
+    margin-bottom: 21px;
+    display: inline-block;
+}
+.listalfabet li {
+    float: left;
+    padding: 0 4px;
+}
+a.alfabet {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 0 3px;
+}
+.acl_activ {
+    background-color: #ff0000;
+    color: #fff!important;
+}
+.list_of_all_citys .listcity {
+    display: none;
+}
+.list_of_all_citys .listcity.show {
+    display: block;
+}
+#win_choose_region {padding: 30px 80px;}
+#win_choose_region .small_tip {font-size: 12px; margin-bottom: 10px}
+#win_choose_region .select_city {
+    width: 497px;
+    line-height: 28px;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 2px solid #c5c7c8;
+    margin-right: 29px;
+}
+#win_choose_region .tt-dataset-states {
+    position: relative; z-index: 9999; background: white; width: 500px; text-align: left;
+    padding: 5px 10px; border: 1px solid #c5c7c8; border-radius: 5px; margin-top: 1px; cursor: pointer;
+}
+#win_choose_region .form {text-align: center}
+#win_choose_region .red_button {margin: 0!important;padding: 16px 72px!important;}

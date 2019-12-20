@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Janome";
+$arDirProperties = Array(
+
+);
+?>

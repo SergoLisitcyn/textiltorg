@@ -1,0 +1,24 @@
+.message-cart-sidebar {
+    border: 1px solid #ff0000;
+    position: absolute;
+    border-radius: 6px;
+    background: #fff;
+    padding: 10px;
+    text-align: center !important;
+    margin: 5px 0 0 0;
+    z-index: 10;
+    top: 45px;
+}
+
+.message-cart-sidebar  p {
+    margin: 0 0 10px;
+    text-align: center !important;
+}
+
+.dop_items .buybtn {
+    position: relative;
+}
+
+.dop_items .to-order {
+    color: #ff0000;
+}

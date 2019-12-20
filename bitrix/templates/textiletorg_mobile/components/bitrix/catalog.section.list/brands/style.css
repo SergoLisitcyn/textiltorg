@@ -1,0 +1,31 @@
+.menu_home .main_center_menu_plit_big {width: 300px!important;}
+.menu_home .main_center_menu_plit_big a {z-index: 9}
+.menu_home .mcm_img img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.menu_home .mcm_img {
+    border-radius: 5px 5px 0 0 !important;
+    position: relative;
+    height: 200px;
+}
+.menu_home .mcm_text {
+    border-radius: 0 0 5px 5px !important;
+    position: relative;
+    color: #555555;
+    line-height: 1.1;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+    background: #F5EB27;
+    text-align: center;
+    padding: 20px 5px;
+}
+#wrapper .content_block .main_center_menu_plit_big {
+    display: block!important;
+    margin: 30px auto!important;
+}

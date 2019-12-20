@@ -1,0 +1,12 @@
+#form_callback input[type=text] {
+    min-width: 206px;
+    line-height: 28px;
+    height: 50px;
+    padding: 0px 10px;
+    border-radius: 7px;
+    border: 1px solid #c5c7c8;
+}
+.form_callback_block {
+    width: 230px;
+    margin: 0 auto;
+}

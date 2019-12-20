@@ -1,0 +1,61 @@
+<?
+$aMenuLinks = Array(
+    Array(
+        "О НАС",
+        "/o-nas/",
+        Array(),
+        Array("ID"=>"top_menu_o_kompanii"),
+        ""
+    ),
+    Array(
+        "АКЦИИ И СКИДКИ",
+        "/akcii/",
+        Array(),
+        Array("ID"=>"top_menu_akcii"),
+        ""
+    ),
+    Array(
+        "ПОЛЕЗНОЕ",
+        "/poleznoe/",
+        Array(),
+        Array("ID"=>"top_menu_poleznoe"),
+        ""
+    ),
+    Array(
+        "ГАРАНТИЯ",
+        "/garantiya/",
+        Array(),
+        Array("ID"=>"top_menu_garantia"),
+        ""
+    ),
+    Array(
+        "ДОСТАВКА",
+        "/dostavka/",
+        Array(),
+        Array("ID"=>"top_menu_garantia"),
+        ""
+    ),
+    Array(
+        "ОПЛАТА",
+        "/oplata/",
+        Array(),
+        Array("ID"=>"top_menu_oplata"),
+        ""
+    ),
+    Array(
+        "НАШИ МАГАЗИНЫ",
+        "/magazini/",
+        Array(),
+        Array("ID"=>"top_menu_poluchenie"),
+        ""
+    ),
+
+    Array(
+        "КОНТАКТЫ",
+        "/kontakty/",
+        Array(),
+        Array("ID"=>"top_menu_kontakty"),
+        ""
+    )
+);
+?>

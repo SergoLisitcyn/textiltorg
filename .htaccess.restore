@@ -1,0 +1,314 @@
+Options -Indexes
+ErrorDocument 404 /404.php
+
+php_value auto_prepend_file "/home/bitrix/www/textiletorg.ru/composite.php"
+
+<IfModule mod_php5.c>
+  php_flag session.use_trans_sid off
+  #php_value display_errors 1
+#  php_value mbstring.func_overload=2
+#  php_value mbstring.internal_encoding UTF-8
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+  RedirectMatch /bytovaya-shveynaya-tehnika/internet-magazin.*$ /bytovaya-shveynaya-tehnika/
+
+  #Редирект на слэш.
+  RewriteCond %{REQUEST_URI} !\?
+  RewriteCond %{REQUEST_URI} !\&
+  RewriteCond %{REQUEST_URI} !\=
+  RewriteCond %{REQUEST_URI} !\.
+  RewriteCond %{REQUEST_URI} !\/$
+  RewriteRule ^(.*[^\/])$ /$1/ [R=301,L]
+
+  #Редирект с поддомена textiletorg.textiletorg.ru
+  RewriteCond %{HTTP_HOST} ^.+\.textiletorg\.ru$
+  RewriteRule ^$ https://textiletorg.ru/ [R=302,L]
+
+  #Редирект на www.
+  RewriteCond %{HTTP_HOST} ^textiletorg\.
+  #RewriteCond %{HTTP_HOST} !^www\.
+  RewriteRule ^(.*)$ https://www.textiletorg.ru/$1 [L,R=301]
+
+  #Редирект с индекса.
+  RewriteRule ^(|.*/)index.php$ http://%{HTTP_HOST}/$1 [L,R=301]
+
+  #Redirect HTTPS
+  RewriteCond %{SERVER_PORT} ^80$
+  RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]
+
+  # Статьи
+  RewriteRule ^poleznoe/stati/stati-po-bytovoj-shvejnoj-tehnike/$ /poleznoe/stati [R=301,L]
+  RewriteRule ^poleznoe/obzory/test-drajvy-i-obzory/$ /poleznoe/obzory [R=301,L]
+
+  RewriteRule ^bytovaya-shveynaya-tehnika/([-_a-z\/]+)/Page-[0-9]+-[0-9]+\.html$ /bytovaya-shveynaya-tehnika/$1 [R=301,L]
+  RewriteRule ^bytovaya-shveynaya-tehnika/([-_a-z\/]+)\.html-([0-9]+)$ /bytovaya-shveynaya-tehnika/$1-html-$2.html [R=301,L]
+  RewriteRule ^bytovaya-shveynaya-tehnika/((?:.+)\.html)/$ /bytovaya-shveynaya-tehnika/$1 [R=301,L]
+
+  # robots для поддомена tmp.textiletorg.ru
+  RewriteCond %{HTTP_HOST} tmp.textiletorg.ru
+  RewriteCond %{REQUEST_URI} robots.txt
+  RewriteRule ^(.*)$ robots-tmp/robots.txt
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+  RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 3 day"
+  ExpiresByType image/gif "access plus 3 day"
+  ExpiresByType image/png "access plus 3 day"
+  ExpiresByType text/css "access plus 3 day"
+  ExpiresByType application/javascript "access plus 3 day"
+</IfModule>
+
+Redirect 301 /bytovaya-shveynaya-tehnika/bluzochno_platelnie /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy
+Redirect 301 /bytovaya-shveynaya-tehnika/trikotaj/kletka /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kletka
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-pylesosov /bytovaya-shveynaya-tehnika/aksessuary-dlya-uborki
+
+
+#old redirect textiletorg.ru
+Redirect 301 /akcii/vesennii-marafon /akcii/marafon-skidok
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary/manekeny.html /bytovaya-shveynaya-tehnika/manekeny
+Redirect 301 /bytovaya-shveynaya-tehnika/vyshivalnye-mashiny/bernina.html /bytovaya-shveynaya-tehnika/vyshivalnye-mashiny/Bernina
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/gladilnye-sistemy.html /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/gladilnye-sistemy
+Redirect 301 /rassrochka-0.html /akcii/rassrochka.html
+Redirect 301 /bytovaya-shveynaya-tehnika/vyshivalnye-mashiny.html /bytovaya-shveynaya-tehnika/vyazalnye-mashiny
+Redirect 301 /bytovaya-shveynaya-tehnika/vyazalnye-mashiny.html /bytovaya-shveynaya-tehnika/vyazalnye-mashiny
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/shveyno-vyshivalnaya-mashina-brother-innov-is-v5.html /bytovaya-shveynaya-tehnika/shvejno-vyshivalnye-mashiny/brother/shveyno-vyshivalnaya-mashina-brother-innov-is-v5.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/shveyno-vyshivalnaya-mashina-brother-innov-is-ie-innovis-nv-1e.html /bytovaya-shveynaya-tehnika/shvejno-vyshivalnye-mashiny/brother/shveyno-vyshivalnaya-mashina-brother-innov-is-ie-innovis-nv-1e.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/shveynaya-mashina-janome-exact-quilt-60-eq-60.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-exact-quilt-60-eq-60.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/shveynaya-mashina-elna-4300.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/elna/shveynaya-mashina-elna-4300.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-juno-1512-/-2212.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-juno-1512-2212.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-juno-1506-/-2206.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-juno-1506-2206.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-4045.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-artstyle-4045.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/jaguar/shveynaya-mashina-jaguar-383.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Jaguar
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/brother/shveynaya-mashina-brother-prestige-300.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/brother
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/brother/shveynaya-mashina-brother-ml-75.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/brother
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/astralux/shveynaya-mashina-astralux-7300.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/astralux/shvejnaja-mashina-astralux-7300-pro.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny.html /bytovaya-shveynaya-tehnika/shveynye-mashiny
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki/janome/overlok-janome-714/644.html /bytovaya-shveynaya-tehnika/overloki/janome/overlok-janome-714-644.html
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki.html /bytovaya-shveynaya-tehnika/overloki
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary/lapki/lapki-dlya-shveynyh-mashin/aurora/lapka-dlya-prishivaniya-pugovits-dlya-shv.mash.-aurora-au-105.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-dlja-prishivanija-pugovic-dlja-shvmash-aurora-au-105.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary/lapki/lapki-dlya-shveynyh-mashin/aurora/lapka-apparat-dlya-skladok-dlya-shv.mash.-aurora-au-122.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-apparat-dlja-skladok-dlja-shvmash-aurora-au-122.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary/igly/igly-dlya-shveynyh-mashin-organ-25.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/igly/igly-dlya-ploskoshovnyh-mashin-n-80-5-sht-organ.html
+Redirect 301 /2010-11-17-07-56-11/final-konkursa-moy-tekstiltorg-2012.html /informacija/konkursy/final-konkursa-moj-tekstiltorg-2012
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/shveynaya-mashina-janome-qc-2325-/-6260-qc.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-qc-2325-6260-qc.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-5519-/-419s.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-5519-419s.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/bernina/shveynaya-mashina-bernina-bernette-e56-/-2056.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/bernina/shveynaya-mashina-bernina-bernette-e56-2056.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary/igly/igly-dlya-shveynyh-mashin-organ-25/nabor-igl-organ-super-streytch-blyu-tayp-dzhins.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/igly
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-5522-/-423-s.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-5522-423-s.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-5515-/-415.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome/shveynaya-mashina-janome-5515-415.html
+Redirect 301 /2009-05-25-14-07-22.html /informacija/konkursy/konkurs-moj-tekstiltorg-2011-20176
+Redirect 301 /members/cart /bytovaya-shveynaya-tehnika/prochee/podarochnye-karty
+Redirect 301 /test-drayvy-i-obzory.html /poleznoe/obzory
+Redirect 301 /instruktsii-po-ekspluatatsii.html /poleznoe/instrukcii
+Redirect 301 /o-kompanii.html /o-nas
+Redirect 301 /kakuyu-shveynuyu-mashinu-vybrat.html /bytovaya-shveynaya-tehnika/shveynye-mashiny
+Redirect 301 /bytovaya-shveynaya-tehnika/manekeny.html /bytovaya-shveynaya-tehnika/manekeny
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya
+Redirect 301 /bytovaya-shveynaya-tehnika/shvejno-vyshivalnye-mashiny.html /bytovaya-shveynaya-tehnika/shvejno-vyshivalnye-mashiny
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya
+Redirect 301 /bytovaya-shveynaya-tehnika/vyazalnye-mashiny/aksessuary.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyazaniya
+Redirect 301 /bytovaya-shveynaya-tehnika/vyazalnye-mashiny/silver-reed.html /bytovaya-shveynaya-tehnika/vyazalnye-mashiny/silver-reed
+Redirect 301 /bytovaya-shveynaya-tehnika/tkackie-stanki.html /bytovaya-shveynaya-tehnika/tkackie-stanki
+Redirect 301 /bytovaya-shveynaya-tehnika/kettelnye-mashiny.html /bytovaya-shveynaya-tehnika/kettelnye-mashiny
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/pressa.html /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/gladilnye-pressy
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/gladilnye-doski.html /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/gladilnye-doski
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/otparivateli.html /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/otparivateli
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/parogeneratory.html /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/parogeneratory
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/sushilki-dlja-belja.html /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/sushilki-dlja-belja
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/gladilnie-manekeni.html /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/gladilnie-manekeni
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/utyugi.html /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/utjugi
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/aksessuary.html /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/aksessuary-dlya-glazheniya
+Redirect 301 /bytovaya-shveynaya-tehnika/vse-dlja-uborki/paroochistitel.html /bytovaya-shveynaya-tehnika/vse-dlja-uborki/paroochistitel
+Redirect 301 /bytovaya-shveynaya-tehnika/vse-dlja-uborki/pylesosy.html /bytovaya-shveynaya-tehnika/vse-dlja-uborki/pylesosy
+Redirect 301 /bytovaya-shveynaya-tehnika/vse-dlya-uborki/parovye_shvabry.html /bytovaya-shveynaya-tehnika/vse-dlya-uborki/parovye_shvabry
+
+Redirect 301 /bytovaya-shveynaya-tehnika/vse-dlya-uborki/aksessuary-dlya-uborki /bytovaya-shveynaya-tehnika/aksessuary-dlya-uborki
+Redirect 301 /bytovaya-shveynaya-tehnika/vse-dlya-uborki/aksessuary-dlya-uborki.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-uborki
+
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/astralux.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Astralux
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/aurora.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Aurora
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/bernina.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Bernina
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/brother.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Brother
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/elna.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Elna
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/jaguar.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Jaguar
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/juki.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Juki
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/pfaff.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Pfaff
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/singer.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Singer
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/janome.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Janome
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/toyota.html /bytovaya-shveynaya-tehnika/shveynye-mashiny/Toyota
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki/astralux.html /bytovaya-shveynaya-tehnika/overloki/Astralux
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki/aurora.html /bytovaya-shveynaya-tehnika/overloki/Aurora
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki/bernina.html /bytovaya-shveynaya-tehnika/overloki/Bernina
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki/brother.html /bytovaya-shveynaya-tehnika/overloki/Brother
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki/elna.html /bytovaya-shveynaya-tehnika/overloki/Elna
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki/toyota.html /bytovaya-shveynaya-tehnika/overloki/Toyota
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki/janome.html /bytovaya-shveynaya-tehnika/overloki/Janome
+
+#bitrix redirect
+
+#page
+Redirect 301 /akcii/rassrochka.html /akcii/rassrochka
+Redirect 301 /akcii/nashli-deshevle.html /akcii/nashli-deshevle
+
+#catalog
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/gladilnye-pressy /bytovaya-shveynaya-tehnika/gladilnye-pressy
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/gladilnye-doski /bytovaya-shveynaya-tehnika/gladilnye-doski
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/gladilnye-sistemy /bytovaya-shveynaya-tehnika/gladilnye-sistemy
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/gladilnye-pressy /bytovaya-shveynaya-tehnika/gladilnye-pressy
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika/gladilnye-doski /bytovaya-shveynaya-tehnika/gladilnye-doski
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/gladilnye-sistemy /bytovaya-shveynaya-tehnika/gladilnye-sistemy
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/otparivateli /bytovaya-shveynaya-tehnika/otparivateli
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/parogeneratory /bytovaya-shveynaya-tehnika/parogeneratory
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/sushilki-dlja-belja /bytovaya-shveynaya-tehnika/sushilki-dlja-belja
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/gladilnie-manekeni /bytovaya-shveynaya-tehnika/gladilnie-manekeni
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/utjugi /bytovaya-shveynaya-tehnika/utjugi
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/aksessuary-dlya-glazheniya /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya
+
+Redirect 301 /bytovaya-shveynaya-tehnika/vse-dlja-uborki/paroochistitel /bytovaya-shveynaya-tehnika/paroochistitel
+Redirect 301 /bytovaya-shveynaya-tehnika/vse-dlja-uborki/pylesosy /bytovaya-shveynaya-tehnika/pylesosy
+Redirect 301 /bytovaya-shveynaya-tehnika/vse-dlya-uborki/parovye_shvabry /bytovaya-shveynaya-tehnika/parovye_shvabry
+
+Redirect 301 /bytovaya-shveynaya-tehnika/tkani/dlya-poshiva-odezhdy/dekorativnye /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/dekorativnye
+Redirect 301 /bytovaya-shveynaya-tehnika/dzhinsovye /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/dzhinsovye
+Redirect 301 /bytovaya-shveynaya-tehnika/kostyumnye /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye
+Redirect 301 /bytovaya-shveynaya-tehnika/naryadnye-tkani /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/naryadnye-tkani
+Redirect 301 /bytovaya-shveynaya-tehnika/platevye /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/platevye
+Redirect 301 /bytovaya-shveynaya-tehnika/plashchevye-kurtochnye /bytovaya-shveynaya-tehnika/plashchevye-kurtochnye
+Redirect 301 /bytovaya-shveynaya-tehnika/podkladochnye /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/podkladochnye
+Redirect 301 /bytovaya-shveynaya-tehnika/stabilizatory /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/stabilizatory
+Redirect 301 /bytovaya-shveynaya-tehnika/sorochechnye /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/sorochechnye
+Redirect 301 /bytovaya-shveynaya-tehnika/paltovye /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/paltovye
+Redirect 301 /bytovaya-shveynaya-tehnika/teplyy-trikotazh /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/teplyy-trikotazh
+Redirect 301 /bytovaya-shveynaya-tehnika/tkani/bluzochnye /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/bluzochnye
+
+#help
+Redirect 301 /info/janome/janome23x-18w.pdf /upload/iblock/2a8/2a8c2c5558f5a32648dbef7e149e3c40.pdf
+Redirect 301 "/info/janome/janome 7518.7524.rar" /upload/iblock/33a/33abf0870c2dff71b95ad34cd77e9870.rar
+Redirect 301 /info/janome/janome415.pdf /upload/iblock/fa7/fa789db209a4781c8169fb340b827b32.pdf
+Redirect 301 /info/janome/janome419-423.pdf /upload/iblock/b51/b5119d5c4ec426058a37335045e1d5a9.pdf
+Redirect 301 /info/janome/janome521.pdf /upload/iblock/64e/64e01ab529156173186c39e97765703a.pdf
+Redirect 301 /info/janome/janome525.pdf /upload/iblock/ee8/ee8119059cb17770476b714d229ecb6f.pdf
+Redirect 301 /info/janome/janome3050.pdf /upload/iblock/99f/99f093f379069eefb04fd7bceed20321.pdf
+Redirect 301 /info/janome/janome4900.pdf /upload/iblock/5fd/5fddcc8d6de5114b26764db417ed74dc.pdf
+Redirect 301 /info/janome/janome6019.pdf /upload/iblock/039/0393acfb16d4ba0d929912a7d93babe5.pdf
+Redirect 301 /info/janome/janome6125.pdf /upload/iblock/9b2/9b22b9529909294e07e21bbc3fe3bcb7.pdf
+Redirect 301 /info/janome/janome6260.pdf /upload/iblock/d3f/d3faf1e5271c4ea98d9949c920a9e3bc.pdf
+Redirect 301 /info/janome/janome6500.pdf /upload/iblock/e8c/e8ce436387e4cde26dd27fbb782f2c3f.pdf
+Redirect 301 /info/janome/janome6600.pdf /upload/iblock/bc9/bc9dbdd825d8d556c5c931766b98edfe.pdf
+Redirect 301 /info/janome/janome11000.pdf /upload/iblock/5ed/5ed521f65b34304a73f9c2578ce4e86d.pdf
+Redirect 301 /info/janome/janomemb4.pdf /upload/iblock/89a/89aada2a86af711eba7d83d29a9b0921.pdf
+Redirect 301 /info/ojanome/janome634.pdf /upload/iblock/f7f/f7f9dcdec10654d404eb63960b66ea6c.pdf
+Redirect 301 /info/ojanome/janome734.pdf /upload/iblock/a61/a61e7e42fc037a9b1b5fc0dfbd0fa141.pdf
+Redirect 301 /info/ojanome/janome1000.pdf /upload/iblock/2b7/2b77dc5a5356c628e51edb85f84f1957.pdf
+Redirect 301 /info/brother/br4000.pdf /upload/iblock/648/64856d0c32d2981374c247927a479e11.pdf
+Redirect 301 /info/brother/brothernv400.pdf /upload/iblock/6b0/6b07f466cc4c572df71d45d3bc430bcb.pdf
+Redirect 301 /info/brother/brothernv600.pdf /upload/iblock/82e/82e2def95ea50d19ff08f9bc154a5e95.pdf
+Redirect 301 /info/brother/brother2340.pdf /upload/iblock/aa1/aa11715520d15feeaac6b83e6121c53e.pdf
+Redirect 301 "/info/pfaff/pfaff 1525,1536,1546,3.0,2.0,4.0.rar" /upload/iblock/c97/c9788a73dd90bcd84d334c359b1e04ba.rar
+Redirect 301 "/info/kpfaff/pfaff 4852.rar" /upload/iblock/57c/57c336fd38abf62249464e279a8c3e6a.rar
+Redirect 301 "/info/husqvarna/huskystar 219,224.rar" /upload/iblock/2fc/2fcfd0c26553ff82be82e0f46e7ec32a.rar
+Redirect 301 /info/bernina/e55-e82e.pdf /upload/iblock/83d/83d2da4c645ec10226a43c28174ae159.pdf
+Redirect 301 /info/bernina/2055-2082e.pdf /upload/iblock/e64/e64492c089971bbc49a33f32e904c87b.pdf
+Redirect 301 /info/bernina/e92.pdf /upload/iblock/0c4/0c4f8a0b7a919fe475b54294e11d4a6f.pdf
+Redirect 301 /info/bernina/r_220_230_240.pdf /upload/iblock/170/1706e8213bb650d3dbffd9227796da30.pdf
+Redirect 301 "/info/silver/silver reed 280$60.rar" /upload/iblock/0c6/0c6961e0d3fa77f1b6c544cc8cde96e8.rar
+Redirect 301 /info/brother/pr655ug01ru.pd /upload/iblock/c00/c00294164082bd425bb5a518db37adc4.pdff
+
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/kartridzh-dlja-utjugov-c-emc /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/kartridzh-dlja-utjugov-c-emc.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/nozhnitsy/nabor-raskrojnyh-instrumentov-rasshirennyj /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/nozhnitsy/nabor-raskrojnyh-instrumentov-rasshirennyj.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/nozhnitsy/nabor-raskrojnyh-instrumentov-standartnyj /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/nozhnitsy/nabor-raskrojnyh-instrumentov-standartnyj.html
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/shveynye-mashiny/shvejnaja-mashina-chayka-new-wave-715 /bytovaya-shveynaya-tehnika/shveynye-mashiny/shvejnaja-mashina-chayka-new-wave-715.html
+
+#404
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/dlja-gladilnyh-pressov/shagayuschaya-lapka-brother-original.html-3764 /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/dlja-gladilnyh-pressov/shagayuschaya-lapka-brother-original-html-3764.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/dlja-gladilnyh-pressov/shagayuschaya-lapka-brother-original.html-3762 /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/dlja-gladilnyh-pressov/shagayuschaya-lapka-brother-original-html-3762.html
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnye-sistemy/gladilnaya-sistema-eurometalnova-genius-sistema.html /bytovaya-shveynaya-tehnika/gladilnye-sistemy/gladilnaya-sistema-eurometalnova-genius-sistema.html
+Redirect 301 /bytovaya-shveynaya-tehnika/gladilnaya-tehnika /bytovaya-shveynaya-tehnika/gladilnaja-tehnika/
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary/programmnoe-obespechenie /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya/programmnoe-obespechenie/
+Redirect 301 /bytovaya-shveynaya-tehnika/kurtochno-plaschevye/kurtochno-plaschevye /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/plashchevye-kurtochnye/
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyazaniya/prinadlezhnosti /bytovaya-shveynaya-tehnika/prinadlezhnosti/
+Redirect 301 /bytovaya-shveynaya-tehnika/overloki/yumuta /bytovaya-shveynaya-tehnika/overloki/yamata/
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/dlya-glad-sis/stul_mie_comfort_i.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/dlya-glad-sis/stul_mie_comfort_i-html.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/stoliki/pristavnoy-stolik-brother-i-prisposoblenie-dlya-svobodnogo-peremescheniya-tfm3.html-5616 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/stoliki/pristavnoy-stolik-brother-i-prisposoblenie-dlya-svobodnogo-peremescheniya-tfm3-html-5616.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/prochie/santimetr-portnovskiy-aurora.html-6128 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/prochie/santimetr-portnovskiy-aurora-html-6128.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/tovary-dlya-rukodeliya/strazy/strazy-kleevye-tsvetnye.html-8144 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/tovary-dlya-rukodeliya/strazy/strazy-kleevye-tsvetnye-html-8144.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/otkrytaya-lapka-metallicheskaya-brother-original.html-3674 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/otkrytaya-lapka-metallicheskaya-brother-original-html-3674.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-dlya-shveynyh-mashin-n52-teflonovaya-bernina-original.html-3428 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-dlya-shveynyh-mashin-n52-teflonovaya-bernina-original-html-3428.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-dlya-shveynyh-mashin-n35-dlya-potaynoy-molnii-bernina-original.html-3438 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-dlya-shveynyh-mashin-n35-dlya-potaynoy-molnii-bernina-original-html-3438.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-dlya-7-melkih-skladok-brother-original.html-3660 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-dlya-7-melkih-skladok-brother-original-html-3660.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya/igly/igly-wool-lana-n-110-5sht-madeira.html-9317 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya/igly/igly-wool-lana-n-110-5sht-madeira-html-9317.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya/igly/igly-universalnye-n-75-5-sht-madeira.html-9318 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya/igly/igly-universalnye-n-75-5-sht-madeira-html-9318.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya/igly/igly-metallic-titanium-n-90-3-sht-madeira.html-9313 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya/igly/igly-metallic-titanium-n-90-3-sht-madeira-html-9313.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya/igly/igly-lana-n-100-5-sht-madeira.html-9312 /bytovaya-shveynaya-tehnika/aksessuary-dlya-vyshivaniya/igly/igly-lana-n-100-5-sht-madeira-html-9312.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-overlokov-i-rasposhivalnyh-mashin/ulitka-dlja-dvojnoj-podgibki-kraja-6.5 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-overlokov-i-rasposhivalnyh-mashin/ulitka-dlja-dvojnoj-podgibki-kraja-6-5.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/kvilting-i-pechvork/vykroyki /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/kvilting-i-pechvork/vykroyki/
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-dlja-prishivanija-pugovic-dlja-shvmash-aurora-au-105.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/lapka-dlja-prishivanija-pugovic-dlja-shvmash-aurora-au-105.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/nabor-iz-8-lapok-dlja-shvmash-aurora-au-123-v-blistere.html /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/lapki-dlya-shveynyh-mashin/nabor-iz-8-lapok-dlja-shvmash-aurora-au-123-v-blistere.html
+Redirect 301 /info/brother/pr655ug01ru.pdf /upload/iblock/c00/c00294164082bd425bb5a518db37adc4.pdf
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/chanel-kostjumnaja-15 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/kostumnaya-glad.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/chanel-kostjumnaja-15-210 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/tkan-chanel-kostjumnaja-linija-15-12696.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/chanel-kostjumnaja-15-220 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/tkan-chanel-kostjumnaja-linija-15-12695.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/chanel-kostjumnaja-15-272 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/tkan-chanel-kostjumnaja-linija-15-12735.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/chanel-kostjumnaja-ks14-669 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/tkan-chanel-kostjumnaja-linija-14.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/chanel-kostjumnaja-ks15-197 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/tkan-chanel-kostjumnaja-linija-15-12697.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/chanel-kostjumnaja-ks15-85 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/tkan-chanel-kostjumnaja-linija-15-12710.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/chanel-kostjumnaja-linija-15-224 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/tkan-chanel-kostjumnaja-linija-15-12693.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/chanel-paltovaja-ks14-550 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/naryadnye-tkani/chanel-paltovaja-ks14-550.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/kostjumnaja /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/kostjumnaja-16-07 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/kostjumnaja-16-07.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/kostjumnaja-linija-max-mara-16 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/kostjumnaja-linija-max-mara-16.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/missoni-trikotazh-14-262 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/missoni-trikotazh-14-262.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/missoni-trikotazh-14-555 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/kostyumnye/missoni-trikotazh-14-555.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/missoni-trikotazh-linija-16-115 /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/dekorativnye/missoni-trikotazh-linija-16-115.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/missoni-zhakkard-linija /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi/missoni-zhakkard-linija.html
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-shtor-zanovesei /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-shtor-i-zanovesey/
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-postelnogo-belya /bytovaya-shveynaya-tehnika/tkani-dlya-postelnogo-belya/
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/prochie/santimetr-portnovskiy-15m-aurora.html-6130 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/prochie/santimetr-portnovskiy-15m-aurora.html
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/prochie/santimetr-portnovskiy-aurora-15m.html-6016 /bytovaya-shveynaya-tehnika/aksessuary-dlya-shitya/prochie/santimetr-portnovskiy-aurora-15m.html
+
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-obivki-mebeli /bytovaya-shveynaya-tehnika/tkani-dlya-obivki-mebeli/
+Redirect 301 /bytovaya-shveynaya-tehnika/dlya-poshiva-odegdi /bytovaya-shveynaya-tehnika/tkani-dlya-poshiva-odezhdy/
+Redirect 301 /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/dlya-paroochistitele /bytovaya-shveynaya-tehnika/aksessuary-dlya-glazheniya/dlya-paroochistitelei/
+
+# off rule
+Redirect 301 /bytovaya-shveynaya-tehnika/tkani/tkani/tkan-na-zakaz /bytovaya-shveynaya-tehnika/tkani
+Redirect 301 /bytovaya-shveynaya-tehnika/tkani/tkani /bytovaya-shveynaya-tehnika/tkani
+Redirect 301 /bytovaya-shveynaya-tehnika/shveynye-mashiny/shveynye-mashiny /bytovaya-shveynaya-tehnika/shveynye-mashiny
+Redirect 301 /bytovaya-shveynaya-tehnika/shvejno-vyshivalnye-mashiny/shveyno-vyshivalnye /bytovaya-shveynaya-tehnika/shvejno-vyshivalnye-mashiny
+
+# go to market review
+Redirect 301 /motziv https://market.yandex.ru/shop/23954/reviews/add
+Redirect 301 /sotziv https://market.yandex.ru/shop/182435/reviews/add
+Redirect 301 /eotziv https://market.yandex.ru/shop/245834/reviews/add
+Redirect 301 /rotziv https://market.yandex.ru/shop/320798/reviews/add
+Redirect 301 /notziv https://market.yandex.ru/shop/283837/reviews/add
+
+# Редирект по новому сео
+Redirect 301 /bytovaya-shveynaya-tehnika/ /
+
+# Alexandr
+Redirect 301 /vse-dlya-shitya/overloki/ https://www.textiletorg.ru/overloki/
+Redirect 301 /gladilnaja-tehnika/parogeneratory/ https://www.textiletorg.ru/parogeneratory/
+Redirect 301 /gladilnaja-tehnika/gladilnye-sistemy/ https://www.textiletorg.ru/gladilnye-sistemy/
+Redirect 301 /gladilnaja-tehnika/otparivateli/ https://www.textiletorg.ru/otparivateli/
+Redirect 301 /gladilnaja-tehnika/gladilnye-doski/ https://www.textiletorg.ru/gladilnye-doski/
+Redirect 301 /vse-dlya-vyshivanya/aksessuary-dlya-vyshivaniya/ https://www.textiletorg.ru/aksessuary-dlya-vyshivaniya/
+Redirect 301 /vse-dlya-vyshivanya/shvejno-vyshivalnye-mashiny/ https://www.textiletorg.ru/shvejno-vyshivalnye-mashiny/
+Redirect 301 /aksessuary-dlya-glazheniya/voda_dly_parogladil_ystroistv/ https://www.textiletorg.ru/aksessuary-dlya-glazheniya/voda-dlya-parogladilnykh-ustroystv/
+Redirect 301 /parovye_shvabry/ https://www.textiletorg.ru/parovye-shvabry/
+Redirect 301 /podarochnye_nabory/ https://www.textiletorg.ru/podarochnye-nabory/
+Redirect 301 /akcii/darim_10/ https://www.textiletorg.ru/akcii/darim-10/

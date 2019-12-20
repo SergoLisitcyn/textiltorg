@@ -1,0 +1,1 @@
+ТекстильТорг © 2008-<?php echo Date('Y');?> Все цены указаны в рублях. <a href="<?=$APPLICATION->GetCurPageParam("show_version=mobile", array("SECTION_CODE_PATH", "ELEMENT_CODE"));?>">Мобильная версия</a></div>

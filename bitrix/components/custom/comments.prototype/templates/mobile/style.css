@@ -1,0 +1,14 @@
+.description_block_content .rew_item.hide {
+    display: none !important;
+}
+
+.rew_sub .rew_all.hide {
+    display: none !important;
+}
+
+#comments-form .error {
+    border-color: #FF0000;
+}
+.description_block.comments {
+    position: relative;
+}

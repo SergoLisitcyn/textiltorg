@@ -1,0 +1,336 @@
+#as-stores-hint {
+    position: absolute;
+    z-index: 10000;
+    display: none;
+    max-width: 280px;
+    padding: 0 0 10px;
+}
+
+#as-stores-hint.show {
+    display: block;
+}
+
+#as-stores-hint .as-stores-hint-inner {
+    padding: 10px;
+    background: rgb(251, 247, 170);
+    border: 2px dashed #ffa544;
+    border-radius: 8px;
+}
+
+#as-stores-hint * {
+    font: 14px/1.3 'AvenirNextCyr', Verdana, Tahoma, Arial !important;
+    color: rgb(162, 125, 53) !important;
+}
+
+#as-stores-hint .red {
+    color: #ec2b32 !important;
+}
+
+#as-stores-hint ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#as-stores-hint ul li {
+    margin: 0 0 8px;
+    padding: 0;
+    cursor: pointer;
+}
+
+#as-stores-hint ul li:hover {
+    color: #ed1b23 !important;
+}
+
+#as-stores-hint p {
+    margin: 8px 0 0 0;
+}
+
+#as-stores-hint small {
+    font-size: 12px !important;
+}
+
+#as-stores-hint a {
+    color: #ed1b23 !important;
+    text-decoration: underline;
+}
+
+#as-stores-hint a:hover {
+    text-decoration: none;
+}
+
+#as-stores-hint a.dotted {
+    text-decoration: none;
+    border-bottom: 1px dashed #ed1b23;
+}
+
+#as-stores-hint a.dotted:hover {
+    border-bottom: none;
+}
+
+#as-stores-hint strong {
+    display: block;
+    margin: 0 0 12px;
+    font: 14px/1.3 'AvenirNextCyrBold', Verdana, Tahoma, Arial !important;
+}
+
+#as-stores-hint .as-stores-hint-icon-title {
+    padding: 0 0 0 20px;
+    margin: 0 0 8px;
+    position: relative;
+    font: 14px/1.3 'AvenirNextCyrBold', Verdana, Tahoma, Arial !important;
+    background: url('/bitrix/templates/textiletorg/img/vydacha.png') 0 50% no-repeat;
+}
+
+#as-stores-hint .as-stores-hint-icon-title.as-icon-home {
+    background: url("/bitrix/templates/textiletorg/img/shop.png") 0 50% no-repeat;
+    background-size: 15px;
+}
+
+.tooltip-message-stores,
+.tooltip-message-stores * {
+    cursor: help;
+}
+
+/*popup*/
+#as-stores-popup-header {
+    display: none;
+    min-width: 500px;
+}
+
+#as-stores-popup-header ul {
+    overflow: hidden;
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+#as-stores-popup-header ul li {
+    cursor: pointer;
+    margin: 18px 0 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+#as-stores-popup-header ul li.active {
+    color: #ed1b23;
+}
+
+#as-stores-popup-header ul li.nav-header {
+    font: 16px/1.3 'AvenirNextCyrBold', Verdana, Tahoma, Arial !important;
+    padding: 0 0 0 20px;
+    background: url('/bitrix/templates/textiletorg/img/vydacha.png') 0 50% no-repeat;
+}
+
+#as-stores-popup-header ul li.nav-header.shop {
+    background: url('/bitrix/templates/textiletorg/img/shop.png') 0 50% no-repeat;
+    background-size: 15px;
+}
+
+#as-stores-popup-header ul li:first-child {
+
+}
+
+#as-stores-popup-header .as-stores-popup-container {
+    overflow: hidden;
+    width: 1000px;
+}
+
+#as-stores-popup-header .as-stores-popup-menu-container-header {
+    width: 300px;
+    height: 700px;
+    float: left;;
+    overflow-y: auto;
+}
+
+#as-stores-popup-header .as-stores-popup-map-container {
+    width: 700px;
+    height: 700px;
+    float: left;
+}
+
+#as-stores-popup-map-header {
+    width: 700px;
+    height: 700px;
+}
+
+/**********************************************/
+
+.header-catalog-menu {
+    float: left;
+}
+.container-header-menu {
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+.header-catalog-menu  .container-header-menu ul {
+    width: 216px;
+    background: #fff;
+    border-bottom: none;
+    z-index: 10;
+}
+
+.container-header-menu .box.end {
+    width: 100%;
+}
+
+.catalog-menu-substrate {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.header-catalog-menu.open  .container-header-menu,
+.header-catalog-menu.open .catalog-menu-substrate {
+    display: block;
+}
+#header-drop-down-menu {
+    width: 215px;
+    background: #F5EB27;
+}
+a.header-full-menu-button div {
+    font-weight: normal;
+}
+a.header-full-menu-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-family: Verdana, Tahoma, Arial !important;
+    padding: 5px 30px;
+    z-index: 9999;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 154px;
+}
+
+a.header-full-menu-button:before {
+    content: "";
+    display: block;
+    background: #F5EB27 url(/bitrix/images/sprites/sprites.png) -50px -330px no-repeat;
+    height: 22px;
+    width: 12px;
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+}
+
+a.header-full-menu-button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 8px;
+    background: url(images/arrow.png) 0 0 no-repeat;
+    top: 50%;
+    right: 7px;
+    margin-top: -3px;
+}
+
+a.header-full-menu-button:hover {
+    color: #eb1b23;
+}
+
+a.header-full-menu-button:hover + .header-full-menu-hint {
+    display: block;
+}
+
+.open a.header-full-menu-button:hover + .header-full-menu-hint {
+    display: none;
+}
+
+.open a.header-full-menu-button:after {
+    background-position: -22px 0;
+}
+
+.header-full-menu-hint {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    background: #F5EB27;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    display: none;
+    z-index: 50;
+}
+
+.header-full-menu-hint:after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #F5EB27;
+}
+
+#header-drop-down-menu:hover .container-header-menu {
+    display: block;
+}
+
+#header-drop-down-menu:hover .header-full-menu-button:after {
+    background-position: -22px 0;
+}
+
+.ajax-city-show {
+    background: #f00;
+    color: #fff;
+    padding: 4px 10px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ajax-city-show:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.red-btn2 {
+    background: #f00;
+    color: #fff;
+    padding: 4px 1px;
+    display: inline;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2px;
+    padding: 4px;
+}
+.red-btn2:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+.store-address {
+    display: none;
+    padding-bottom: 20px;
+}
+.store-address ul li {
+    list-style-type: none;
+    padding: 5px 10px;
+}
+.store-address .shop {
+    font-weight: bold;
+}
+.store-address .stores {
+    font-weight: bold;
+}
+.store-address .shop:before {
+    background: url(/bitrix/templates/textiletorg/img/shop.png) 0 50% no-repeat;
+    background-size: 15px;
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 16px;
+}
+.store-address .stores:before {
+    background: url(/bitrix/templates/textiletorg/img/vydacha.png) 0 50% no-repeat;
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 16px;
+}

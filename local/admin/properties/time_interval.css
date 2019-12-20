@@ -1,0 +1,11 @@
+.time-interval {
+    float: left;
+}
+
+.time-interval.margin {
+    margin: 0 0 0 10px;
+}
+
+.time-interval input[type="text"] {
+    text-align: center;
+}

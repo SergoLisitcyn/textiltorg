@@ -1,0 +1,267 @@
+.sertifikaty-i-licenzii {
+    font-size: 13px;
+	padding: 0px 12px;
+	line-height:1.5;
+}
+.sertifikaty-i-licenzii .popup_slider .slick-track {
+	height:280px !important;
+	display:table !important;
+}
+.sertifikaty-i-licenzii .item {
+    padding-bottom: 30px;
+	    position: relative;
+}
+.popup_slider ul {
+    padding: 10px !important;
+}
+.sertifikaty-i-licenzii .item:last-child {
+    padding-bottom: 0;
+}
+.sertifikaty-i-licenzii b {
+    font-family: AvenirNextCyrBold, verdana, tahoma, arial;
+}
+
+.sertifikaty-i-licenzii .icon-metro {
+    background: url("images/metro.png") no-repeat left center;
+    padding-left: 20px;
+}
+.sertifikaty-i-licenzii .container-contacts {
+    padding-top: 15px;
+	display: flex;
+    align-items: center;
+}
+.sertifikaty-i-licenzii .shop-info {
+	    padding-bottom: 8px;
+		padding-left: 13px;
+}
+.sertifikaty-i-licenzii .shop-adr {
+	margin-bottom:8px;
+}
+.sertifikaty-i-licenzii .header-photo {
+    text-align:center;
+	margin-bottom:15px;
+}
+.sertifikaty-i-licenzii .header-photo b {
+    font-family: AvenirNextCyrBold, verdana, tahoma, arial;
+}
+.sertifikaty-i-licenzii .photogallery {
+    margin-left: -24px;
+    margin-right: -19px;
+}
+
+ul.photogallery li a {
+	display:block;
+	position:relative;
+	overflow:hidden;
+	height:223px;
+}
+ul.photogallery li a:hover {
+	border-color: #ff0000;
+}
+
+.fancybox-nav span
+{
+	display:none;
+	visibility:hidden;
+}
+
+.fancybox-nav
+{
+	background-color: rgba(0,0,0,0) !important;
+	opacity:.75 !important;
+}
+
+.fancybox-nav.fancybox-next,
+.fancybox-nav.fancybox-prev
+{
+	position: absolute;
+	width: 50px;
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+.fancybox-next
+{
+	background-image: url('images/right2.png') !important;
+	border-radius: 0 10px 10px 0;
+}
+.fancybox-prev
+{
+	background-image: url('images/left2.png') !important;
+	border-radius: 10px 0 0 10px;
+}
+.fancybox-outer:hover .fancybox-nav
+{
+	background-color: rgba(0,0,0,.35) !important;
+}
+.textiletorg-contacts-prototype-default .slick-slider
+{
+	display:block;
+	overflow:hidden;
+	position:relative;
+	height:225px;
+	overflow:hidden;
+	
+}
+.slick-arrow {*height: 0;}
+.sertifikaty-i-licenzii button {
+    display: block;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    /*top: 0;*/
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0.75;
+    cursor: pointer;
+    color: rgba(0,0,0,0.8);
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+    /*-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;*/
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.sertifikaty-i-licenzii button::before,
+.sertifikaty-i-licenzii button::after
+{
+	content:"" !important;
+	display:none;
+}
+.sertifikaty-i-licenzii .slick-prev
+{
+	left: 5px;
+	background-image: url('images/left2.png');
+	text-indent: -9999px;
+	/*border-radius: 10px 0 0 10px;*/
+}
+.sertifikaty-i-licenzii .slick-next
+{
+	right: 0;
+	text-align: right;
+	background-image:url('images/right2.png');
+	/*text-indent: 9999px;*/
+	/*border-radius: 0 10px 10px 0;*/
+}
+.sertifikaty-i-licenzii:hover .slick-prev
+{
+	left: 5px;
+	background-color: rgba(214, 214, 214, 0.8);
+	background-image: url('images/left2.png');
+}
+.sertifikaty-i-licenzii:hover .slick-next {
+	right: 0;
+	background-color: rgba(214, 214, 214, 0.8);
+	background-image:url('images/right2.png');
+}
+.sertifikaty-i-licenzii:hover .slick-next:hover,
+.sertifikaty-i-licenzii:hover .slick-prev:hover
+{
+	opacity: 1;
+	background-position: center center !important;
+}
+
+.sertifikaty-i-licenzii .container-map {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.sertifikaty-i-licenzii .show-map,
+.sertifikaty-i-licenzii .show-3d-tour {
+    display: inline-block;
+    font-family: AvenirNextCyrBold, verdana, tahoma, arial;
+    color: #ff0000;
+    font-size: 11px;
+	border-bottom: 1px dashed;
+	margin:20px 0;
+    float: left;
+    cursor: pointer;
+	position:relative;
+	margin-left: 15px;
+}
+.sertifikaty-i-licenzii .show-map {
+    border-bottom: 1px dashed #ff0000;
+	position: relative;
+	margin:20px 0;
+	margin-left: 15px;
+}
+.sertifikaty-i-licenzii .show-map:after {
+	content: " ";
+	position: absolute;
+	top: 0px;
+	left: -15px;
+    background: url("images/map2.png") left center no-repeat;
+	width: 10px;
+	height: 16px;
+}
+.sertifikaty-i-licenzii .container-showhide {
+    display: none;
+	margin-bottom:20px;
+}
+
+.sertifikaty-i-licenzii .slick-initialized .slick-slide {
+    text-align: center;
+	display: table-cell !important;
+    vertical-align: middle !important;
+	float:none !important;
+}
+.shop-img {
+	min-width:64px;
+}
+.sertifikaty-i-licenzii .slick-initialized .slick-slide img {
+    display: inline-block;
+}
+.sertifikaty-i-licenzii .popup_slider .slick-slide img {
+    max-height:280px;
+}
+
+.sertifikaty-i-licenzii .container-showhide.map {
+	margin-left: 0;
+	margin-bottom:20px;
+}
+
+.content_block .sity.select-region-container {
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#wrapper .content_block ul.photogallery.slick-slider {
+	padding: 0 !important;
+}
+.content_block .sity.select-region-container .geo_name {
+	color: #ff0000;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px dashed #ff0000;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    position: relative;
+    margin-left: 18px;
+    font-size: 13px;
+	font-family: AvenirNextCyrBold, verdana, tahoma, arial;
+}
+.content_block .sity.select-region-container .geo_name:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    background: url(/bitrix/components/custom/contacts.prototype/templates/mobile/images/map1.png) no-repeat;
+    position: absolute;
+    left: -15px;
+}
+.content_block h1 {
+	margin-top: 15px !important;
+	margin-bottom:8px;
+}
+.map-3d {
+	display:flex;
+	justify-content:space-between;
+}.show-3d-tour.show-container:after {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: -35px;
+    background: url(/bitrix/components/custom/contacts.prototype/templates/mobile/images/360.png) left center no-repeat;
+    width: 29px;
+    height: 16px;
+}

@@ -1,0 +1,113 @@
+/*
+* INPUTS
+*
+*/
+.bx-filter.bx-red .bx-filter-input-container input:focus {
+	border-color: #da3737;
+}
+.bx-retina .bx-filter.bx-red .bx-filter-input-container input:focus {
+	-webkit-border-image: url(images/active.png) 2 repeat;
+	-moz-border-image: url(images/active.png) 2 repeat;
+	-o-border-image: url(images/active.png) 2 repeat;
+	border-image: url(images/active.png) 2 repeat;
+}
+/*
+*Track
+*
+*/
+.bx-filter.bx-red .bx-ui-slider-track{background: #e7e7e7;}
+.bx-filter.bx-red .bx-ui-slider-pricebar-vd{background: #ede80a;}
+.bx-filter.bx-red .bx-ui-slider-pricebar-vn{background: #e7e7e7;}
+.bx-filter.bx-red .bx-ui-slider-pricebar-v {background: #fff100;}
+
+/*
+*	Select
+*
+*/
+.bx-filter.bx-red .bx-filter-select-container.bx-active,
+.bx-filter.bx-red .bx-filter-select-container:focus {
+	border-color: #da3737;
+}
+.bx-retina .bx-filter.bx-red .bx-filter-select-container.bx-active,
+.bx-retina .bx-filter.bx-red .bx-filter-select-container:focus {
+	-webkit-border-image: url(images/active.png) 2 repeat;
+	-moz-border-image: url(images/active.png) 2 repeat;
+	-o-border-image: url(images/active.png) 2 repeat;
+	border-image: url(images/active.png) 2 repeat;
+}
+/*
+*	Select popup
+*
+*/
+/*
+* TAGS
+*
+*/
+.bx-filter.bx-red .bx-filter-tag {
+	border-top: 1px solid #f8dbdb;
+	border-bottom: 1px solid #f8dbdb;
+}
+.bx-filter.bx-red .bx-tag-link {
+	color: #e48d8d;
+}
+/*
+*	LABEL
+*
+*/
+/*
+*	Checkbox / Radio
+*
+*/
+/*
+* 	BTN
+*
+*/
+.bx-filter.bx-red .bx-filter-param-label.bx-active .bx-filter-param-btn,
+.bx-filter.bx-red .bx-filter-param-btn:hover,
+.bx-filter.bx-red .bx-filter-param-btn:active,
+.bx-filter.bx-red .bx-filter-param-btn:focus {
+	border-color: #da3737;
+}
+.bx-retina .bx-filter.bx-red .bx-filter-param-label.bx-active .bx-filter-param-btn,
+.bx-retina .bx-filter.bx-red .bx-filter-param-btn:hover,
+.bx-retina .bx-filter.bx-red .bx-filter-param-btn:active,
+.bx-retina .bx-filter.bx-red .bx-filter-select-container:focus {
+	-webkit-border-image: url(images/active.png) 2 repeat;
+	-moz-border-image: url(images/active.png) 2 repeat;
+	-o-border-image: url(images/active.png) 2 repeat;
+	border-image: url(images/active.png) 2 repeat;
+}
+/*
+* BTN P/M
+*
+*/
+/*
+*	icon
+*
+*/
+/*
+* 	BIZ
+*
+*/
+/*
+*	BTN result and reset
+*
+*/
+.bx-filter.bx-red .btn-themes {
+	background-color: #da3737;
+	border-color: #da3737;
+	color: #FFF
+}
+.bx-filter.bx-red .btn-themes.bx-active,
+.bx-filter.bx-red .btn-themes.focus,
+.bx-filter.bx-red .btn-themes:active,
+.bx-filter.bx-red .btn-themes:focus,
+.bx-filter.bx-red .btn-themes:hover{
+	background-color: #e48d8d;
+	border-color: #e48d8d;
+	color: #FFF
+}
+/*
+* 	Result Popup
+*
+*/

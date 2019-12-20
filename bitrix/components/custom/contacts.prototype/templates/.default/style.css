@@ -1,0 +1,208 @@
+.textiletorg-contacts-prototype-default {
+    font-size: 16px;
+}
+.textiletorg-contacts-prototype-default .item {
+    padding-bottom: 30px;
+}
+.textiletorg-contacts-prototype-default b {
+    font-family: AvenirNextCyrBold, verdana, tahoma, arial;
+}
+.textiletorg-contacts-prototype-default .headerp {
+    padding-bottom: 15px;
+}
+.textiletorg-contacts-prototype-default .headerp b {
+    font-size: 18px;
+}
+.textiletorg-contacts-prototype-default .container-contacts {
+    padding-top: 5px;
+    line-height: 150%;
+}
+
+.textiletorg-contacts-prototype-default .header-photo {
+    padding-top: 40px;
+    font-family: AvenirNextCyr, verdana, tahoma, arial;
+    font-size: 18px;
+    color: #555;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.textiletorg-contacts-prototype-default .photogallery {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul.photogallery li a {
+	display:inline-block;
+	position:relative;
+	border: 1px solid #c2c2c2;
+	overflow:hidden;
+	height:260px;
+}
+ul.photogallery li a img {
+    width: 390px;
+}
+ul.photogallery li a:hover {
+	border-color: #ff0000;
+}
+
+.fancybox-nav span
+{
+	display:none;
+	visibility:hidden;
+}
+
+.fancybox-nav
+{
+	background-color: rgba(0,0,0,0) !important;
+	opacity:.75 !important;
+}
+
+.fancybox-nav.fancybox-next,
+.fancybox-nav.fancybox-prev
+{
+	position: absolute;
+	width: 50px;
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+.fancybox-next
+{
+	background-image: url('images/right2.png') !important;
+	border-radius: 0 10px 10px 0;
+}
+.fancybox-prev
+{
+	background-image: url('images/left2.png') !important;
+	border-radius: 10px 0 0 10px;
+}
+.fancybox-outer:hover .fancybox-nav
+{
+	background-color: rgba(0,0,0,.35) !important;
+}
+.textiletorg-contacts-prototype-default .slick-slider
+{
+	display:block;
+	overflow:hidden;
+	position:relative;
+	height:260px;
+	overflow:hidden;
+    margin: 20px -10px;
+}
+.slick-arrow {*height: 0;}
+.textiletorg-contacts-prototype-default button {
+    display: block;
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0.75;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.textiletorg-contacts-prototype-default button::before,
+.textiletorg-contacts-prototype-default button::after
+{
+	content:"" !important;
+	display:none;
+}
+.textiletorg-contacts-prototype-default .slick-prev
+{
+	left: 5px;
+	background-image: url('images/left2.png');
+	text-indent: -9999px;
+}
+.textiletorg-contacts-prototype-default .slick-next
+{
+	right: 0;
+	text-align: right;
+	background-image:url('images/right2.png');
+}
+.textiletorg-contacts-prototype-default:hover .slick-prev
+{
+	left: 5px;
+	background-color: rgba(255, 255, 255, 0.7);
+	background-image: url('images/left2.png');
+}
+.textiletorg-contacts-prototype-default:hover .slick-next {
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+	background-image:url('images/right2.png');
+}
+.textiletorg-contacts-prototype-default:hover .slick-next:hover,
+.textiletorg-contacts-prototype-default:hover .slick-prev:hover
+{
+	opacity: 1;
+	background-position: center center !important;
+}
+
+.textiletorg-contacts-prototype-default .container-map {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.textiletorg-contacts-prototype-default .show-map,
+.textiletorg-contacts-prototype-default .show-3d-tour {
+    display: inline-block;
+    font-family: AvenirNextCyr, verdana, tahoma, arial;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+    margin: 30px 0px 20px;
+    text-transform: uppercase;
+}
+.textiletorg-contacts-prototype-default .show-map:hover {
+    color: #ec2124;
+}
+.textiletorg-contacts-prototype-default .show-3d-tour {
+}.textiletorg-contacts-prototype-default .show-3d-tour span {
+    background: url(/bitrix/images/sprites/sprites.png) no-repeat left center;
+    background-position: -50px -300px;
+    width: 50px;
+    height: 22px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.textiletorg-contacts-prototype-default .container-showhide {
+    /*display: none;*/
+}
+
+.textiletorg-contacts-prototype-default .slick-initialized .slick-slide {
+    text-align: center;
+}
+
+.textiletorg-contacts-prototype-default .slick-initialized .slick-slide img {
+    display: inline-block;
+}
+
+@media (max-width: 1024px) {
+    .textiletorg-contacts-prototype-default .slick-prev {
+        left: 5px;
+    }
+    .textiletorg-contacts-prototype-default .slick-next {
+        right: 5px;
+    }
+}
+.textiletorg-contacts-prototype-default .slick-next {
+    right: 7px!important;
+}
+@media (max-width: 767px) {
+    .textiletorg-contacts-prototype-default .slick-prev:before,
+    .textiletorg-contacts-prototype-default .slick-next:before {
+        display: none !important;
+    }
+    .textiletorg-contacts-prototype-default .shop-img {
+        float: left;
+    }
+    .textiletorg-contacts-prototype-default .bx-yandex-map,
+    .textiletorg-contacts-prototype-default .ymaps-map {
+        width: 100% !important;
+    }
+    .textiletorg-contacts-prototype-default .header-photo {
+        padding-top: 10px;
+    }
+}

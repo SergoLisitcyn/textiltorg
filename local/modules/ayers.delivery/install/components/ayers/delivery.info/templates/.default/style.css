@@ -1,0 +1,46 @@
+#as-delivery-info {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 20000;
+    padding: 10px 20px;
+    width: 240px;
+    background: rgb(251, 247, 170);
+    border: 2px dashed #ffa544;
+    opacity: .5;
+    cursor: default;
+
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -ms-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+#as-delivery-info:hover {
+    opacity: 1;
+}
+
+#as-delivery-info .as-delivery-info-title {
+    display: block;
+    margin: 0 0 8px;
+}
+
+#as-delivery-info .as-delivery-info-hint {
+    opacity: .75;
+}
+
+#as-delivery-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#as-delivery-info ul li {
+    margin: 8px 0 0 0;
+    padding: 0;
+}
+
+#as-delivery-info ul li:first-child {
+    margin-top: 0;
+}

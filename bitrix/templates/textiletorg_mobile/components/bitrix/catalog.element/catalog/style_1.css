@@ -1,0 +1,273 @@
+.bay_block {
+    position: relative;
+}
+
+.message-cart {
+    border: 1px solid #ff0000;
+    position: absolute;
+    border-radius: 6px;
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 0 0 0;
+    z-index: 20;
+    top: 42px;
+}
+
+.shop_item .cart-button {
+	font-size: 0 !important;
+    background-image: url(/bitrix/templates/textiletorg_mobile/img/to_cart.png) !important;
+    width: 51px !important;
+    background-size: cover !important;
+    height: 43px !important;
+}
+.shop_item .cart-button::after {
+	display:none !important;
+}
+.message-cart p {
+    margin: 0 0 10px;
+}
+
+.rew_sub .rew_all.hide {
+    display: none !important;
+}
+
+.help-ajax-container .img-container {
+    text-align: center;
+    margin: 0 0 18px;
+}
+
+.help-ajax-container .img-container img {
+    max-width: 100%;
+    max-height: 275px;
+}
+
+.help-ajax-container h2 {
+    margin-top: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #494949;
+    font-family: "AvenirNextCyrMedium", Verdana, Tahoma, Arial;
+    text-align: center;
+}
+
+.help-ajax-container .text-container {
+    margin: 0 0 18px;
+}
+
+.help-ajax-container .button {
+    margin: 0 auto 9px;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+.description_block .help-info {
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 0 0 -2px 2px;
+    background: url(img/help.png) 0 0 no-repeat;
+}
+.shop_item .tabs {
+    margin-top: 40px;
+}
+
+.shop_item .tabs .item-tab {
+    line-height: 30px;
+    font-size: 12px;
+    color: #222;
+    background: #F5EB27;
+    padding: 0 25px;
+    float: left;
+    margin-right: 2px;
+    border-radius: 3px 3px 0 0;
+    position: relative;
+}
+#rew-count {
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    width: 23px;
+    height: 23px;
+    background: #FF0000;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+}
+.shop_item .tabs .item-tab.selected {
+    background: #FF0000;
+    color: #fff;
+}
+.shop_item .description_block_content {
+    padding: 10px;
+    opacity: 1 !important;
+}
+.shop_item .description_block_content.open {
+    display: block !important;
+}
+.shop_item .description_block_content {
+    border: 1px solid #FF0000;
+}
+
+.shop_item .img_block .img_list_block li.slick-current a:after {
+    border-color: #FF0000;
+}
+#wrapper .shop_item h1 {
+    font-size: 16px;
+    font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+    color: #555;
+    padding-left: 0;
+}
+.korpus > div, .korpus > input { display: none; }
+
+.korpus label { 
+    padding: 8px 20px;
+    border: 1px solid #F5EB27;
+    line-height: 34px;
+    cursor: pointer;
+    position: relative;
+    bottom: 1px;
+    font-size: 14px;
+    border-radius: 5px 5px 0 0;
+    background: #F5EB27;
+    color: #000;
+    font-weight: 800;    
+	padding-top: 12px;
+    padding-bottom: 12px;
+    position: relative;
+    bottom: 5px;
+	}
+.korpus input[type="radio"]:checked + label { 
+border: 1px solid #FF0000;
+    border-bottom: 2px solid #FF0000;
+    color: #fff;
+    background: #FF0000;
+    margin-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    font-weight: 800;
+	}
+
+.korpus > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+.korpus > input:nth-of-type(2):checked ~ div:nth-of-type(2),
+.korpus > input:nth-of-type(3):checked ~ div:nth-of-type(3) { display: block; padding: 10px; border: 1px solid #f1f1f1; }
+.korpus > input:nth-of-type(1):checked ~ div:nth-of-type(1) p,
+.korpus > input:nth-of-type(2):checked ~ div:nth-of-type(2) p,
+.korpus > input:nth-of-type(3):checked ~ div:nth-of-type(3) p { margin-bottom: 4px }
+.korpus .help-info {
+	display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 0 0 -2px 2px;
+    background: url(/bitrix/templates/textiletorg_mobile/components/bitrix/catalog.element/catalog/img/help.png) 0 0 no-repeat;
+	}
+
+#wrapper .shop_item .article {
+    margin-top: 5px;
+    margin-left: 0;
+    font-size: 12px;
+    color: #222;
+}
+.credit .message {
+	background: #fbf695;
+    border: 2px dashed #F5EB27;
+    border-radius: 5px;
+    padding: 10px 15px;
+    position: absolute !important;
+    z-index: 9;
+    top: -70px !important;
+    left: -100px;
+    font-size: 14px;
+}
+#wrapper .shop_item .price_block {
+    padding-left: 0;
+}
+#wrapper .shop_item .icon-message {
+    font-size: 14px;
+    color:#555;
+    line-height: 30px;
+}
+#wrapper .shop_item .icon-message img {
+    float: left;
+    margin-right: 10px;
+}
+#wrapper .shop_item .credit {
+        position: relative;
+    font-size: 11px;
+    text-align: center;
+    line-height: 15px;
+    width: 100px;
+	height:84px;
+	cursor:pointer
+}
+#wrapper .shop_item .credit span {
+    position:relative;
+	top:5px;
+	display:block;
+}
+#wrapper .shop_item .credit img {
+}
+
+#wrapper .shop_item .button.red {
+    background: #f00;
+    font-family: "AvenirNextCyrBold", Verdana, Tahoma, Arial;
+    font-size: 16px;
+    padding: 0 15px 0 65px !important;
+	min-width:82px;
+}
+
+#wrapper .shop_item .button.grey {
+    background: #ccc;
+    font-family:"AvenirNextCyrDemi";
+    font-size: 14px;
+    color: #FF0000;
+    text-align: center;
+    width: 58px;
+    float: right;
+    line-height: 15px;
+    padding: 5px 10px !important;
+}
+
+#wrapper .shop_item .description_block .button.red.acc {
+    line-height: 18px;
+    font-size: 14px;
+    background: #F5EB27;
+    color: #000;
+    padding: 10px 0 !important;
+}
+#wrapper .shop_item .description_block .button.red.acc:after {
+    display: none;
+}
+#wrapper .shop_item .description_block.active .button.red.acc {
+    color: #fff;
+    background: #FF0000;
+    margin-bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+#wrapper .shop_item .description_block.active .description_block_content {
+    margin-bottom: 10px;
+}
+#wrapper .shop_item.detail .bay_block {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#wrapper .shop_item.detail .price_block,
+#wrapper .shop_item.detail .guarantee,
+#wrapper .shop_item.detail .rating,
+#wrapper .shop_item.detail .quantity,
+#wrapper .shop_item.detail .oplata,
+#wrapper .shop_item.detail .icon-message {
+    margin-bottom: 10px;
+}
+#wrapper .shop_item.detail .rating img {
+    margin-left: 5px;
+    margin-top: 3px;
+}

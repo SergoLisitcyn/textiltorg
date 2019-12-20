@@ -1,0 +1,72 @@
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Пример интеграции системы КупиВкредит</title>
+    <script src="https://form-test.kupivkredit.ru/sdk/v1/sdk.js?onload=myOnLoadFunction" type="text/javascript" async></script>
+</head>
+<body>
+    <script type="text/javascript">
+        window.callbacks = [];
+
+        window.onload = function() {
+            for (var i = 0; i < this.callbacks.length; i++) {
+                this.callbacks[i].call();
+            }
+        };
+
+        window.myOnLoadFunction = function(KVK) {
+            var button, form;
+            form = KVK.ui("form", {
+                order:"<?php echo $base64; ?>",
+                sign: "<?php echo $sign; ?>",
+                type: "full"
+            });
+
+            window.callbacks.push(function() {
+                button = document.getElementById("open");
+                button.removeAttribute("disabled");
+                button.onclick = function() {
+                    // Открытие формы по нажатию кнопки
+                    form.open();
+                };
+            });
+        }
+
+    </script>
+    Нажмите для открытия формы <input type="button" id="open" name="open" value="Открыть">
+	
+	<br>
+	    <script type="text/javascript">
+        window.callbacks = [];
+
+        window.onload = function() {
+            for (var i = 0; i < this.callbacks.length; i++) {
+                this.callbacks[i].call();
+            }
+        };
+
+        window.myOnLoadFunction = function(KVK) {
+            var button, form;
+            form = KVK.ui("form", {
+                order:"<?php echo $base64; ?>",
+                sign: "<?php echo $sign; ?>",
+                type: "full"
+            });
+
+            window.callbacks.push(function() {
+                button = document.getElementById("open1");
+                button.removeAttribute("disabled");
+                button.onclick = function() {
+                    // Открытие формы по нажатию кнопки
+                    form.open();
+                };
+            });
+        }
+
+    </script>
+    Нажмите для открытия формы <input type="button" id="open1" name="open" value="Открыть">
+</body>
+
+
+
+</html>

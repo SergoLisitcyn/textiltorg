@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+body {
+  font-family: AvenirNextCyr, verdana, tahoma, arial; }
+  body.title_page h1 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #494949;
+    font-family: AvenirNextCyrBold, verdana, tahoma, arial;
+    text-align: center; }
+  body h1 {
+    margin-top: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #494949;
+    font-family: "AvenirNextCyrMedium", verdana, tahoma, arial;
+    text-align: center; }
+  body h2 {
+    font-size: 14px;
+    font-family: AvenirNextCyrBold, verdana, tahoma, arial; }
+  body strong {
+    font-weight: bold; }
+  body .text-red {
+    color: #ff0000; }
+  body .content_block {
+    font-size: 15px;
+    color: #555; }
+    body .content_block a {
+      color: #ee1b22; }
+    body .content_block ul.list-red {
+      padding: 10px 0px 10px 0px !important; }
+      body .content_block ul.list-red li {
+        background: url("mod_files/img/list-red.png") no-repeat left center;
+        padding-left: 15px;
+        margin-bottom: 5px;
+        list-style: none; }
+    body .content_block .text-center {
+      text-align: center; }
+    body .content_block p {
+      margin-bottom: 15px;
+      clear: both;}
+    body .content_block .shop-list {
+      list-style: none;
+      padding: 0px !important; }
+      body .content_block .shop-list li {
+        overflow: hidden; }
+        body .content_block .shop-list li .shop-info {
+          display: inline-block;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #e60000;
+          margin-bottom: 10px; }
+          body .content_block .shop-list li .shop-info .shop-town {
+            font-weight: bold;
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 10px; }
+        body .content_block .shop-list li:last-child .shop-info {
+          border-bottom: none; }
+
+/*# sourceMappingURL=styles.css.map */
+.buy-one-click {
+  padding: 0px!important;
+  text-align: center;
+  margin-top: 10px;
+}

@@ -1,0 +1,40 @@
+.listcity li {
+    display: inline-block;
+    list-style-type: none;
+    font-family: AvenirNextCyrBold, verdana, tahoma, arial !important;
+    width: 24.6%;
+    margin: 7px 0;
+    vertical-align: top;
+    color: #555;
+}
+.listcity li.house {
+    padding-left: 30px;
+    padding-top: 5px;
+    position: relative;
+    background: url(/bitrix/templates/textiletorg/mod_files/css/../../img/ico-town-house.png) left bottom no-repeat;
+}
+.listalfabet {
+    list-style: none outside none;
+    margin-bottom: 21px;
+    display: inline-block;
+}
+.listalfabet li {
+    float: left;
+    padding: 0 4px;
+}
+a.alfabet {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 0 3px;
+}
+.acl_activ {
+    background-color: #ff0000;
+    color: #fff!important;
+}
+.list_of_all_citys .listcity {
+    display: none;
+}
+.list_of_all_citys .listcity.show {
+    display: block;
+}

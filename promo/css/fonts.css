@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'PFDinTextPro-Medium';
+  src: url('../fonts/PFDinTextPro-Medium.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/PFDinTextPro-Medium.woff') format('woff'), 
+  		url('../fonts/PFDinTextPro-Medium.ttf')  format('truetype'), 
+  		url('../fonts/PFDinTextPro-Medium.svg#PFDinTextPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-Regular';
+  src: url('../fonts/PFDinTextPro-Regular.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/PFDinTextPro-Regular.woff') format('woff'), 
+  		url('../fonts/PFDinTextPro-Regular.ttf')  format('truetype'), 
+  		url('../fonts/PFDinTextPro-Regular.svg#PFDinTextPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-Bold';
+  src: url('../fonts/PFDinTextPro-Bold.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/PFDinTextPro-Bold.woff') format('woff'), 
+  		url('../fonts/PFDinTextPro-Bold.ttf')  format('truetype'), 
+  		url('../fonts/PFDinTextPro-Bold.svg#PFDinTextPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-Light';
+  src: url('../fonts/PFDinTextPro-Light.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/PFDinTextPro-Light.woff') format('woff'), 
+  		url('../fonts/PFDinTextPro-Light.ttf')  format('truetype'), 
+  		url('../fonts/PFDinTextPro-Light.svg#PFDinTextPro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AdventureC';
+  src: url('../fonts/AdventureC.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/AdventureC.woff') format('woff'), 
+  		url('../fonts/AdventureC.ttf')  format('truetype'), 
+  		url('../fonts/AdventureC.svg#AdventureC') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-LightItalic';
+  src: url('../fonts/PFDinTextPro-LightItalic.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/PFDinTextPro-LightItalic.woff') format('woff'), 
+  		url('../fonts/PFDinTextPro-LightItalic.ttf')  format('truetype'), 
+  		url('../fonts/PFDinTextPro-LightItalic.svg#PFDinTextPro-LightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,116 @@
+.head_sub_menu .slick-list {
+    overflow: visible;
+    z-index: 5;
+
+}
+.header_sub_menu_slider .inner_menu {
+    display: none;
+    position: absolute;
+    top: 110px;
+    left: -20%;
+    background: #e3e4e5;
+    list-style-type: none;
+    width: 120%;
+    margin-left: -10%;
+    border-top: 1px solid #a2a2a2;
+    border-left: 1px solid #a2a2a2;
+    border-right: 1px solid #a2a2a2;
+}
+.header_sub_menu_slider .inner_menu.open {
+    display: block;
+}
+.header_sub_menu_slider .inner_menu:before,
+.header_sub_menu_slider .inner_menu:after {
+    content: '';
+    position: absolute;
+    top: -18px;
+    margin-left: -6px;
+    left:50%;
+    border: 6px solid transparent;
+    border-bottom: 11px solid #a2a2a2;
+}
+
+.header_sub_menu_slider .inner_menu:after {
+    border-bottom: 11px solid #e3e4e5;
+    top: -15px;
+}
+
+.header_sub_menu_slider .inner_menu li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #a2a2a2;
+}
+.header_sub_menu_slider .inner_menu li a {
+    text-decoration: none;
+    font-size: 14px !important;
+    color: #ff0000;
+    font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+}
+
+.header_sub_menu_slider .slick-prev,
+.header_sub_menu_slider .slick-next {
+    background-color: #fff;
+    width: 492px !important;
+    height: 105px !important;
+    z-index: 10;
+    margin-top: -15px !important;
+}
+
+.header_sub_menu_slider  .slick-prev {
+    background-position: right center !important;
+    left: -494px !important;
+}
+.header_sub_menu_slider  .slick-next {
+    background-position: left center !important;
+    right: -495px !important;
+}
+.header_sub_menu_slider .root-item:focus {
+    outline: none;
+}
+
+.head_sub_menu .header_sub_menu_slider .header_sub_menu_slider_item {
+    background-repeat: no-repeat;
+    background-position: center 10px;
+}
+#top_menu_o_kompanii {
+    background-image: url("images/o_kompanii.png");
+}
+#top_menu_akcii {
+    background-image: url("images/akcii.png");
+}
+#top_menu_garantia {
+    background-image: url("images/garantia.png");
+}
+#top_menu_kontakty {
+    background-image: url("images/kontakty.png");
+}
+#top_menu_oplata {
+    background-image: url("images/oplata.png");
+}
+#top_menu_poleznoe {
+    background-image: url("images/poleznoe.png");
+}
+#top_menu_poluchenie {
+    background-image: url("images/poluchenie.png");
+}
+
+#top_menu_o_kompanii:hover {
+    background-image: url("images/o_kompanii-h.png");
+}
+#top_menu_akcii:hover {
+    background-image: url("images/akcii-h.png");
+}
+#top_menu_garantia:hover {
+    background-image: url("images/garantia-h.png");
+}
+#top_menu_kontakty:hover {
+    background-image: url("images/kontakty-h.png");
+}
+#top_menu_oplata:hover {
+    background-image: url("images/oplata-h.png");
+}
+#top_menu_poleznoe:hover {
+    background-image: url("images/poleznoe-h.png");
+}
+#top_menu_poluchenie:hover {
+    background-image: url("images/poluchenie-h.png");
+}

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Astralux";
+$arDirProperties = Array(
+
+);
+?>

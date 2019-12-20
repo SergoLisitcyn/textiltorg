@@ -1,0 +1,22 @@
+#as-stores-map {
+    max-width: 640px;
+    height: 450px;
+    display: none;
+}
+
+#as-stores-map.show {
+    display: block;
+}
+
+.as-show-load-map {
+    display: none;
+}
+
+.as-show-load-map.show {
+    display: block;
+}
+
+.ymaps-2-1-45-copyright__link {
+    font: 11px/22px Arial,Helvetica,sans-serif !important;
+    color: #000 !important;
+}

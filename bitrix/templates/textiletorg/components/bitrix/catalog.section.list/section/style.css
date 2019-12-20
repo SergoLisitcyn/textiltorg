@@ -1,0 +1,34 @@
+.cat_ln{
+    color: black;
+}
+.cat_ln:hover{
+    color: white;
+}
+
+#lay_body .cat_menu2 {
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-bottom: 19px;
+    display: inline-block;
+    width: 100%;
+}
+#lay_body .cat_menu2:not(.is-pictures) .tile_container .boxsize_100{
+	height: 0px;
+}
+
+#lay_body .tile_container {
+    height: auto;
+}
+
+#lay_body .tile_container {
+    min-height: 36px;
+}
+#lay_body .cat_menu2 .tile_container img{
+	-webkit-transition: all .6s, ease .6s;
+    transition: all .6s, ease .6s;
+}
+#lay_body .cat_menu2 .tile_container:hover img{
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}

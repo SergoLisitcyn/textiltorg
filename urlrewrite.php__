@@ -1,0 +1,149 @@
+<?
+$arUrlRewrite = array(
+	array(
+		"CONDITION" => "#^/poleznoe/stati/stati-po-bytovoj-shvejnoj-tehnike/([-_a-zA-Z0-9]+)/(?:\\?.*)*\$#",
+		"RULE" => "ELEMENT_CODE=\$1",
+		"ID" => "",
+		"PATH" => "/poleznoe/stati/detail.php",
+	),
+	array(
+		"CONDITION" => "#^/([-_a-zA-Z0-9\\/]+)/([-_a-zA-Z0-9\\/]+)/([-_a-zA-Z0-9]+)\\.html(?:\\?.*)*\$#",
+		"RULE" => "SECTION_CODE=\$1&SECTION_CODE=\$2&ELEMENT_CODE=\$3",
+		"ID" => "",
+		"PATH" => "/catalog/detail/index.php",
+	),
+	array(
+		"CONDITION" => "#^/poleznoe/obzory/test-drajvy-i-obzory/([-_a-zA-Z0-9]+)/(?:\\?.*)*\$#",
+		"RULE" => "ELEMENT_CODE=\$1",
+		"ID" => "",
+		"PATH" => "/poleznoe/obzory/detail.php",
+	),
+	array(
+		"CONDITION" => "#^/informacija/konkursy/([-_a-zA-Z0-9]+)/(?:\\?.*)*\$#",
+		"RULE" => "ELEMENT_CODE=\$1",
+		"ID" => "",
+		"PATH" => "/informacija/konkursy/detail.php",
+	),
+	array(
+		"CONDITION" => "#^/market/([-_a-zA-Z0-9]+)\\.(?:xml||php)(?:\\?.*)*\$#",
+		"RULE" => "HANDLER=\$1&IS_ROOT=Y",
+		"ID" => "",
+		"PATH" => "/market/xml.php",
+	),
+	array(
+		"CONDITION" => "#^/market/([-_a-z]+)/([-_a-z]+)\\.(?:xml||php)\$#",
+		"RULE" => "REGION=\$1&HANDLER=\$2",
+		"ID" => "",
+		"PATH" => "/market/xml.php",
+	),
+	array(
+		"CONDITION" => "#^/katalog/([-_a-zA-Z0-9\\/]+)/(?:\\?.*)*\$#",
+		"RULE" => "TAG=\$1",
+		"ID" => "",
+		"PATH" => "/katalog/index.php",
+	),
+	array(
+		"CONDITION" => "#^/(otziv\\.php|otzive\\.php|otziv|otzivу)#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/reviews_redirect.php",
+	),
+	array(
+		"CONDITION" => "#^/online/([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#",
+		"RULE" => "alias=\$1",
+		"ID" => "",
+		"PATH" => "/desktop_app/router.php",
+	),
+	array(
+		"CONDITION" => "#^/novosti/([-_a-zA-Z0-9]+)/(?:\\?.*)*\$#",
+		"RULE" => "ELEMENT_CODE=\$1",
+		"ID" => "",
+		"PATH" => "/novosti/detail.php",
+	),
+	array(
+		"CONDITION" => "#^/akcii/([-_a-zA-Z0-9]+)/(?:\\?.*)*\$#",
+		"RULE" => "ELEMENT_CODE=\$1",
+		"ID" => "",
+		"PATH" => "/akcii/detail.php",
+	),
+	array(
+		"CONDITION" => "#^/([-_a-zA-Z0-9\\/]+)/(?:\\?.*)*\$#",
+		"RULE" => "SECTION_CODE_PATH=\$1",
+		"ID" => "",
+		"PATH" => "/catalog/index.php",
+	),
+	array(
+		"CONDITION" => "#^/bitrix/services/ymarket/#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/bitrix/services/ymarket/index.php",
+	),
+	array(
+		"CONDITION" => "#^/export_avito/n_nov.xml#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/export_avito/n_nov.php",
+	),
+	array(
+		"CONDITION" => "#^/export_avito/rnd.xml#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/export_avito/rnd.php",
+	),
+	array(
+		"CONDITION" => "#^/export_avito/nsb.xml#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/export_avito/nsb.php",
+	),
+	array(
+		"CONDITION" => "#^/export_avito/msk.xml#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/export_avito/msk.php",
+	),
+	array(
+		"CONDITION" => "#^/export_avito/spb.xml#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/export_avito/spb.php",
+	),
+	array(
+		"CONDITION" => "#^/export_avito/ekb.xml#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/export_avito/ekb.php",
+	),
+	array(
+		"CONDITION" => "#^/compare/(?:\\?.*)*\$#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/catalog/compare/index.php",
+	),
+	array(
+		"CONDITION" => "#^/online/(/?)([^/]*)#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/desktop_app/router.php",
+	),
+	array(
+		"CONDITION" => "#^/stssync/calendar/#",
+		"RULE" => "",
+		"ID" => "bitrix:stssync.server",
+		"PATH" => "/bitrix/services/stssync/calendar/index.php",
+	),
+	array(
+		"CONDITION" => "#^\\??(.*)#",
+		"RULE" => "&\$1",
+		"ID" => "bitrix:catalog.smart.filter",
+		"PATH" => "/catalog/sect_right_sidebar.php",
+	),
+	array(
+		"CONDITION" => "#^\\??(.*)#",
+		"RULE" => "&\$1",
+		"ID" => "bitrix:catalog.smart.filter",
+		"PATH" => "/indextest.php",
+	),
+);
+
+?>

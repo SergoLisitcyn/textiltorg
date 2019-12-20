@@ -1,0 +1,42 @@
+#gift_wrap_cart {display: none; width: 1000px;}
+.gift_blocks {
+    text-align: center;
+    padding: 35px 25px 10px;
+    overflow: hidden;
+}
+.gift_blocks .gift_block:nth-child(3n+1) {
+    clear: both;
+}
+.gift_blocks .gift_block {
+    float: left;
+    width: 33.33%;
+    min-height: 200px;
+    position: relative;
+}
+.gift_blocks .gift_block .img {
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 3px;
+}
+.gift_blocks .gift_block .name {
+    line-height: 1.2;
+    min-height: 32px;
+}
+.footer_button_block .silver_button {
+    padding: 7px;
+    width: 211px;
+}
+.gift_blocks .gift_block .incart_input {
+    margin: 20px auto;
+    font-size: 16px;
+    padding: 6px 0px!important;
+    width: 200px;
+}
+.gift_blocks .gift_block .price {
+    font-weight: bold;
+    color: #010101;
+    margin-top: -4px;
+}
+.footer_button_block {
+    clear: both;
+}

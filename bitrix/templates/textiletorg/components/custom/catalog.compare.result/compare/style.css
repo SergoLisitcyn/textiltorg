@@ -1,0 +1,261 @@
+.bx_compare .bx_sort_container{
+	margin-bottom:15px;
+}
+.bx_compare .bx_sort_container .sorttext{
+	font-size:14px;
+	display:inline-block;
+}
+.bx_compare .bx_sort_container .sortbutton{
+	display: inline-block!important;
+    color: #555555;
+    background: #e3e4e5;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    text-decoration: none;
+    border: none!important;
+    line-height: 13px;
+    height: inherit!important;
+    width: inherit!important;
+    padding: 8px 40px;
+    cursor: pointer;
+    font-size:13px;
+    text-shadow: none;
+    font-family: "AvenirNextCyr", verdana, tahoma, arial !important;
+    font-weight: normal!important;
+    -webkit-transition: all .6s, ease .6s;
+    transition: all .6s, ease .6s;
+}
+
+.bx_compare .bx_sort_container .sortbutton.current{
+	display:inline-block!important;
+	color:white;
+	background: linear-gradient(to top, #cc0508, #eb1b23);
+	background: -moz-linear-gradient(to top, #cc0508, #eb1b23);
+	background: -webkit-linear-gradient(to top, #cc0508, #eb1b23);
+	background: -o-linear-gradient(to top, #cc0508, #eb1b23);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	text-decoration: none;
+	border:none!important;
+	font-size:13px;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+	line-height: 13px;
+	height:inherit!important;
+	width:inherit!important;
+	padding:8px 40px;
+	cursor: default!important;
+	text-shadow: none;
+	font-family: AvenirNextCyr, verdana, tahoma, arial !important;
+	font-weight: normal!important;
+
+	-webkit-transition: all .6s, ease .6s; /* Safari */
+	transition: all .6s, ease .6s;
+
+	-ms-transform: scale(1, 1)!important;
+    -webkit-transform: scale(1, 1)!important;
+    transform: scale(1, 1)!important;
+}
+.bx_compare .bx_filtren_container{
+	padding:20px;
+	border-radius:2px;
+	overflow: hidden;
+}
+.bx_compare .bx_filtren_container h5{
+	font-size:15px;
+	margin:0 0 23px 0;
+	text-shadow:0 1px 1px #fff;
+}
+.bx_compare .bx_filtren_container ul{
+	margin:0;
+	padding:0;
+}
+.bx_compare .bx_filtren_container ul li{
+	position:relative;
+	display:inline-block;
+    width: 20%;
+	margin-right:0px;
+	margin-bottom:10px;
+	padding-left:0px;
+	vertical-align:top;
+    min-height: 40px;
+    float: left;
+}
+.bx_compare .bx_filtren_container ul li span{
+	font-size:13px;
+	line-height:20px;
+	text-decoration:none;
+	color:#3f3f3f;
+}
+.bx_compare .bx_filtren_container ul li > span{
+	position: relative;
+}
+.bx_compare .bx_filtren_container ul li > span > span{
+	position: absolute;
+	left: 0px;
+}
+.bx_compare .bx_filtren_container ul li label{
+    padding-left: 25px;
+    padding-right: 10px;
+	display: block;
+}
+/*
+.bx_compare .table_compare{
+	overflow:auto;
+	width:100%;
+}
+*/
+.bx_compare .table_compare table{
+	min-width:100%;
+	border-collapse:collapse;
+	margin-top:10px;
+}
+.bx_compare .table_compare table tr td{
+	font-size:13px;
+	position:relative;
+	padding:8px 78px;
+	text-align:left;
+}
+.bx_compare .table_compare table tr:nth-child(even) td{
+	background:#f9f9f9;
+}
+.bx_compare .table_compare table tr td:first-child{
+	font-weight:bold;
+	/*white-space:nowrap;*/
+	color:#3d4345;
+}
+.bx_compare .table_compare table tr td a{
+	color:#ff0000;
+}
+.bx_compare .table_compare table tr td a:hover{
+	text-decoration:none;
+}
+.bx_compare .table_compare table tr td.bx_compare_del_col{
+	text-align:center;
+}
+.bx_compare .table_compare table tr td.bx_compare_del_col a{
+	font-size:11px;
+}
+
+/* SCROLLABLE * /
+.bx_compare .table_compare table {
+	table-layout: fixed; 
+	width: 100%;
+	*margin-left: -100px;/*ie7* /
+}
+.bx_compare .table_compare table td {
+	vertical-align: top;
+	/*border-top: 1px solid #ccc;* /
+	/*padding:10px;* /
+	width:200px;
+}
+.bx_compare .table_compare table tr td:first-child {
+	position:absolute;
+	*position: relative; /*ie7* /
+	left:-250px; 
+	width:250px;
+}
+
+.table-outer {position:relative;overflow:hidden;}
+.table-inner {
+	/*overflow-x:scroll;* /
+	/*overflow-y:visible;* /
+	width:700px; 
+	margin-left:250px;
+}
+*/
+.table_compare {
+	overflow:hidden;
+	z-index:100;
+}
+.table_compare table.data-table tr td:first-child {
+	width: 250px;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+#labels {
+	width:250px;
+	overflow:hidden;
+	position:absolute;
+	background:#FFFFFF;
+	z-index:200;
+}
+#tables-wrapper .table-inner
+{
+	width:696px; 
+	margin-left:250px;
+}
+#tables-wrapper .table-inner table tr td:first-child
+{
+	display:none;
+}
+
+/*BTN*/
+
+.bx_compare .bx_bt_button{
+	display: inline-block!important;
+    color: white;
+    background: linear-gradient(to top, #cc0508, #eb1b23)!important;
+    background: -moz-linear-gradient(to top, #cc0508, #eb1b23)!important;
+    background: -webkit-linear-gradient(to top, #cc0508, #eb1b23)!important;
+    background: -o-linear-gradient(to top, #cc0508, #eb1b23)!important;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    text-decoration: none;
+    border: none!important;
+    font-size: 13px;
+    font-family: "AvenirNextCyr", verdana, tahoma, arial;
+    line-height: 13px;
+    height: inherit!important;
+    width: inherit!important;
+    padding: 4px 40px;
+    text-shadow: none!important;
+    font-family: AvenirNextCyr, verdana, tahoma, arial !important;
+    font-weight: normal!important;
+    -webkit-transition: all .6s, ease .6s;
+    transition: all .6s, ease .6s;
+}
+.bx_compare .bx_bt_button.bx_medium{
+	line-height:36px;
+	height:36px;
+	padding:0 9px;
+}
+.bx_compare .bx_bt_button.bx_small{
+	display:inline-block;
+	height: 20px;
+	line-height:20px;
+	font-size: 12px !important;
+	padding:0 9px;
+	font-weight: normal;
+}
+
+.tac{text-align: center;}
+
+.bx_compare .bx_filtren_container .compare-params-label {
+    font-family: AvenirNextCyrBold, verdana, tahoma, arial;
+    color: #222;
+    line-height: 1em;
+    font-size: 15px;
+    margin: 0 0 23px 0;
+}
+.popup-offers .gift_block.add-overlay::before {
+	content: "Добавлено в корзину";
+	position: absolute;
+	z-index: 10;
+	top: -15px;
+	bottom: 50px;
+	left: 15px;
+	right: 15px;
+	font-size: 13px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	line-height: 170px;
+	background: rgba(245, 235, 39, 0.9);
+}

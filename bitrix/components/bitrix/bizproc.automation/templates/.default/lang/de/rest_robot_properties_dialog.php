@@ -1,0 +1,4 @@
+<?
+$MESS["BIZPROC_AUTOMATION_NOT_SELECTED"] = "Nicht ausgewählt";
+$MESS["BIZPROC_AUTOMATION_ADD_MULTIPLE"] = "hinzufügen";
+?>

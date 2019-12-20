@@ -1,0 +1,2499 @@
+@import "font/fonts.css";
+
+body .h_top-block {
+	background: #555555;
+	height: 42px;
+	padding: 0px;
+}
+body .h_top-block  .wrap-block{
+	position:relative;
+}
+body .htb_callme a{
+	color: white;
+	border-bottom: 1px dashed #F5EB27;
+	font-family: "AvenirNextCyr"!Important;
+	font-size: 13px;
+	display: inline-block;
+}
+
+/* SOCIAL ICONS SMAILL */
+
+body .htb_soc {
+	overflow: hidden;
+	height:34px;
+	padding: 4px 0;
+}
+#footer body .htb_soc {
+	overflow: hidden;
+	height: 40px;
+}
+
+body .htb_soc ul {
+	position:relative;
+	width: auto;
+	margin: 0;
+}
+body .htb_soc ul li {
+	float:left;
+	margin: 0;
+	height: 30px;
+    width: 30px;
+    margin: 0 3px;
+}
+body .htb_soc .icon-soc {
+	display: block;
+	background-image: url('../../img/icon_soc_verhnyaya_plashka.png');
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+body .htb_soc .icon-soc.vk { background-position: -24px -17px;}
+body .htb_soc .icon-soc.vk:hover { background-position: -24px -56px;}
+body .htb_soc .icon-soc.fb { background-position: -58px -17px;}
+body .htb_soc .icon-soc.fb:hover { background-position: -58px -56px;}
+body .htb_soc .icon-soc.tw { background-position: -94px -17px;}
+body .htb_soc .icon-soc.tw:hover { background-position: -94px -56px;}
+body .htb_soc .icon-soc.ok { background-position: -129px -17px;}
+body .htb_soc .icon-soc.ok:hover { background-position: -127px -56px;}
+body .htb_soc .icon-soc.in { background-position: -163px -17px;}
+body .htb_soc .icon-soc.in:hover { background-position: -163px -56px;}
+body .htb_soc .icon-soc.yt { background-position: -198px -17px;}
+body .htb_soc .icon-soc.yt:hover { background-position: -198px -56px;}
+body .htb_soc .icon-soc.lj {
+	background-image: url('../../img/more-foot-lj-icons-small.png');
+	background-position: 1px -41px;
+}
+body .htb_soc .icon-soc.lj:hover {background-position: 1px 0;}
+body .htb_soc .icon-soc.ml {
+	background-image: url('../../img/more-foot-ml-icons-small.png');
+	background-position: 1px -41px;
+}
+body .htb_soc .icon-soc.ml:hover {background-position: 1px 0;}
+
+body .htb_callme{
+	line-height: 1;
+	background: url(../../img/header-phone.png) no-repeat 0 3px;
+    padding: 14px 10px 14px 48px;
+    margin: 0 0 0 100px;
+}
+/* ---------------------- */
+
+
+
+
+body .htb_cart{
+	float: right;
+	padding: 0;
+	height: 42px;
+	overflow: hidden;
+	margin: 0;
+}
+body .htb_tel{
+	float: right;
+	padding: 5px 0;
+}
+body .htb_tel p{
+	color: white;
+	font-family: AvenirNextCyrBold;
+	margin: 0 !important;
+}
+body.rb-style .htb_tel p {
+	margin: 5px !important;
+}
+body .htb_tel span{
+	color: #F5EB27;
+	margin-top: 0px;
+	display: block;
+	letter-spacing: .4px;
+}
+body .fbig{
+	position:relative;
+	padding:20px 0px 20px 0px;
+
+}
+body .fbig .fbig_block a{
+	padding: 0px 0px 1.5px;
+}
+body .fbig .fbig_block:nth-child(1){
+	width: 258px;
+}
+body .fbig .fbig_block:nth-child(1) a,
+body .fbig .fbig_block:nth-child(1) span{
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+	font-size: 14px;
+	text-transform:uppercase;
+	padding: 0px 0px 11px 31px;
+	display: block;
+	letter-spacing: -0.5px;
+	margin-top: -4px;
+}
+body .fbig .fbig_block{
+	width: 211px;
+	margin:0px;
+}
+body .fbig .fbig_block + .fbig_block ul li{
+	padding: 0px !important;
+	letter-spacing: -.6px;
+	line-height: 18.5px;
+}
+body .fbig .fbig_contacts{
+	z-index:10;
+}
+body .fbig .fbig_block .fbig_block-head{
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+	text-transform:uppercase;
+}
+body .fbig .fbig_block li a,
+body .fbig .fbig_block li span{
+	font-family: "AvenirNextCyr", verdana, tahoma, arial!important;
+	font-size: 14px;
+}
+body .fbig_under{
+	bottom: 10px;
+	padding: 10px 0px 20px 0px;
+	height: inherit;
+	z-index: 5;
+	left: -22px;
+	letter-spacing: .5px;
+}
+body .fbig_under .fcopy{
+	float:none;
+	text-align:center;
+}
+body .fbig_contacts-sity{
+	/*padding: 2px 0px 15px;*/
+	letter-spacing: 0.3px;
+}
+body .fbig_contacts-sity span{
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+	font-size: 13px!important;
+	letter-spacing: 0px;
+	padding-bottom: 0px;
+	display: inline-block;
+	line-height: 13px;
+	height: 17px;
+	margin-left: 2.5px;
+	padding-top: 4px;
+}
+body .fcopy a{
+	font-weight:inherit;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial!important;
+
+}
+body .fbig_contacts .fbig_contacts-head, body .fbig_contacts .tel{
+	letter-spacing: 0px;
+	font-size: 17px;
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+}
+body .fbig .button{
+	width: 180px !important;
+	line-height: 33px;
+	margin-top: 14px;
+	padding: 0px!important;
+}
+body .fbig .info-oferta {
+	padding-top: 20px;
+    padding-left: 30px;
+}
+body .button{
+	display:inline-block!important;
+	color: #555555 !important;
+	background: #F5EB27;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	text-decoration: none;
+	border:none!important;
+	line-height: 20px;
+	height:inherit!important;
+	width:inherit!important;
+	padding:8px 40px;
+	cursor:pointer;
+	font-family: "AvenirNextCyrDemi", verdana, tahoma, arial !important;
+
+}
+
+body .red_button{
+	display:inline-block;
+	color:white !important;
+	background: linear-gradient(to top, #ff0000, #ff0000);
+	background: -moz-linear-gradient(to top, #ff0000, #ff0000);
+	background: -webkit-linear-gradient(to top, #ff0000, #ff0000);
+	background: -o-linear-gradient(to top, #ff0000, #ff0000);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	text-decoration: none;
+	border:none!important;
+	font-size:16px;
+	font-family: "AvenirNextCyrDemi"!important;
+    font-weight: normal;
+	line-height: 20px;
+	height:inherit!important;
+	width:inherit!important;
+	padding:8px 40px;
+	cursor:pointer;
+}
+
+body .silver_button{
+	display:inline-block!important;
+	color:#949494;
+	background: #eaeaea;
+	background: -moz-linear-gradient(top, #eaeaea 0%, #cccccc 100%);
+	background: -webkit-linear-gradient(top, #eaeaea 0%,#cccccc 100%);
+	background: linear-gradient(to bottom, #eaeaea 0%,#cccccc 100%);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	text-decoration: none;
+	border:none!important;
+	font-size:16px;
+	font-family: "AvenirNextCyrDemi"!important;
+        font-weight: normal;
+	line-height: 20px;
+	height:inherit!important;
+	width:inherit!important;
+	padding:8px 40px;
+	cursor:pointer;
+}
+
+body .fsoc ul li{
+	display: inline-block;
+	margin: 0;
+	height: 35px;
+	width: 35px;
+	float: left;
+}
+body  .fsoc .htb_soc ul li + li{
+	margin: 0px 0px 0px 10px;
+}
+body .fsoc .icon-soc{
+	display: block;
+	background-image: url('../../img/icon_soc_podval.png');
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+body .fsoc ul{
+	width: inherit;
+
+}
+body .fsoc .icon-soc.vk { background-position: -20px -26px;}
+body .fsoc .icon-soc.vk:hover { background-position: -20px -66px;}
+body .fsoc .icon-soc.fb { background-position: -68px -26px;}
+body .fsoc .icon-soc.fb:hover { background-position: -68px -66px;}
+body .fsoc .icon-soc.tw { background-position: -116px -26px;}
+body .fsoc .icon-soc.tw:hover { background-position: -116px -66px;}
+body .fsoc .icon-soc.ok { background-position: -164px -26px;}
+body .fsoc .icon-soc.ok:hover { background-position: -164px -66px;}
+body .fsoc .icon-soc.in { background-position: -212px -26px;}
+body .fsoc .icon-soc.in:hover { background-position: -212px -66px;}
+body .fsoc .icon-soc.yt { background-position: -260px -26px;}
+body .fsoc .icon-soc.yt:hover { background-position: -260px -66px;}
+
+body .fsoc .icon-soc.lj {
+	background-image: url('../../img/more-foot-lj-icons.png');
+	background-position: 2px 2px;
+}
+
+body .fsoc .icon-soc.ml {
+	background-image: url('../../img/more-foot-ml-icons.png');
+	background-position: 2px 2px;
+}
+
+body .fsoc .icon-soc.lj:hover,
+body .fsoc .icon-soc.ml:hover {
+	background-position: 2px -40px;
+    background-size: 35px;
+}
+body .frek b{
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+}
+/*Правый блок*/
+body .rightblock{
+	float:right;
+}
+body .rightblock .tel_bl_u{}
+
+body .rightblock .tel_bl_u span{
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+	letter-spacing: -.2px;
+}
+body .rightblock .tel_bl_u .geo_phone{
+	display:block;
+	padding-top:9px;
+	font-size: 19px;
+	font-family: "AvenirNextCyrBold"!important;
+}
+body .consult a.callme,
+.ya_rew .button{
+	padding: 4px 25px 6px;
+	margin: 15px auto;
+	letter-spacing: .001px;
+	font-family: "AvenirNextCyrBold"!important;
+}
+body .box_block .box_addres {
+	padding: 25px 10px 28px 75px;
+	background: url(../../img/map.png) no-repeat 2px 8px;
+	text-decoration: none;
+	display: block;
+	color: #555;
+	line-height: 21px;
+	font-family: "AvenirNextCyrDemi", verdana, tahoma, arial !important;
+	letter-spacing: 0px;
+	font-size: 15px;
+	font-weight: 300;
+}
+body .box_block .box_consult {
+	padding: 22px 10px 28px 75px;
+	background: url(../../img/consult.png) no-repeat 10px 21px;
+	text-decoration: none;
+	display: block;
+	color: #555;
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+	line-height: 21px;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: -.5px;
+}
+body .box_block .box_compare{
+	padding: 38px 5px 36px 70px;
+	background: url(../../img/compare.png) no-repeat 9px 16px;
+	text-decoration: none;
+	display: block;
+	color: #555;
+	font-weight: inherit;
+	font-weight: bold;
+	line-height: inherit;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial !important;
+	letter-spacing: 0px;
+	font-size: 15px;
+}
+body .box_block .box_compare a{
+	text-decoration:none;
+}
+/*Левый блок*/
+.leftblock{
+	float:left;
+}
+.leftblock .akcii_img a{
+	display:block;
+	text-decoration:none;
+	padding:14px 0px;
+}
+body .breadcrumbs{
+	margin-bottom:0px;
+	line-height: 27px;
+	height: 27px;
+	z-index: 1;
+	position: relative;
+}
+body #cont{
+	position:relative;
+}
+body #lay_body{
+	width: 732px;
+	padding-top:20px;
+	background:white;
+}
+body .leftblock .box .box_block{
+	border:none;
+}
+
+/*Верхние блоки контента*/
+#cont_top{}
+#cont_top .leftblock_top{
+	float:left;
+	margin-bottom:0px;
+	border-right: 1px solid #e3e4e5;
+	width:213px;
+}
+#cont_top .centerblock{
+	margin-bottom:0px;
+}
+.home #cont_top .centerblock {
+	margin-left: 214px;
+}
+#cont_top .rightblock_top{
+	float:right;
+	margin-bottom:0px;
+}
+
+/*Основной блок с контентом*/
+
+.home body #cont_center .leftblock {
+	margin-top: -155px;
+}
+
+body #cont_center{}
+body #cont_center .leftblock{
+	position:relative;
+	margin:0px;
+	margin-top:-1px;
+	border-radius:0px;
+	z-index:10;
+	background:transparent!important;
+}
+body #cont_center .mn_content {
+	border-right: 1px solid #e3e4e5;
+	border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+body .mn_content ul{
+	padding:0px;
+}
+body .mn_content ul.mn_ul.mn_pd {
+	padding:6px 0;
+}
+body .mn_content ul li{
+	cursor:pointer;
+}
+body .mn_content ul li.active{
+	cursor:default;
+}
+body #cont_center .mn_content ul li:first-child > div {
+	border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+.wi_img_src_diamond {
+	background: url(/bitrix/images/sprites/sprites.png)  no-repeat;
+
+	background-position: -100px -200px;
+}
+.wi_img_src_update{
+	background: url(/bitrix/images/sprites/sprites.png)  no-repeat;
+	background-position: -185px -200px;	
+}
+.wi_img_src_grant{
+	background: url(/bitrix/images/sprites/sprites.png)  no-repeat;
+		background-position: -100px -285px;
+}
+.wi_img_src_like{
+	background: url(/bitrix/images/sprites/sprites.png)  no-repeat;
+		background-position: -185px -285px;
+}
+.wi_img_src_tel{
+	background: url(/bitrix/images/sprites/sprites.png)  no-repeat;
+		background-position: -100px -370px;
+}
+.wi_img_src_ok{
+	background: url(/bitrix/images/sprites/sprites.png)  no-repeat;
+		background-position: -185px -370px;
+}
+
+.city_kon_mos{
+	background: url(/bitrix/images/sprites/sprites.png) ;
+	background-position: -50px -450px;
+	width: 100px;
+	height: 100px;
+}
+.city_kon_spb{
+	background: url(/bitrix/images/sprites/sprites.png) ;
+	background-position: -265px -450px;
+	width: 100px;
+	height: 100px;
+}
+.city_kon_ekb{
+	background: url(/bitrix/images/sprites/sprites.png) ;
+	background-position: -587.5px -450px;
+	width: 100px;
+	height: 100px;
+}
+.city_kon_nov{
+	background: url(/bitrix/images/sprites/sprites.png) ;
+	background-position: -480px -450px;
+	width: 100px;
+	height: 100px;
+}
+.city_kon_rnd{
+	background: url(/bitrix/images/sprites/sprites.png) ;	
+	background-position: -695px -450px;
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body .mn_content .mn_pd > li{
+	padding: 0;
+	background: url(/bitrix/images/sprites/left-menu.png) 0 2px  no-repeat;
+	position:relative;
+	z-index:10;
+	margin-right:-1px;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+body .mn_content .mn_pd > li.shveynye-mashiny {
+	background-position: 0 2px;
+}
+
+body .mn_content .mn_pd > li.overloki {
+	background-position: 0 -25px;
+}
+
+body .mn_content .mn_pd > li.manekeny {
+	background-position: 0 -57px;
+}
+
+body .mn_content .mn_pd > li.aksessuary-dlya-shitya {
+	background-position: 0 -91px;
+}
+
+body .mn_content .mn_pd > li.vyshivalnye-mashiny {
+	background-position: 0 -161px;
+}
+
+body .mn_content .mn_pd > li.shveyno-vyshivalnye-mashiny {
+	background-position: 0 -195px;
+}
+
+body .mn_content .mn_pd > li.printery-po-tekstilyu {
+	background-position: 0 -235px;
+}
+
+body .mn_content .mn_pd > li.aksessuary-dlya-vyshivaniya {
+	background-position: 0 -270px;
+}
+
+body .mn_content .mn_pd > li.vyazalnye-mashiny {
+	background-position: 0 -356px;
+}
+
+body .mn_content .mn_pd > li.tkatskie-stanki {
+	background-position: 0 -386px;
+}
+
+body .mn_content .mn_pd > li.kettelnye-mashiny {
+	background-position: 0 -418px;
+}
+body .mn_content .mn_pd > li.karetki-i-spetsialnye-prinadlezhnosti {
+	background-position: 0 -451px;
+}
+
+body .mn_content .mn_pd > li.aksessuary-dlya-vyazaniya {
+	background-position: 0 -504px;
+}
+
+body .mn_content .mn_pd > li.gladilnye-sistemy {
+	background-position: 0 -579px;
+}
+
+body .mn_content .mn_pd > li.gladilnye-doski {
+	background-position: 0 -610px;
+}
+
+body .mn_content .mn_pd > li.gladilnye-pressy {
+	background-position: 0 -642px;
+}
+
+body .mn_content .mn_pd > li.utyugi {
+	background-position: 0 -673px;
+}
+
+body .mn_content .mn_pd > li.otparivateli {
+	background-position: 0 -704px;
+}
+
+body .mn_content .mn_pd > li.paro-generatory,
+body .mn_content .mn_pd > li.parogeneratory {
+	background-position: 0 -734px;
+}
+
+body .mn_content .mn_pd > li.sushilki-dlya-belya {
+	background-position: 0 -768px;
+}
+
+body .mn_content .mn_pd > li.gladilnye-manekeny {
+	background-position: 0 -797px;
+}
+
+body .mn_content .mn_pd > li.aksessuary-dlya-glazheniya {
+	background-position: 0 -836px;
+}
+
+body .mn_content .mn_pd > li.pylesosy {
+	background-position: 0 -918px;
+}
+
+body .mn_content .mn_pd > li.paroochistiteli {
+	background-position: 0 -949px;
+}
+
+body .mn_content .mn_pd > li.parovye-shvabry {
+	background-position: 0 -980px;
+}
+
+body .mn_content .mn_pd > li.aksessuary-dlya-uborki {
+	background-position: 0 -1016px;
+}
+
+body .mn_content .mn_pd > li.dlya-poshiva-odezhdy {
+	background-position: 0 -1088px;
+}
+
+body .mn_content .mn_pd > li.dlya-poshiva-shtor {
+	background-position: 0 -1118px;
+}
+
+body .mn_content .mn_pd > li.dlya-postelnogo-belya {
+	background-position: 0 -1152px;
+}
+
+body .mn_content .mn_pd > li.dlya-obivki-mebeli {
+	background-position: 0 -1186px;
+}
+
+body .mn_content .mn_pd > li.podarochnye-karty {
+	background-position: 0 -1269px;
+}
+
+body .mn_content .mn_pd > li:hover,
+body .mn_content .mn_pd > li.active {
+	/*background-image: url(../../img/catalog-menu-icons-hover.png);*/
+	background-image: url(/bitrix/images/sprites/catalog-menu-icons-hover.png);
+	
+	background-color: #ff0000;
+}
+body .mn_content ul li a,
+body .mn_content ul li span{
+	color: #000 !important;
+	font-family: "AvenirNextCyrMedium", verdana, tahoma, arial!important;
+	font-weight:medium!important;
+	padding: 7px 7px 7px 35px;
+	display: block;
+}
+body .mn_content ul li.mn_parent_cat li a{
+	color: #000 !important;
+	font-family: "AvenirNextCyrMedium", verdana, tahoma, arial!important;
+	font-weight:medium!important;
+	padding: 7px 20px;
+	display: block;
+}
+body .mn_content ul li:hover > a,
+body .mn_content ul li.active > a,
+body .mn_content ul li.active > span{
+	color:#fff!important;
+	text-decoration:none!important;
+	border:none!important;
+}
+body .mn_content ul li:hover  > .mn_children_cat{
+	top:0px;
+	display:block;
+	position:absolute;
+	left:214px;
+	width:214px;
+	z-index:100;
+	background:white;
+	box-shadow:2px 2px 4px 0px rgba(0,0,0,.5);
+}
+body .mn_children_cat > .mn_children_cat{
+	left:428px!important;
+}
+.mn_children_cat li{
+	padding: 0;
+	min-height: 20px;
+	background:url(../../img/arrow_right.png) no-repeat 200px center;
+	color: #555 !important;
+	font-size: 13px;
+	font-family: "AvenirNextCyrMedium", verdana, tahoma, arial !important;
+}
+.mn_children_cat li:hover{
+	background:url(../../img/arrow_right_hover.png) no-repeat 200px center;
+}
+
+
+body .mn_content_2 .box_head{
+	text-align: left;
+	padding-left: 15px;
+}
+body .mn_content_2 .box_block{
+	border-right: 1px solid #e3e4e5;
+}
+body #cont_center .centerblock{
+	margin:0px;
+}
+body #cont_center .centerblock.border-radius .breadcrumbs{
+	border-radius: 8px 0 0 0;
+}
+body #cont_center .rightblock{
+	float: right;
+	position: relative;
+    z-index: 4;
+}
+body #cont_center .rightblock .box.not-auto-top {
+	border-top: 27px solid #e3e4e5;
+    padding-top: 20px;
+    border-radius: 0 8px 0 0;
+}
+
+.centerblock{
+	float:left;
+	width:772px;
+	z-index:5;
+}
+.overflow-hidden{
+	overflow:hidden;
+}
+.ya_rew{
+	border-left: 1px solid #e3e4e5;
+}
+.ya_rew img{
+	text-align:center;
+	padding: 12px 0px 12px 0px;
+	margin-left: -7px;
+}
+.ya_rew .box_head{
+	padding-left: 2px;
+}
+.ya_rew .button{
+	// padding: 4px 25px 6px;
+	// margin-bottom: 19px;
+	// font-size: 13px;
+	// letter-spacing: 0px;
+	// margin-left: -1px;
+}
+body .box-subscribe .box_block{
+	padding-top:18px;
+	padding-bottom:22px;
+}
+#footer{
+	margin-top:20px;
+}
+#footer *{
+	-webkit-box-sizing: content-box!important;
+	-moz-box-sizing: content-box!important;
+	box-sizing: content-box!important;
+}
+
+.mn_content .mn_children_cat li:hover {
+    background: #ff0000 url(../../img/arrow_right_hover2.png) no-repeat 200px center;
+}
+.mn_content .mn_children_cat li.last-element:hover {
+	background-image: none;
+}
+.mn_content .mn_children_cat li:hover > a {
+	color: #fff!important;
+}
+
+/*new*/
+/*__________Новое меню__________*/
+#mn_content_new li a{
+	color: #555!important;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial!important;
+	font-weight:medium!important;
+}
+
+#mn_content_show{}
+/*Кнопка*/
+.mn_content_new_title{
+	position:relative;
+	padding:5px;
+	text-align:center;
+	text-transform:uppercase;
+	color: #555555;
+	background: linear-gradient(to top, #ffcc06, #fff100);
+	background: -moz-linear-gradient(to top, #ffcc06, #fff100);
+	background: -webkit-linear-gradient(to top, #ffcc06, #fff100);
+	background: -o-linear-gradient(to top, #ffcc06, #fff100);
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+	cursor:pointer;
+}
+.mn_content_new_title:after{
+	content:'';
+	display:block;
+	position:absolute;
+	right:10px;
+	top:0px;
+	bottom:0px;
+	width:14px;
+	height:28px;
+	background:url(../../img/menu.png) no-repeat center center;
+}
+#mn_content_show:hover #mn_content_new{
+	display:block;
+}
+#mn_content_new{
+	display:none;
+	position:absolute;
+	left:0px;
+	width:214px;
+	z-index:100;
+}
+/*Первый уровень*/
+#mn_content_new .mn_ul{
+	padding:0px;
+}
+#mn_content_new .mn_ul li{
+	position:relative;
+	display:block;
+}
+#mn_content_new .mn_ul li .mn_root_cat{
+	position:relative;
+	padding:2px 20px 2px 20px;
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial !important;
+	text-align:left;
+	cursor:pointer;
+}
+#mn_content_new .mn_ul li .mn_root_cat:after{
+	content:'';
+	position:absolute;
+	right:10px;
+	top:0px;
+	bottom:0px;
+	display:block;
+	width:7px;
+	height:29px;
+	background:url(../../img/mn_root_cat.png) no-repeat center center;
+}
+#mn_content_new .mn_ul li:hover .mn_root_cat{
+	color: #555555;
+	background: #e3e4e5;
+	background: -moz-linear-gradient(to top, #d4d4d4, #e3e3e3);
+	background: -webkit-linear-gradient(to top, #d4d4d4, #e3e3e3);
+	background: -o-linear-gradient(to top, #d4d4d4, #e3e3e3);
+}
+#mn_content_new .mn_ul li:hover .mn_root_cat:after{
+	background:url(../../img/mn_root_cat_hover.png) no-repeat center center;
+}
+/*под уровни*/
+#mn_content_new .mn_ul ul{
+	padding:0px;
+}
+#mn_content_new .mn_ul ul li{
+	border-bottom:1px solid #e3e4e5;
+	cursor:pointer;
+}
+#mn_content_new .mn_ul .mn_pd{
+	display:none;
+}
+#mn_content_new .mn_ul > li:hover .mn_pd{
+	display:block;
+	position:absolute;
+	left:214px;
+	top:0px;
+	width:214px;
+	z-index:100;
+	background:white;
+	box-shadow:2px 2px 4px 0px rgba(0,0,0,.5);
+}
+#mn_content_new .mn_ul .mn_pd > li{
+	padding:5px 20px 6px;
+	background:url(../../img/arrow_right.png) no-repeat 200px center;
+	position:relative;
+	z-index:10;
+	font-size: 13px;
+}
+#mn_content_new .mn_ul .mn_pd > li:hover{
+	background:url(../../img/arrow_right_hover.png) no-repeat 200px center!important;
+}
+#mn_content_new .mn_ul ul li a{
+	color: #555!important;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial!important;
+	font-weight:medium!important;
+
+}
+#mn_content_new .mn_ul ul li:hover > a{
+	color:#eb1c23!important;
+	text-decoration:none!important;
+	border:none!important;
+}
+#mn_content_new .mn_ul ul li:hover  > .mn_children_cat{
+	display:block;
+	position:absolute;
+	left:214px;
+	top:0px;
+	width:214px;
+	z-index:100;
+	background:white;
+	box-shadow:2px 2px 4px 0px rgba(0,0,0,.5);
+}
+.mn_children_cat li{
+	background:url(../../img/arrow_right.png) no-repeat 200px center;
+	color: #555 !important;
+	font-size: 14px;
+	font-family: "AvenirNextCyrMedium", verdana, tahoma, arial !important;
+}
+.mn_children_cat li:hover{
+	background:url(../../img/arrow_right_hover.png) no-repeat 200px center;
+}
+.mn_content .last-element, .mn_content .last-element:hover{
+	background-image: none;
+}
+#menu-catalog .last-element a, #menu-catalog .last-element:hover a{
+	background: white!important;
+	background-image: none;
+}
+/*_____end____Новое меню__________*/
+html body .accordion h3{
+	margin: 18px -20px 0px!important;
+	border-radius: 0px !important;
+}
+body .accordion h3 .ui-icon, body .accordion h1 .ui-icon{
+	background: url("../../img/drop-icon.png") no-repeat center center!important;
+	background-size:30px!important;
+}
+body .accordion h3, body .accordion h1{
+	margin:10px 0px 0px;
+}
+body .list-red > li{
+	padding-left:0px;
+}
+body .list-red > li:before{
+	content: "•";
+	color: #ff0000;
+	padding-right:5px;
+}
+
+/*Каталог*/
+.attention{
+	padding: 5px;
+	background-color: yellow;
+	text-align: center;
+	background: transparent!important;
+	border:5px solid #fff100;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	margin-bottom: 20px;
+}
+body .tizer{
+	margin:0px 0px 10px 0px!important;
+	border:none;
+}
+.accordion_full_width{
+	margin:10px -22px 20px -20px!important;
+	border-radius: 0;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+	font-size: 16px;
+	color: #555 !important;
+	line-height: 20px;
+	padding: 10px 50px 10px 20px;
+
+	background: url("../../mod_files/ce_images/chek.png") no-repeat 99% center #e3e4e5!important;
+	background-size: 30px !important;
+}
+.accordion_full_width *{
+	color:#555!important;
+	margin:0px!important;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial!important;
+	font-size:17px;
+}
+.eshop-cat-detailed{}
+body .eshop-cat-detailed a{
+	color:#eb1c23!important;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial!important;
+	font-weight:normal!important;
+}
+/*Блок сортировки*/
+body .sort{
+	border:none;
+	margin:0px!important;
+}
+.sort .sorter .gridlist{
+	float:right;
+	bottom:0px;
+}
+.sort .sorter{
+    font-family: "AvenirNextCyrBold",verdana,tahoma,arial;
+    background: #f9f9f9;
+    margin: 0px -20px 0px;
+    padding: 10px 20px 0;
+    display: inline-block;
+    width:100%;
+}
+.sort .sorter .sorter_block{
+	float:left;
+	padding:2px 15px 10px 0px;
+}
+.sorter_block .sorter_name{
+	font-weight:bold;
+	color:#ff0000;
+	float:left;
+	line-height:24px;
+	padding-right:10px;
+	font-family: "AvenirNextCyrBold", verdana, tahoma, arial;
+	font-size: 15px;
+	letter-spacing: -.35px;
+}
+
+.sorter_block .sorter_value_fon, .select_fon{
+	background: url("../../mod_files/ce_images/select_fon.png") #fff no-repeat right center!important;
+	overflow: hidden;
+	border:1px solid #b2b2b2;
+	border-radius:3px;
+	float:left;
+	height:23px;
+}
+.select_fon{
+	width:100%;
+}
+.sorter_block .sorter_value{
+	padding:2px 5px 1px;
+	border-radius:3px;
+	border:none;
+	outline:0px;
+
+	font-size: 14px;
+	background: transparent;
+	cursor:pointer;
+
+	-webkit-appearance: button;
+	-webkit-border-radius: 2px;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-webkit-padding-end: 20px;
+	-webkit-padding-start: 2px;
+	-webkit-user-select: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.sorter_block #sort_type {
+	width:160px;
+}
+.sorter_block #sort_type select{
+	width:180px;
+}
+.sorter_block #sort_page {
+	width:75px;
+}
+.sorter_block #sort_page select{
+	width:95px;
+}
+.sorter_block #sort_status {
+	width:120px;
+}
+.sorter_block #sort_status select{
+	width:140px;
+}
+/*Товары*/
+body .itemlist .item .item_content .right .buybtn a, body input.inyourcart{
+	background: transparent url(../../mod_files/css/images/cart_in.png) no-repeat center center;
+}
+body .itemlist .item .name a{
+	font-family: "AvenirNextCyr", verdana, tahoma, arial!important;
+}
+/*Цена*/
+body .itemlist .item .item_content .right .price,
+body .itemgrid .item .item_content .right .price
+{
+	font-family: "AvenirNextCyrBold",verdana,tahoma,arial;
+}
+body .itemlist .item .item_content .right .price span,
+body .itemgrid .item .item_content .right .price span
+{
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+	font-weight:bold;
+}
+body .itemlist .item .item_content .right .price small,
+body .itemgrid .item .item_content .right .price small
+{
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+}
+
+/*____*/
+
+body .item .item_content .right .eshop-item-small__one-click{
+	width:130px;
+	height: 27px;
+}
+body .itemlist .item .item_content .center{
+	width:480px;
+}
+body .itemlist .item.sub_img .item_content .center{
+	min-height: 180px;
+}
+body .itemlist .item.sub_img .item_content .table_icons{
+	margin-top: 20px;
+}
+body .itemlist .item .item_content .center a{
+	text-align:left;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial!important;
+	font-size: 13px;
+}
+
+/*Картинка товара*/
+
+body .item_one{
+	margin-left: 4px;
+}
+body .itemgrid .item_content{
+	min-height: 329px;
+}
+body .itemlist .item_content{
+	min-height: 259px;
+}
+body .item_content{
+	position:relative;
+}
+body .wrap_blok_i{
+	width: 720px;
+	float:left;
+	position:initial!important;
+}
+body .itemlist .item .item_content .right{
+	margin-top: -13px;
+}
+body .itemlist .item .item_content .left{
+	width: 220px;
+	height:auto;
+	margin-right:20px;
+}
+body .itemlist .item .item_content .left .inner{
+	display:block;
+	width: 220px;
+	height:auto;
+	position: relative;
+}
+body .itemlist .item .item_content .left .inner a{
+	display: inline-block;
+	height: 180px;
+	width: 220px;
+	overflow: hidden;
+	text-align: center;
+}
+body .itemlist .item .item_content .left .inner a img{
+	width: auto;
+	height: auto;
+	max-height: 243px;
+	max-width: 220px;
+}
+
+body .itemlist .item .item_content .left ul.inner_sub{
+	margin: 18px auto 30px 0;
+	display: inline-block;
+	width: 208px;
+	text-align: right;
+	margin-left: 13px;
+}
+body .itemlist .item .item_content .left ul.inner_sub li{
+	display:block;
+	list-style:none;
+	float:left;
+	width: 45px;
+	height: 45px;
+	overflow: hidden;
+	padding:0px;
+	border-radius:3px;
+	margin-right:5px;
+	border:1px solid #555;
+	box-sizing: border-box;
+}
+body .itemgrid .item .item_content .left ul.inner_sub{
+	display:none;
+}
+body .itemlist .item .item_content .left ul.inner_sub li.active{
+	border-color:ff0000;
+}
+body .itemlist .item .item_content .left ul.inner_sub li img{
+	width: 100%;
+	height: auto;
+	cursor:pointer;
+}
+/*Иконки*/
+.itemgrid .table_icons{
+	position: absolute;
+	left: 10px;
+	bottom: 1px;
+	width: 26px;
+}
+.itemgrid .table_icons li.tooltip-message{
+	display: inline-block;
+}
+.itemgrid .table_icons li{
+	display:none;
+	margin-top:2px;
+}
+.itemgrid .table_icons li span,
+.itemgrid .table_icons li a {
+	display:none;
+}
+.itemlist .table_icons{
+	width:480px;
+}
+.table_icons{
+	display:inline-block;
+	margin-top:18px;
+	padding:0px;
+}
+.table_icons li{
+	list-style:none;
+}
+.itemlist .table_icons li:nth-child(even) img{
+	margin-left: 11px;
+}
+.itemlist .table_icons li:nth-child(even) span,
+.itemlist .table_icons li:nth-child(even) a {
+	padding-left: 47px;
+}
+.table_icons li img{
+	float:left;
+}
+.table_icons li span,
+.table_icons li a {
+	padding-left: 34px;
+	font-size: 12.52px;
+	display: block;
+	line-height: 23px;
+	color: #555;
+    font-family: AvenirNextCyr, verdana, tahoma, arial !important;
+}
+.itemlist .table_icons li{
+	width:50%;
+	display:inline-block;
+	vertical-align:top;
+	float:left;
+	margin-bottom:5px;
+}
+body .itemgrid .item{
+	width:21.25%;
+}
+/*Пагинация*/
+.pager__button_state_inactive, .pager__button_state_inactive:hover, .pager__button_state_inactive:focus, .pager__button_state_inactive:visited, .pager__button_state_inactive:active, .pagi .pagination .pager__button, .pager__button_state_active, .pager__button_state_active:hover, .pager__button, .pager__button:visited{
+	font-weight:normal!important;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial!important;
+}
+/*Фильтр*/
+/*Из контента*/
+.det-inf {display: inline-block;}
+.filter_both_window{
+	color: black;
+	font-family: tahoma, arial, verdana;
+	font-size: 13px;
+	height: 36px;
+	border: 1px solid red;
+	position: absolute;
+	padding: 3px;
+	background: white;
+	z-index:100;
+	left: -211px;
+	width: 204px;
+	border-radius: 8px 0px 0px 8px;
+}
+
+.filter_both_window a{
+	color: blue !important;
+}
+.collapsed {display: none;}
+
+
+#formFilterID{
+	margin:10px 0px 0px;
+}
+.uz_filter_box_caption.filter_price{
+	font-family: "AvenirNextCyrBold",verdana,tahoma,arial !important;
+	margin-bottom:10px;
+}
+
+/* Ширина слайдера */
+#slider {
+	width: 190px!important;
+	margin: 15px auto 10px;
+}
+/* Контейнер слайдера */
+.ui-slider {
+	position: relative!important;
+}
+/* Ползунок */
+.ui-slider .ui-slider-handle {
+	position: absolute!important;
+	z-index: 2!important;
+	width: 13px!important;   /* Задаем нужную ширину */
+	height: 13px!important;  /* и высоту */
+	background: url(../../img/filter_bold.png) no-repeat!important; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+	cursor: pointer;
+	border:none!important;
+}
+.ui-slider .ui-slider-range {
+	position: absolute!important;
+	z-index: 1!important;
+	font-size: .7em!important;
+	display: block!important;
+	border: 0!important;
+	overflow: hidden!important;
+}
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+.ui-slider-horizontal {
+	height: 5px!important; /* задаем высоту согласно дизайна */
+}
+/* позиционируем ползунки */
+.ui-slider-horizontal .ui-slider-handle {
+	top: -5px!important;
+	margin-left: -6px!important;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0!important;
+	height: 100%!important;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0!important;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0!important;
+}
+/* оформление полосы по которой ходит ползунок */
+.ui-widget-content {
+	/*background: #e1e1e1!important;*/
+}
+/* оформление активного участка (между двумя ползунками) */
+.ui-widget-header {
+	background: #fff100!important;
+}
+/* скругление для полосы слайдера */
+.ui-corner-all {
+	-moz-border-radius: 4px!important;
+	-webkit-border-radius: 4px!important;
+	border-radius: 4px!important;
+}
+
+#slider_min_max{
+	width:190px;
+	padding:0px 0px 10px;
+	overflow:hidden;
+	position:relative;
+}
+#slider_min_max li{
+	display:inline-block;
+	list-style:none;
+	vertical-align:top;
+	float:left;
+	width:33.33%;
+	font-size:9px;
+}
+#slider_min_max li:nth-child(2){
+	text-align:center;
+}
+#slider_min_max li:nth-child(3){
+	text-align:right;
+}
+#slider_min_max:after{
+	content:'';
+	display:block;
+	width:80px;
+	height:10px;
+	margin:0px auto 10px;
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	border-left:1px solid #8d8d8d;
+	border-right:1px solid #8d8d8d;
+}
+.box.other.filter .brands a{
+	font-family: "AvenirNextCyr",verdana,tahoma,arial !important;
+}
+
+.filter_both_window{display:none;}
+/*______*/
+
+/*Карточка товара*/
+#item .left_block_cart{
+	margin-bottom:20px;
+}
+#item .right_block_cart{
+	position: relative;
+    background: #f9f9f9;
+}
+#item .right_block_cart{
+	margin-bottom: 20px;
+}
+.right_block_cart .grey_block{
+	margin-bottom: 0px;
+}
+.right_block_cart .grey_block:not(:first-child){
+	border-top:20px solid white;
+}
+.right_block_cart .grey_block .share_soc_title{
+	font-size: 13px;
+	font-family: "AvenirNextCyrDemi",verdana,tahoma,arial;
+	margin-bottom: 4px;
+	margin-left: -18px;
+}
+.right_block_cart .grey_block.share_soc_block{
+	padding: 4px 54px 1px 54px;
+	min-width:265px;
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	margin-bottom: 0px;
+	border-top:20px solid white;
+}
+.right_block_cart .grey_block.share_soc_block ul{
+	margin-left: -12px;
+}
+.right_block_cart .grey_block{
+	min-width:315px;
+	vertical-align: top;
+}
+/*
+.right_block_cart .grey_block:nth-last-child(2){
+	padding-bottom: 102px;
+}
+*/
+.textinfo .grey_block{
+	display:block;
+	padding: 14px 20px 9px;
+}
+.grey_block{
+	display:inline-block;
+	background:#f9f9f9;
+	/*padding: 10px 54px 10px 54px;*/
+	/*padding: 10px 14px 10px 54px;*/
+	padding: 10px 4px 10px 54px;
+	margin-bottom:20px;
+}
+.d_model{
+	position:absolute;
+	left: -1px;
+	top: 8px;
+	width:50px;
+	height:25px;
+	background:url(../../mod_files/img/3D_icon.png) no-repeat center center;
+	z-index:10;
+	cursor:pointer;
+}
+.d_model:hover .d_model_button{
+	display:block;
+	position:absolute;
+	left:70px;
+}
+.d_model .d_model_button{
+	display:none;
+	background:#e3e4e5;
+	padding:10px 20px;
+	border-radius:10px;
+	border:1px solid #ff0000;
+	white-space: nowrap;
+}
+.d_model .d_model_button .red{
+	font-weight:bold;
+}
+/*Слайдер*/
+#wrapper_sl .slick-track{
+	margin:0px auto;
+}
+#wrapper_sl{
+	margin:0px auto 0px;
+	padding:0px 20px;
+}
+#wrapper_sl .multiple-items{
+	margin:0px 7px 0px 0px;
+	width:490px;
+}
+#wrapper_sl .multiple-items .slick-slide{
+	border:1px solid silver;
+	margin-left:7px;
+	overflow:hidden;
+}
+#wrapper_sl .multiple-items a{}
+#wrapper_sl .multiple-items a img{
+
+}
+#wrapper_sl .multiple-items .focus_img{}
+
+/*
+.slick-prev:before{content: ''!important;}
+.slick-prev{background:url('../slider_carousel/leftArr.png') no-repeat center center!important;}
+.slick-next:before{content: ''!important;}
+.slick-next{background:url('../slider_carousel/rightArr.png') no-repeat center center!important;}
+*/
+
+/*____*/
+#main_img .picture_gallery img{
+	max-width: 500px;
+	max-height: 500px;
+}
+.left_block_cart .picture_gallery img{
+
+}
+.share_soc{
+	text-align:center;
+}
+.share_soc ul{
+	display:inline-block;
+	padding:0px;
+	overflow:hidden;
+	margin-top:5px;
+}
+.share_soc ul li{
+	list-style:none;
+	float:left;
+	display: block;
+}
+.share_soc ul li a{
+	background-image: url('../../img/icon_soc_kartochka_tovara.png')!important;
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 28px;
+	margin-right:8px;
+}
+.share_soc ul li .vk{
+	background-position: -16px -14px;
+}
+.share_soc ul li .vk:hover{
+	background-position: -16px -49px;
+}
+.share_soc ul li .fb{
+	background-position: -50px -14px;
+}
+.share_soc ul li .fb:hover{
+	background-position: -50px -49px;
+}
+.share_soc ul li .tw{
+	background-position: -84px -14px;
+}
+.share_soc ul li .tw:hover{
+	background-position: -84px -49px;
+}
+.share_soc ul li .ok{
+	background-position: -119px -14px;
+}
+.share_soc ul li .ok:hover{
+	background-position: -119px -49px;
+}
+.share_soc ul li .in{
+	background-position: -153px -14px;
+}
+.share_soc ul li .in:hover{
+	background-position: -153px -49px;
+}
+.share_soc ul li .yt{
+	background-position: -188px -14px;
+}
+.share_soc ul li .yt:hover{
+	background-position: -188px -49px;
+}
+ul.eshop-item-param{}
+ul.eshop-item-param li{
+	padding:10px!important;
+}
+ul.eshop-item-param li:nth-child(odd){
+	background: #f9f9f9;
+}
+ul.eshop-item-param li .eshop-item-param-name,
+ul.eshop-item-param li .eshop-item-param-value
+{
+	position: relative;
+	width:50%;
+	overflow: hidden;
+	margin:0px;
+	text-align:left;
+}
+ul.eshop-item-param li .eshop-item-param-name{
+	float:left;
+}
+ul.eshop-item-param li .eshop-item-param-name i.inform_symb{
+
+}
+ul.eshop-item-param li .eshop-item-param-value{
+
+}
+#item_about .items-2 {
+	margin-top:20px;
+}
+#item_about .items-2 .item{
+	width:50%;
+	float:left;
+}
+#item_about .items-2 .item:nth-child(even) p, #item_about .items-2 .item:nth-child(even) > div{
+	padding-left: 23px;
+}
+#item_about .items-2 .item label, #item_about .items-2 .item a{
+	display:inline-block;
+	margin-bottom:5px;
+	font-size:14px;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+}
+#item_about .items-2 .item label a{
+	text-decoration:underline;
+}
+#item_about .items-2 .item label i{
+	display:inline!important;
+}
+#item_about .items-2 .item .eshop-item-detailed__custom-field-name{
+	padding-left:0px;
+}
+/*______*/
+/*Корзина*/
+#ul_li_messages, #credit_messages{
+	display:none;
+	border: 1px solid #FD0F0D;
+	border-radius: 10px;
+	background-color: #E8E8E8;
+	width: 226px;
+	padding: 10px;
+	overflow: hidden;
+	z-index: 1000;
+	position: fixed;
+	top:-11px;
+	text-align: center !important;
+	font-size:13px;
+	line-height: 14px;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+	-webkit-transition: all .6s, ease .6s;
+	transition: all .6s, ease .6s;
+}
+
+.div_confirm_column_wide ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #303030;
+	font-size:14px;
+}
+.div_confirm_column_wide  ::-moz-placeholder { /* Firefox 19+ */
+	color: #303030;
+	font-size:14px;
+}
+.div_confirm_column_wide  :-ms-input-placeholder { /* IE 10+ */
+	color: #303030;
+	font-size:14px;
+}
+.div_confirm_column_wide  :-moz-placeholder { /* Firefox 18- */
+	color: #303030;
+	font-size:14px;
+}
+/*______*/
+/*Окна*/
+/*Заказ в 1 клик*/
+.buy_one_click{
+	min-width: 330px;
+	max-width: 330px;
+	margin:24px auto 0px;
+}
+
+.buy_one_click input[type=text]{
+	min-width: 280px;
+	line-height: 28px;
+	height: inherit!important;
+	padding: 0px 10px;
+	margin-bottom: 13px;
+}
+.buy_one_click .red_button{
+	margin:24px auto 10px;
+	padding: 8px 26px;
+}
+.buy_one_click_block{
+	width:300px;
+	margin:0px auto;
+}
+body .amiPopup{
+	background:white;
+	box-shadow: none;
+	border: 1px solid #ff0000;
+	border-radius: 8px;
+}
+body .amiPopup .popupHeader{
+	padding-top: 4px;
+	background: linear-gradient(to top, #ff0000, #ff0000);
+	background: -moz-linear-gradient(to top, #ff0000, #ff0000);
+	background: -webkit-linear-gradient(to top, #ff0000, #ff0000);
+	background: -o-linear-gradient(to top, #ff0000, #ff0000);
+	border: 1px #ff0000 solid;
+	height: 38px;
+	border-radius: 5px 5px 0 0;
+}
+body .amiPopup .popupContent {
+	padding: 20px 50px 10px 50px;
+	display:inline-block;
+}
+body .amiPopup .popupContent input[type=text]{
+	padding:2px 10px;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+	font-weight:bold;
+	font-size:14px;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px #DDDDDD inset;
+	border:1px solid #d9d9d9;
+	width:235px;
+}
+body .amiPopup .popupContent button[type=submit]{
+	margin-top:20px;
+}
+body .amiPopup .popupHeaderText{
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+	font-weight:bold;
+	font-size:17px;
+	text-align: left;
+	color: #fff !important;
+	margin: 2px 0 0 14px;
+}
+body .amiPopup .cart-small__form-line {
+	margin-bottom:10px;
+}
+body .amiPopup .poup_one_click_filds {
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 10px;
+	display: block;
+	color: #555;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+}
+body .amiPopup .popupClose {
+	position: absolute;
+	display: block;
+	right: 5px;
+	top: 6px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	background: transparent url(../../img/close_confirm_order.png) 0 0 no-repeat;
+}
+/*Форма корзины*/
+#basket_form{
+	/*max-width: 800px;*/
+}
+.popup_win .div_confirm_column_wide_caption_basket_form{
+	width:90px!important;
+	text-align: left;
+}
+.popup_win .div_confirm_column_wide_caption{
+	display: block;
+	text-align: left;
+	width:200px;
+	padding:0px 0px 10px 5px;
+}
+.popup_win #confirm_self_data .txt_left_cf_l{
+	text-align: left;
+}
+#content_confirm_main{
+}
+.content_confirm_main_buttons{
+	margin:30px 0px 20px;
+}
+.content_confirm_main_buttons a.button{ float:left; font-size:16px; color:#505050; margin-top:20px; }
+.content_confirm_main_buttons a.red_button{ float:right;  margin-top:20px; }
+
+.dop_items_modal .dop_items_confirm_slides li + li {
+	margin-left: 10px;
+}
+.dop_items_modal .viewport_dop_items_confirm{
+	width:690px;
+	margin: 0px 0px 0px 20px;
+}
+.dop_items_modal .dop_items_confirm_slides{
+	width: 1400%;
+	-webkit-transition: 0.6s;
+	transition: 0.6s;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.fancybox-skin .popup__close {
+	top:5px!important;
+	right:8px!important;
+}
+/*______*/
+/*Форма доставки*/
+.pv_cont{
+	width: 680px;
+	min-height: 200px;
+	display: block;
+	z-index: 100001;
+	top: 50%;
+	left: 50%;
+	box-sizing: content-box;
+	margin-left: -340px;
+	margin-top: -100px;
+	position: fixed;
+	visibility: visible;
+	opacity: 1;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+}
+.pv_dark{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3) none repeat scroll 0% 0%;
+	left: 0px;
+	top: 0px;
+	z-index: 10000;
+}
+.pv_cont .calk{
+	padding: 15px 30px 20px 30px!important;
+}
+.pv_cont hr {
+	margin-top:40px;
+	background:#ff0000;
+	height:1px;
+	border:none;
+}
+.pv_cont .content_confirm_main_buttons{
+	margin:20px 0px 0px 0px;
+}
+.pv_cont .content_confirm_main_buttons a{
+	padding: 8px 50px!important;
+}
+.pv_cont .calk_descrip{
+	display:block;
+	font-size:14px;
+	color:#555;
+	font-family: "AvenirNextCyr", verdana, tahoma, arial;
+	padding-bottom:50px;
+}
+.pv_block{
+	display:inline-block;
+	width:100%;
+	margin-bottom:5px;
+}
+.pv_block .pv_block_name, .pv_block .pv_block_value{
+	display:inline-block;
+	vertical-align:top;
+	float:left;
+}
+.pv_block .pv_block_name{
+	width:208px;
+	line-height:25px;
+	color:#555;
+}
+.pv_block .pv_block_value{
+	width: 379px;
+}
+.pv_block .pv_block_value select{
+	width:110%;
+	border:none;
+	background:transparent;
+	padding-left:5px;
+	padding-right: 50px;
+}
+
+.no_select{
+	color:#b1b1b1;
+	font-size:13px;
+}
+
+
+/*Модальные окна*/
+#gift_wrap{
+	width: 798px;
+}
+#gift_wrap .title{
+	font-size: 17px;
+	font-weight: bold;
+}
+.fancybox_block{
+	display: none;
+}
+/*Форма подарочной упаковки*/
+.gift_blocks{
+	text-align: center;
+	width: 790px;
+	padding: 35px 25px 10px;
+	overflow: hidden;
+}
+.gift_blocks .gift_block{
+	float:left;
+	width:33.33%;
+	min-height: 200px;
+	position: relative;
+}
+.gift_blocks .gift_block:nth-child(3n+1) {
+    clear: both;
+}
+
+.gift_blocks .gift_block .img{
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+.gift_blocks .gift_block .name{}
+.gift_blocks .gift_block .price{
+	font-weight: bold;
+	color:#010101;
+	margin-top: -4px;
+}
+.gift_blocks .gift_block .buy_button{
+	margin: 8px auto 40px;
+}
+.gift_blocks .gift_block .buy_button:hover {
+	box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+.gift_blocks .footer_button_block{
+	margin:20px auto 0px;
+	text-align: center;
+	overflow: hidden;
+	clear: both;
+}
+.gift_blocks .footer_button_block .red_button{
+	float:right;
+}
+.gift_blocks .footer_button_block .button{
+	float:left;
+	font-size: 17px;
+}
+.gift_blocks .footer_button_block .red_button, .gift_blocks .footer_button_block .button{
+	width:245px!important;
+	padding: 0px!important;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "AvenirNextCyr"!important;
+	border-radius: 10px;
+}
+/*______*/
+
+/*______Форма комментария и заказа обратного звонка*/
+#addcomment{}
+#addcomment p, .form_callback p{
+	margin-bottom: 5px;
+	margin-top:15px;
+}
+#addcomment input[type=text], .form_callback input[type=text]{
+	line-height: 30px;
+	height: 30px;
+	padding: 0px 10px;
+	font-style: 14px;
+	border:1px solid #d8d4d4;
+	box-shadow: 0 1px 1px #DDDDDD inset;
+}
+#addcomment textarea, .form_callback textarea{
+	box-shadow: 0 1px 1px #DDDDDD inset;
+	border-radius: 3px 3px 3px 3px !important;
+	padding: 10px;
+	border:1px solid #d8d4d4;
+}
+#addcomment .rating{}
+#addcomment .rating .ik_select{
+	height: inherit!important;
+}
+#addcomment .rating label{
+	line-height: 25px;
+}
+.form_callback{
+	min-width: 410px;
+}
+.form_callback a.button{
+	margin-top: 20px;
+}
+.form_callback_block{
+	width:200px;
+	margin:0px auto;
+}
+.form_callback_block input[type=text]{
+	width:171px;
+}
+/*______*/
+.contact_page {}
+.contact_page_1{
+	margin-top: 28px;
+}
+.contact_page_1 p{
+	letter-spacing: -0.6px;
+	line-height: 17.5px;
+}
+.contact_page_2 p{
+	margin: 0px 0px 12px 0px;
+	line-height: 19px;
+}
+.contact_page_3{
+	top: 3px;
+	position: relative;
+}
+.contact_page_3 ul{
+	margin: 16px 0 13px 0;
+}
+.contact_page_3 ul li{
+	padding: 8px 0 4px;
+	margin-top: 0px;
+}
+.contact_page_3 ul li .shop-img{
+	margin-left: 3px;
+	margin-top: -3px;
+}
+.contact_page_3 ul li + li .shop-img{
+	padding-top: 2px;
+}
+.contact_page_3 .shop-list .shop-town{
+	font-size: 16px;
+	margin-top: -1px;
+}
+.contact_page_3 .shop-list .shop-adr{
+
+	margin-top: -3px;
+	letter-spacing: -.6px;
+}
+.contact_page_4{
+
+}
+.contact_page_4 h2{
+	margin-top: 0px;
+}
+.contact_page_4 p{
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+.contact_page_4 p:nth-child(3){
+	line-height: 17px;
+}
+
+.marafon-skid-ok{
+	margin-top: 25px;
+	overflow: hidden;
+}
+.marafon-skid-ok p:nth-child(2){
+	margin-top: 28px;
+	margin-bottom: 5px;
+}
+.marafon-skid-ok p:nth-child(3){
+	margin-bottom: -11px;
+}
+.marafon-skid-ok-2 h2{
+	margin-top: 28px;
+}
+.akcii-dez-pro{
+	overflow: hidden;
+}
+.akcii-dez-pro p:nth-child(2){
+	margin-top: 41px;
+	line-height: 17px;
+	letter-spacing: -0.92px;
+	margin-bottom: 9px;
+}
+.akcii-dez-pro p{
+	line-height: 17px;
+	margin-bottom: 10px;
+}
+.buy-one-click-form p{
+	margin-bottom: 4px;
+	font-weight: bold;
+}
+#form_delivery hr{
+	margin-top: 30px;
+	background: red;
+}
+#form_delivery .content_confirm_main_buttons{
+	margin: 20px 25px 15px;
+}
+
+#form_delivery #calc-weight {
+	margin: 15px 0 0 0;
+	text-align: center;
+}
+
+#form_delivery #calc-result {
+	text-align: center;
+}
+
+#form_delivery .content_confirm_main_buttons .button,
+#form_delivery .content_confirm_main_buttons .red_button {
+	font-size: 14.5px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-o-border-radius: 7px;
+	padding-right: 0;
+    padding-left: 0;
+    width: 200px !important;
+    text-align: center;
+}
+#form_delivery .content_confirm_main_buttons .red_button{
+	float: right;
+}
+#form_delivery{
+	max-width: 602px;
+}
+body .basket_page h3.bf-header{
+	margin-top: 30px;
+	font-size: 17px;
+	font-family: "AvenirNextCyrDemi"!important;
+}
+body .basket_page h1{
+	font-size: 17px;
+	color: #555555;
+	margin-top: 8px;
+	margin-bottom: 13px;
+	letter-spacing: -0.19px;
+}
+.basket_page .table_confirm_cart td.table_confirm_cart_item,
+.basket_page .table_confirm_cart td.table_confirm_cart_lenght,
+.basket_page .table_confirm_cart td.table_confirm_cart_sub,
+.basket_page .table_confirm_cart td:last-child{
+	padding: 9px 8px 9px 0px!important;
+}
+
+body .basket_page .table_confirm_cart .table_confirm_cart_item{
+	width: 50.7%;
+}
+body .basket_page .table_confirm_cart .table_confirm_cart_lenght{
+	width: 11%;
+	text-align: left !important;
+	padding-left: 16px!important;
+}
+body .basket_page .table_confirm_cart .table_confirm_cart_sub{
+	padding-right: 32px!important;
+	width: 18%;
+	text-align: right !important;
+}
+
+body .basket_page .table_confirm_cart td{
+	padding: 16px 0px 26px 0px;
+}
+
+body .basket_page .table_confirm_cart td.table_confirm_cart_2{
+	padding-top:25px;
+}
+body .basket_page .table_confirm_cart td.table_confirm_cart_3{
+	text-align: right;
+	padding-top:25px;
+}
+
+body .basket_page .table_confirm_cart td.table_confirm_cart_2 .countbox{
+	margin-left: 28px;
+}
+body .basket_page .table_confirm_cart td.table_confirm_cart_2 .confirm_cart_count{
+	width:36px;
+}
+body .basket_page .table_confirm_cart td.table_confirm_cart_4 a{
+	text-align: right;
+}
+body .basket_page .table_confirm_cart td.table_confirm_cart_4 a img{
+	margin-right:1px;
+	width: 14px;
+	height: 14px;
+}
+body .basket_page .table_confirm_cart td > a{
+	margin-bottom:0px;
+}
+#confirm_order_btn{
+	padding: 10px 36px;
+}
+.fancybox-outer #box-full-cart{
+	width:664px;
+	min-width: 664px;
+	overflow-x:hidden!important;
+}
+.fancybox-outer #box-full-cart .table_confirm_cart td.table_confirm_cart_item,
+.fancybox-outer #box-full-cart .table_confirm_cart td.table_confirm_cart_lenght,
+.fancybox-outer #box-full-cart .table_confirm_cart td.table_confirm_cart_sub,
+.fancybox-outer #box-full-cart .table_confirm_cart td:last-child{
+	padding: 2px 0px 4px;
+}
+
+.fancybox-outer #box-full-cart .table_confirm_cart td.table_confirm_cart_item{
+	width: 380px;
+	letter-spacing: -.9px;
+}
+.fancybox-outer #box-full-cart .table_confirm_cart td.table_confirm_cart_item a{
+	margin:0px;
+}
+
+.fancybox-outer #box-full-cart .table_confirm_cart td.table_confirm_cart_lenght{
+	width: 90px;
+	letter-spacing: -1px;
+	text-align: left;
+}
+.fancybox-outer #box-full-cart .table_confirm_cart td.table_confirm_cart_sub{
+	width: 128px;
+	text-align: center;
+}
+.fancybox-outer .table_confirm_cart td.table_confirm_cart_2 .countbox{
+	width:inherit!important;
+	margin-left: 2px;
+	margin-top: 11px;
+}
+.fancybox-outer .table_confirm_cart td.table_confirm_cart_2 .countbox .confirm_cart_count{
+	width: 31px;
+	height: 19px;
+	font-size: 14px;
+}
+.fancybox-outer .table_confirm_cart td.table_confirm_cart_3{
+	padding-top:20px!important;
+	text-align: center;
+}
+.fancybox-outer .table_confirm_cart td.table_confirm_cart_4 a{
+	text-align: left;
+	padding-left: 8px;
+	padding-top: 13px;
+}
+.fancybox-outer .table_confirm_cart td.table_confirm_cart_4 a img{
+	width:18px;
+	height: 18px;
+}
+
+.fancybox-outer #box-full-cart{
+	width: 664px!important;
+}
+.fancybox-outer #box-full-cart .grad_silver_confirm td{
+	padding: 3px 8px;
+}
+
+.fancybox-outer #box-full-cart #entryFrm{
+	padding-left: 10px;
+}
+.fancybox-outer #box-full-cart tr:nth-child(n+2) td{
+	/*padding: 12px 0px 21px;*/
+}
+.fancybox-outer #box-full-cart #confirm_order_btn{
+	padding: 7px 42px 9px 48px;
+	margin-top: 19px;
+	margin-right: 15px;
+	border-radius: 8px!important;
+	font-size: 16px;
+	font-family: "AvenirNextCyrDemi"!important;
+	font-weight: normal;
+	float:right;
+	height: 36px !important;
+}
+.fancybox-outer #box-full-cart .content_confirm_main_buttons .button{
+	margin-top: 19px;
+	padding: 7px 28px 9px 25px;
+	margin-left: 10px;
+	border-radius: 8px;
+	font-family: "AvenirNextCyrDemi"!important;
+	font-weight: normal;
+}
+.fancybox-outer #box-full-cart .dop_items_header{
+	border-radius: 11px 10px 0px 0px;
+	min-height: 20px;
+	padding: 5px 19px 6px 15px;
+	margin-top: 35px;
+	margin-bottom: 17px;
+	max-width: 606px;
+	margin-left: 10px;
+	line-height: 20px;
+}
+.fancybox-outer #box-full-cart .dop_items_header h3{
+	margin:0px!important;
+}
+.fancybox-outer #box-full-cart #dop_items .slick-prev,
+.fancybox-outer #box-full-cart #dop_items .slick-next{
+	top: 81px !important;
+	width: 9px !important;
+	height: 166px !important;
+}
+.fancybox-outer #box-full-cart #dop_items .slick-next{
+	right: -15px;
+}
+.fancybox-outer #box-full-cart #dop_items .slick-prev{
+	left: -21px;
+}
+.fancybox-outer #box-full-cart #dop_items .slick-prev:before{
+	top: 80px;
+}
+.fancybox-outer #box-full-cart #dop_items .slick-next::before{
+	top: 80px;
+}
+.fancybox-outer #box-full-cart #dop_items .viewport_dop_items_confirm{
+	width: 604px;
+	margin-left: 30px;
+}
+.fancybox-outer #box-full-cart #dop_items .dop_items_confirm_slides li{
+	padding: 7px 5px 14px;
+	width: 133px !important;
+	height: 139px;
+}
+.fancybox-outer #box-full-cart #dop_items .dop_items_confirm_slides li .confirm_dop_i a{
+	font-size: 11px;
+	line-height: inherit!important;
+}
+.fancybox-outer #box-full-cart #dop_items .dop_items_confirm_slides li .confirm_dop_i .img_related_item{
+	height:50px;
+	margin: 5px 0px 2px!important;
+}
+.fancybox-outer #box-full-cart #dop_items .dop_items_confirm_slides li .confirm_dop_i .buybtn{
+	margin:0px;
+}
+.fancybox-outer #box-full-cart #dop_items .dop_items_confirm_slides li .confirm_dop_i .buybtn a{
+	margin:6px 0px 0px 3px!important;
+	height: 23px;
+	width: 96px;
+	background-size: 100%!important;
+	margin-top: 6px;
+}
+.fancybox-outer #box-full-cart #dop_items .dop_items_confirm_slides li + li{
+	margin-left: 9px!important;
+}
+
+/*Оформление*/
+#content .pre_footer_block{
+	padding: 30px 234px 15px 20px;
+	border-top:none;
+}
+#content .pre_footer_block a.button{
+	color: #555555!important;
+}
+#lay_f4_top{
+	position: absolute;
+	right: 0px;
+	height: auto!important;
+}
+.domen_by #lay_f4_top .rb-phone-number, .domen_by #lay_f4_top .geo_phone, .domen_by #lay_f4_top .region-select *{
+	font-family: AvenirNextCyr,verdana,tahoma,arial!important;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 17px;
+}
+.domen_by #lay_f4_top .geo_phone{
+	font-size: 16px!important;
+}
+.domen_by #lay_f4_top .region-select *{
+	letter-spacing: 0px!important;
+}
+.status_error, .error{
+	border-color:#ff0000!important;
+	color:#ff0000!important;
+}
+
+#menu-catalog.fixed {
+    position: fixed;
+    top: 50px;
+    width: 213px;
+    z-index: 999;
+    border-right: 1px solid #e3e4e5;
+}
+
+#menu-catalog.fixed:after {
+	content: "";
+	height: 27px;
+	width: 1000px;
+	background: #e3e4e5;
+	right: 100%;
+	top: 0;
+	z-index: 999;
+	position: absolute;
+}
+
+.breadcrumbs.fixed {
+    position: fixed;
+    top: 42px;
+    width: 2000px;
+    z-index: 999;
+    margin: 0;
+    border-left: 1px solid #e3e4e5;
+}
+
+.centerblock.padding {
+    padding-bottom: 27px;
+}
+
+.header-cart {
+	color: #000;
+	display: block;
+	overflow: hidden;
+	padding:  0 10px;
+	margin: 0 0 0 106px;
+	background: #F5EB27;
+	min-width: 194px;
+}
+
+.header-cart-count {
+	display: table;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.header-cart-count #eshop_cart_count-top {
+	background: #F5EB27 url(../../img/header-cart.png) no-repeat 50% -1px;
+    padding: 16px 12px 10px 12px;
+    display: block;
+    float: left;
+    font-size: 13px;
+    color: #fff;
+}
+
+#eshop_cart_count-top+span {
+	padding: 17px 2px 10px;
+    display: block;
+    float: left;
+    font-size: 12px;
+}
+#eshop_cart_count-top+span.text {
+	padding: 14px 2px;
+}
+
+#eshop_cart_count-top+span.text+.header-cart-sum {
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.header-cart-sum {
+	display: block;
+	float: left;
+	font-size: 20px;
+    padding: 11px 0 7px 10px;
+}
+
+.bx-filter .bx-filter-input-checkbox:before {
+    background: transparent !important;
+}
+input[type="checkbox"]:checked + span:before {
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    border-radius: 3px;
+    content: ' ';
+    background: #e3e4e5 !important;
+    width: 12px;
+    height: 12px;
+}
+
+.grid-list .itemlist .name {
+	height: auto !important;
+}
+
+.grid-list .itemgrid .name.name-catalog-category-24 a {
+	font-size: 13px;
+}
+.aproved {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: AvenirNextCyrBold, verdana, tahoma, arial !important;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+.footer_menu ul li span
+{
+	text-decoration: none;
+    color: white !important;
+    font-size: 13px;
+    line-height: 12px;
+    display: block;
+    font-family: AvenirNextCyr, verdana, tahoma, arial !important;
+}
+#nav .main-menu li span {
+	font-family: AvenirNextCyrBold, verdana, tahoma, arial !important;
+    display: block;
+    color: #ff0000;
+    text-align: center;
+    background: #e3e4e5 !important;
+    font-size: 14px !important;
+    border-top: none !important;
+    text-decoration: none !important;
+    line-height: 34px;
+    padding: 0;
+    white-space: nowrap;
+    width: auto !important;
+}
+#nav .main-menu li:hover span,
+#nav .main-menu li span.active {
+    background: #ff0000 !important;
+    color: #fff !important;
+}

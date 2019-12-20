@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Minerva";
+$arDirProperties = Array(
+
+);
+?>

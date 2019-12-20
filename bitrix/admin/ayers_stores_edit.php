@@ -1,0 +1,1 @@
+<?require_once($_SERVER['DOCUMENT_ROOT'].'/local/modules/ayers.stores/admin/stores_edit.php');?>

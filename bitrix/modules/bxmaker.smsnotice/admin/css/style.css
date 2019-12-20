@@ -1,0 +1,229 @@
+.ap-smsnotice-send-box {
+  position: relative;
+  width: 340px;
+  padding: 15px;
+  background: #d1dce0;
+  border: 1px solid;
+  border-color: #d9e0e4 #89979d #919b9d #ebeef0;
+  border-color: #d6dfe1 #ced7d8 #969d9e #bec7c8;
+}
+.ap-smsnotice-send-box p {
+  margin-top: 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.ap-smsnotice-send-box p.sms_service_info_box {
+  font-weight: normal;
+  font-size: 0.9em;
+  border: 1px solid #F0F0F0;
+  padding: 5px;
+  background: rgba(247, 247, 247, 0.48);
+  margin-bottom: 15px;
+}
+.ap-smsnotice-send-box .msg_box {
+  padding: 15px;
+  margin-bottom: 15px;
+  display: none;
+}
+.ap-smsnotice-send-box .msg_box.success {
+  display: block;
+  background-color: rgba(212, 255, 228, 0.6);
+  border: 1px solid #00cf68;
+}
+.ap-smsnotice-send-box .msg_box.error {
+  display: block;
+  background-color: rgba(255, 220, 220, 0.6);
+  border: 1px solid #cf1d00;
+}
+.ap-smsnotice-send-box .row_item.translit_box {
+  font-size: 15px;
+  padding: 14px 0 19px;
+}
+.ap-smsnotice-send-box .row_item input[type="text"],
+.ap-smsnotice-send-box .row_item textarea {
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -khtml-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+.ap-smsnotice-send-box .row_item input[type="text"] {
+  height: 35px;
+}
+.ap-smsnotice-send-box .row_item input[type="text"]:hover,
+.ap-smsnotice-send-box .row_item input[type="text"]:active {
+  height: 35px;
+}
+.ap-smsnotice-send-box .row_item input[type="text"].preloader {
+  background-image: url("data:image/gif;base64,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") !important;
+  color: transparent !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  text-shadow: none ;
+  -o-text-shadow: none ;
+  -ms-text-shadow: none ;
+  -moz-text-shadow: none ;
+  -khtml-text-shadow: none ;
+  -webkit-text-shadow: none ;
+}
+.ap-smsnotice-send-box .row_item textarea {
+  height: 110px;
+}
+.ap-smsnotice-send-box .row_item select {
+  width: 100%;
+  margin-bottom: 15px;
+  height: 35px;
+}
+.ap-smsnotice-send-box .info_box {
+  height: 18px;
+}
+.ap-smsnotice-send-box .info_box .text_size {
+  float: left;
+  font-size: 12px;
+  color: #737171;
+}
+.ap-smsnotice-send-box .info_box .btn_clean {
+  float: right;
+  font-size: 14px;
+  top: -3px;
+  position: relative;
+  cursor: pointer;
+  color: #3d69b4;
+  border-bottom: 1px dashed #3d69b4;
+}
+.ap-smsnotice-send-box .result_msg_text {
+  position: absolute;
+  left: 400px;
+  border: 1px solid #d1dce0;
+  top: 0;
+  width: 250px;
+}
+.ap-smsnotice-send-box .result_msg_text .title_box {
+  padding: 15px;
+  background: #b9c7cd;
+  font-weight: bold;
+}
+.ap-smsnotice-send-box .result_msg_text .text_box {
+  padding: 15px 15px 30px;
+  background: #fff;
+  margin: 0;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+.ap-smsnotice-send-box .btn_send {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  height: 40px;
+}
+.smsnotice_error_description_box {
+  padding: 15px;
+  margin: 15px 0px;
+  display: none;
+  background: #fafafa;
+}
+.smsnotice_error_description_box .close {
+  cursor: pointer;
+  border-bottom: 1px dashed #53a1ff;
+  display: inline-block;
+  float: right;
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+.smsnotice_error_description_box .close:hover {
+  border-color: transparent;
+}
+.smsnotice_error_description_box .descr {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  clear: both;
+  margin-top: 20px;
+  max-height: 270px;
+}
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table .sms_comment_box span {
+  text-decoration: dashed ;
+  text-decoration-color: #0041d2;
+  cursor: pointer;
+}
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table .sms_comment_box span:hover {
+  text-decoration: none;
+}
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table .sms_comment_box .more {
+  display: none;
+}
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table div.sms_status_box {
+  text-align: center;
+  margin-left: -16px;
+}
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table span.sms_status_sent,
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table span.sms_status_delivered,
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table span.sms_status_error {
+  border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 2px 10px 4px;
+  color: #fff;
+}
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table span.sms_status_sent {
+  background: #dde260;
+  color: #454545;
+}
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table span.sms_status_delivered {
+  background: #55e251;
+}
+.bxmaker_smsnotice_list_table_box table#bxmaker_smsnotice_list_table span.sms_status_error {
+  background: #ff5a5f;
+}
+form[name="bxmaker_smsnotice_template_edit_form"] select,
+form[name="bxmaker_smsnotice_template_edit_form"] input[type="text"] {
+  width: 300px !important;
+  box-sizing: border-box;
+}
+form[name="bxmaker_smsnotice_template_edit_form"] textarea {
+  width: 100%;
+}
+form[name="bxmaker_smsnotice_template_edit_form"] .template_fields_box {
+  padding: 15px;
+  line-height: 1.5;
+}
+form[name="bxmaker_smsnotice_template_edit_form"] .template_fields_box span {
+  cursor: pointer;
+  color: #53a1ff;
+  border-bottom: 1px dashed #53a1ff;
+}
+form[name="bxmaker_smsnotice_template_edit_form"] .template_fields_box span:hover {
+  border-color: transparent;
+}
+form[name="bxmaker_smsnotice_template_edit_form"] .template_fields_box small {
+  color: #00a452;
+}
+form[name="bxmaker_smsnotice_service_edit_form"] .req {
+  color: red;
+}
+form[name="bxmaker_smsnotice_service_edit_form"] p {
+  line-height: 1.5;
+}
+form.bxmaker_smsnotice_option_edit_box .req {
+  color: red;
+}
+form.bxmaker_smsnotice_option_edit_box span.order_status_name {
+  color: #00a452;
+}
+.ap-bxmaker_smsnotice-notice-box {
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #4784ab;
+  background: #f8f8f9;
+}
+.ap-bxmaker_smsnotice-notice-box.expired {
+  border: 1px solid #CA3D3D;
+  background: #F9F5F5;
+}

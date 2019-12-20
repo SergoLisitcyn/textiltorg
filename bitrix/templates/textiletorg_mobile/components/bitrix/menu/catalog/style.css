@@ -1,0 +1,67 @@
+.main-container .menu .menu_items {
+    position: absolute !important;
+    top: 96px !important;
+    
+    transition: all,0.8s,linear,0.8s;
+    -webkit-transform: translate(-290px, 0);
+    -moz-transform: translate(-290px, 0);
+    -ms-transform: translate(-290px, 0);
+    -o-transform: translate(-290px, 0);
+    transform: translate(-290px, 0);
+}
+.menu_items .close{
+    width: 20px !important;
+    height: 20px !important;
+    position: absolute !important;
+    background: url(/bitrix/components/custom/region-select.prototype/templates/mobile-header/images/close.png) no-repeat !important;
+    background-size: cover !important;
+    top: 0 !important;right: -25px !important;
+    z-index: 9999;
+	}
+.main-container.no_active .menu .menu_items {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.menu .menu_items {
+    background: #dbd9dc;
+}
+
+.menu .menu_items h2 {
+    background-color: #555555 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    background-repeat: no-repeat !important;
+    background-position: 30px center !important;
+    padding: 11px 0px 12px 68px !important;
+    text-align: left !important;
+}
+.menu .menu_items h2.root1 {
+    background-image: url("images/menu1.png") !important;
+}
+.menu .menu_items h2.root2 {
+    background-image: url("images/menu2.png") !important;
+}
+.menu .menu_items h2.root3 {
+    background-image: url("images/menu3.png") !important;
+}
+.menu .menu_items h2.root4 {
+    background-image: url("images/menu4.png") !important;
+}
+.menu .menu_items h2.root5 {
+    background-image: url("images/menu5.png") !important;
+}
+.menu .menu_items h2.root7 {
+    background-image: url("images/menu7.png") !important;
+}
+
+#header .head_top_button .menu .menu_items ul li a {
+    border-bottom: 1px solid #555555 !important;
+    margin: 0 20px !important;
+    font-size: 16px !important;
+    color: #222 !important;
+    padding: 10px !important;
+}
+

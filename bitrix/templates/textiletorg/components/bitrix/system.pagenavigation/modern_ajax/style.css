@@ -1,0 +1,96 @@
+.ajax-pagination {
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+    clear: both;
+}
+.ajax-pagination .show-more {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "AvenirNextCyrDemi",verdana,tahoma,arial;
+}
+.ajax-pagination .show-more .plus {
+    margin: 0 auto 20px;
+}
+
+.ajax-pagination .show-more .plus:hover {
+    transform: rotate(180deg);
+}
+
+.ajax-pagination .loader {
+    position: absolute;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("images/loader.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ajax-pagination .pagination .pager__button {
+    color: #555 !important;
+    font-size: 16px !important;
+    font-family: "AvenirNextCyrDemi", verdana, tahoma, arial !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ajax-pagination .pagination .pager__button_state_active
+{
+	font-size: 24px !important;
+	color:#ff0000 !important;
+}
+
+.grid-list .itemgrid.last-link .item:last-child {
+    position: relative;
+}
+.grid-list .itemgrid.last-link .item:last-child:after {
+    content: "Следующая страница";
+    font-family: "AvenirNextCyrDemi", verdana, tahoma, arial !important;
+    font-size: 18px;
+    color: #ff0000;
+    text-transform: uppercase;
+    z-index: 100;
+    background: #fff url("images/arrow-red.png") no-repeat center 240px;
+    text-align: center;
+    padding-top: 175px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.grid-list .itemgrid.last-link .item:last-child:hover:after {
+    color: #fff;
+    background: #ff0000 url("images/arrow.png") no-repeat center 240px;
+}
+
+.grid-list .itemgrid.last-link .item.lastpage:last-child:after {
+	content: "Предыдущая страница";
+	background: #fff url("images/left-arrow-red.png") no-repeat center 240px;
+	
+}
+.grid-list .itemgrid.last-link .item.lastpage:last-child:hover:after {
+	content: "Предыдущая страница";
+	background: #ff0000 url("images/left-arrow.png") no-repeat center 240px;
+	
+}
+
+.grid-list .itemgrid.last-link.load .item:last-child:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 101;
+    background: rgba(255, 255, 255, 0.7) url("images/loader.gif") no-repeat center;
+}

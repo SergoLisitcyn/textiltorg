@@ -1,0 +1,28 @@
+.breadcrumbs {
+    background: #e3e4e5;
+    color: #FF0000;
+    font-size: 14px;
+    padding: 0 18px;
+    clear: both;
+    line-height: 25px;
+    font-family: Verdana;
+    font-weight: normal;
+	text-align:left;
+}
+.breadcrumbs a {
+    text-decoration: none;
+    color: #FF0000 !important;
+    padding: 0;
+    font-weight: normal;
+    font-family: Verdana!important;
+    /*margin-right: 6px;*/
+}
+.breadcrumbs nobr:nth-child(n+2) a, .breadcrumbs b {
+    /*margin-left: 6px;*/
+}
+.breadcrumbs nobr {
+    display: none;
+}
+.breadcrumbs nobr:first-child, .breadcrumbs nobr:last-child {
+    display: inline;
+}

@@ -1,0 +1,39 @@
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+@mixin vendor-prefixes($property, $value) {
+    -webkit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    -ms-#{$property}: $value;
+    -o-#{$property}: $value;
+    #{$property}: $value;
+}
+
+@mixin linear-gradient($value) {
+    background: -webkit-linear-gradient($value);
+    background: -moz-linear-gradient($value);
+    background: -ms-linear-gradient($value);
+    background: -o-linear-gradient($value);
+    background: linear-gradient($value);
+}
+
+@mixin transition($elem, $start, $type, $finish) {
+    -webkit-transition: $elem, $start, $type, $finish;
+    -moz-transition: $elem, $start, $type, $finish;
+    -ms-transition: $elem, $start, $type, $finish;
+    -o-transition: $elem, $start, $type, $finish;
+    transition: $elem, $start, $type, $finish;
+}
+
+@mixin transform($x, $y) {
+    -webkit-transform: translate($x,$y);
+    -moz-transform: translate($x,$y);
+    -ms-transform: translate($x,$y);
+    -o-transform: translate($x,$y);
+    transform: translate($x,$y);
+}
