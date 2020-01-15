@@ -36,6 +36,7 @@ body .itemlist .item .item_content .left .inner li a {
 
 .old-price {
     margin: 0 0 0px;
+    font-size:15px;
 }
 
 .old-price big {
@@ -197,7 +198,7 @@ h1.catalog-action-title-single
 	text-align:center !important;
 	font-size:22px !important;
 	margin-top: -4px !important;
-	margin-bottom: 19px !important;
+	margin-bottom: 0 !important;
 }
 
 .section-title-action-description

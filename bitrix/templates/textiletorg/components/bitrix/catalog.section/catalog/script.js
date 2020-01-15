@@ -148,9 +148,9 @@ $(document).ready(function(){
         $('.grid-list .itemgrid .name').matchHeight();
         $('.grid-list .itemgrid .item_content').matchHeight();
 
-        $('.grid-list .item').css({
-            'height':'auto'
-        });
+        // $('.grid-list .item').css({
+        //     'height':'auto'
+        // });
     });
 
     $("#n_c_h_catalog").click(function() {

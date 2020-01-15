@@ -5,7 +5,7 @@ $APPLICATION->SetPageProperty("keywords", "самовывоз товаров и�
 $APPLICATION->SetPageProperty("title", "Самовывоз товаров из нашего магазина. Проба швейной машинки | ТекстильТорг");
 $APPLICATION->SetTitle("Самовывоз — удобная возможность для тех, кто хочет сэкономить время и деньги");
 ?><div class="m-hidden">
- <img src="/upload/images/Samovyvoz.jpg" style="float: right; margin: 0 0px 5px 40px;" alt="">
+ <img src="/bitrix/templates/textiletorg/aks-img/o-nas/samomyvoz.png" style="float: right; margin: 0 0px 5px 40px;" alt="">
 	<?$APPLICATION->IncludeComponent(
 	"custom:region-select.prototype",
 	"footer",
@@ -50,38 +50,74 @@ Array(
 <div class="clear">
 </div>
 <div class="adantages-samovyvoz">
-	Преимущества самовывоза
+    <b>Преимущества самовывоза</b>
 </div>
 <br>
 <div class="container-samovyvoz">
-	<div class="container-samovyvoz-ul">
-		<div class="adantage-1">
-		</div>
-		<div>
-			Экономия времени
-		</div>
-	</div>
-	<div class="container-samovyvoz-ul">
-		<div class="adantage-2">
-		</div>
-		<div>
-			Экономия денег на доставку
-		</div>
-	</div>
-	<div class="container-samovyvoz-ul">
-		<div class="adantage-3">
-		</div>
-		<div>
-			Возможность попробовать перед покупкой
-		</div>
-	</div>
-	<div class="container-samovyvoz-ul">
-		<div class="adantage-4">
-		</div>
-		<div>
-			Возможность изменить выбор
-		</div>
-	</div>
+    <ul>
+        <li>
+            <div class="catalog-aks-image">
+                <img src="/bitrix/templates/textiletorg/aks-img/o-nas/samovyvoz-1.png">
+
+                <div class="catalog-aks-text">
+                    <span>Экономия времени</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-aks-image">
+                <img src="/bitrix/templates/textiletorg/aks-img/o-nas/samovyvoz-2.png">
+
+                <div class="catalog-aks-text">
+                <span>Экономия денег на доставку</span>
+            </div>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-aks-image">
+                <div class="catalog-aks-text">
+                    <img src="/bitrix/templates/textiletorg/aks-img/o-nas/samovyvoz-3.png">
+                    <span>Возможность попробовать перед покупкой</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="catalog-aks-image">
+                <div class="catalog-aks-text">
+                    <img src="/bitrix/templates/textiletorg/aks-img/o-nas/samovyvoz-4.png">
+                    <span>Возможность изменить выбор</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+<!--	<div class="container-samovyvoz-ul">-->
+<!--		<div class="adantage-1">-->
+<!--		</div>-->
+<!--		<div>-->
+<!--			Экономия времени-->
+<!--		</div>-->
+<!--	</div>-->
+<!--	<div class="container-samovyvoz-ul">-->
+<!--		<div class="adantage-2">-->
+<!--		</div>-->
+<!--		<div>-->
+<!--			Экономия денег на доставку-->
+<!--		</div>-->
+<!--	</div>-->
+<!--	<div class="container-samovyvoz-ul">-->
+<!--		<div class="adantage-3">-->
+<!--		</div>-->
+<!--		<div>-->
+<!--			Возможность попробовать перед покупкой-->
+<!--		</div>-->
+<!--	</div>-->
+<!--	<div class="container-samovyvoz-ul">-->
+<!--		<div class="adantage-4">-->
+<!--		</div>-->
+<!--		<div>-->
+<!--			Возможность изменить выбор-->
+<!--		</div>-->
+<!--	</div>-->
 </div>
 <div style="clear: both;">
 </div>

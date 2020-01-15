@@ -64,9 +64,16 @@ Array(
 	Проверьте комплектацию всего заказа и каждого товара в отдельности, правильность заполнения сопутствующих документов.<br>
 	 Убедитесь в отсутствии на товарах видимых механических повреждений.
 </p>
+<div class="attention-dostavka">
+    <span></span><b>ОЧЕНЬ ВЫЖНО</b>
+    <p>
+        Дорогие покупатели! При получении заказа обязательно проверьте комплектацию всего заказа и каждого товара в отдельности, правильность заполнения сопутствующих документов.
+        Убедитесь в отсутствии на товарах видимых механических повреждений.
+    </p>
+</div>
 
 <div class="accordion-header">
-	1. <span class="underline">Как заказать и оплатить товар?</span>
+	<b class="underline">1. Как заказать и оплатить товар?</b>
 </div>
 <div class="accordion-content">
 	<p>
@@ -84,7 +91,7 @@ Array(
 
 </div>
 <div class="accordion-header">
-	2. <span class="underline">Как быстро мне доставят мой заказ?</span>
+	<b class="underline">2. Как быстро мне доставят мой заказ?</b>
 </div>
 <div class="accordion-content">
 	<p>
@@ -98,7 +105,7 @@ Array(
 	</p>
 </div>
 <div class="accordion-header">
-	3. <span class="underline">Как происходит гарантийное обслуживание товаров, приобретенных в ТекстильТорге?</span>
+	 <b class="underline">3. Как происходит гарантийное обслуживание товаров, приобретенных в ТекстильТорге?</b>
 </div>
 <div class="accordion-content">
 	<p>
@@ -112,7 +119,7 @@ Array(
 	</p>
 </div>
 <div class="accordion-header">
-	4. <span class="underline">Кто отвечает, если товар утерян или испорчен?</span>
+	<b class="underline">4. Кто отвечает, если товар утерян или испорчен?</b>
 </div>
 <div class="accordion-content">
 	<p>
@@ -130,7 +137,7 @@ Array(
 
 </div>
 <div class="accordion-header">
-	5. <span class="underline">Как можно забрать заказ самостоятельно?</span>
+	<b class="underline">5. Как можно забрать заказ самостоятельно?</b>
 </div>
 <div class="accordion-content">
 	<p>

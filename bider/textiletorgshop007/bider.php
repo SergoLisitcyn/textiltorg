@@ -61,7 +61,7 @@ https://tech.yandex.ru/direct/doc/ref-v5/keywordbids/keywordbids-docpage/
 При использовании API Директа баллы списываются с аккаунта, владельца токена.
 Так как у вас более одного аккаунта, то и токенов Вам нужно получать столько же, сколько аккаунтов Вы хотите подключить к приложению.
 */
-require_once dirname(dirname(__FILE__)) . "/yandex5v.class.php";
+//require_once dirname(dirname(__FILE__)) . "/yandex5v.class.php";
 require_once "dumplog.php";
 
 // yandex direct account data
@@ -188,9 +188,11 @@ if (!isset($campaigns["error"]['error_code'])) {
 				 $arrBidsParam["auto"][] = array(
                     'Scope' => array('SEARCH'),
                     'CampaignId' => $dat["Id"],
-                    "IncreasePercent" => '30', // (это проценты)
+//                    "IncreasePercent" => '30', // (это проценты)
+                    "IncreasePercent" => '15', // (это проценты)
                     "CalculateBy" => "VALUE",
-                    "Position" => 'P13',
+//                    "Position" => 'P13',
+                    "Position" => 'P11',
                     "MaxBid" => '330000000'
                 );
 
@@ -206,8 +208,10 @@ if (!isset($campaigns["error"]['error_code'])) {
 				 $arrBidsParam["auto"][] = array(
                     'Scope' => array('SEARCH'),
                     'CampaignId' => $dat["Id"],
-                    "IncreasePercent" => '30', // (это проценты)
+//                    "IncreasePercent" => '30', // (это проценты)
+                    "IncreasePercent" => '15', // (это проценты)
                     "CalculateBy" => "VALUE",
+//                    "Position" => 'P11',
                     "Position" => 'P13',
                     "MaxBid" => '330000000'
                 );

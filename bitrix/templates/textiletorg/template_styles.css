@@ -13,13 +13,15 @@ body {
 }
 a {color: #555555}
 .h-top-block {
-    padding: 0px;
-    top: 0px;
-    margin: 0;
+    /*padding: 0px;*/
+    top: 0;
+    /*margin: 0;*/
     width: 1200px;
-    height: 176px;
+    /*height: 176px;*/
+    height: 160px;
     margin: 0 auto;
-    padding: 30px 20px 0px;
+    /*padding: 30px 20px 0;*/
+    padding: 24px 20px 0;
 }
 .subheader-inner > div {
     width: 100%;
@@ -62,7 +64,8 @@ a {color: #555555}
     width: 50%;
     text-align: center;
     position: relative;
-    bottom: 17px;
+    /*bottom: 17px;*/
+    bottom: 13px;
 }
 .w-h-top .cart {
     width: 25%;
@@ -118,6 +121,11 @@ a {color: #555555}
 }
 .grey_block.grey_block_icons {
     margin: 40px 0px 0px;
+}
+
+.textinfo .grey_block{
+    background: #f7f7f3;
+    padding: 10px;
 }
 .tt-icons {
     background: url(images/textiletorg-icons.png) no-repeat;
@@ -359,7 +367,8 @@ a {color: #555555}
     border-bottom: 1px solid #fff;
 }
 .info-menu ul {
-    margin: 12px 0px 0px;
+    margin: 8px 0 0;
+    /*margin: 12px 0 0;*/
 }
 .info-menu ul li {
     display: inline-block;
@@ -605,6 +614,15 @@ a {color: #555555}
     float: left;
     margin-right: 12px;
 }
+
+.check-mark-index{
+    background-position: -377px -462px;
+    width: 76px;
+    height: 76px;
+    float: left;
+    margin-right: 12px;
+}
+
 .new-assortment-icon {
     background-position: -377px -277px;
     width: 76px;
@@ -641,7 +659,8 @@ a {color: #555555}
     margin-right: 12px;
 }
 #seo-target {
-    margin-top: 62px;
+    /*margin-top: 62px;*/
+    margin-top: 30px;
 }
 .why-index h2 {
     text-align: center;
@@ -657,6 +676,7 @@ a {color: #555555}
     margin: 12px 0px 18px 0px;
 }
 .why-index > ul > li:hover .we-have-all-icon {background-position: -466px -13px;}
+.why-index > ul > li:hover .check-mark-index {background-position: -466px -462px}
 .why-index > ul > li:hover .new-assortment-icon {background-position: -466px -277px;}
 .why-index > ul > li:hover .exclusive-product-icon {background-position: -466px -103px;}
 .why-index > ul > li:hover .super-price-icon {background-position: -466px -372px;}
@@ -680,7 +700,8 @@ a {color: #555555}
     border: 1px solid #fff;
 }
 #accordion {
-    margin: 52px 20px 10px;
+    /*margin: 52px 20px 10px;*/
+    margin: 30px 20px 10px;
 }
 #accordion #technology, #production, #sewingmachines {
     display: none;
@@ -717,7 +738,8 @@ a {color: #555555}
 .menu-block {
     float: left;
     width: 28%;
-    padding: 46px 44px 16px 0px;
+    /*padding: 46px 44px 16px 0px;*/
+    padding: 30px 44px 16px 0;
 }
 .menu-block ul {
     padding: 0;
@@ -767,7 +789,8 @@ a {color: #555555}
 }
 .footer-blocks .wrapper .info-block {
     display: inline-block;
-    margin: 0px 0px 98px;
+    /*margin: 0px 0px 98px;*/
+    margin: 0px 0px 30px;
 }
 .footer-social-icons li {
     display: inline-block;
@@ -797,7 +820,8 @@ a {color: #555555}
 .footer-social-icons {margin-top: 25px;}
 .rules {
     background: #f7f7f3;
-    height: 260px;
+    /*height: 260px;*/
+    height: 160px;
 }
 .rules .wrapper {
     width: 1200px;
@@ -837,7 +861,8 @@ a {color: #555555}
     margin-bottom: 4px;
 }
 #userstyle_maincontent p.main {
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
+    margin-bottom: 30px;
     font-size: 28px;
 }
 #userstyle_maincontent .slider-title {
@@ -1435,6 +1460,103 @@ ul.tabNavigation li > a > .counts {
     padding: 14px 10px;
     min-height: 770px;
 }
+
+.itemgrid .item.blockId-121{
+    min-height: 810px !important;
+}
+
+.itemgrid .item.blockId-23{
+    min-height: 810px !important;
+}
+
+.itemgrid .item.blockId-24{
+    min-height: 810px !important;
+}
+
+.itemgrid .item.blockId-20{
+     min-height: 820px !important;
+}
+
+.itemgrid .item.blockId-19{
+    min-height: 730px !important;
+}
+
+.itemgrid .item.blockId-21{
+    min-height: 710px !important;
+}
+
+.itemgrid .item.blockId-83{
+    min-height: 730px !important;
+}
+
+.itemgrid .item.blockId-85{
+    min-height: 730px !important;
+}
+
+.itemgrid .item.blockId-90{
+    min-height: 730px !important;
+}
+
+.itemgrid .item.blockId-105{
+    min-height: 730px !important;
+}
+
+.itemgrid .item.blockId-183{
+    min-height: 730px !important;
+}
+
+.itemgrid .item.blockId-172{
+    min-height: 730px !important;
+}
+
+.itemgrid .item.blockId-203{
+    min-height: 730px !important;
+}
+
+.itemgrid .item.blockId-855{
+    min-height: 730px !important;
+}
+
+.itemgrid .item.blockId-69{
+    min-height: 700px !important;
+}
+
+.itemgrid .item.blockId-154{
+    min-height: 700px !important;
+}
+
+.itemgrid .item.blockId-132{
+    min-height: 810px !important;
+}
+
+.itemgrid .item.blockId-141{
+    min-height: 810px !important;
+}
+
+.itemgrid .item.blockId-197{
+    min-height: 670px !important;
+}
+
+.itemgrid .item.blockId-159{
+    min-height: 670px !important;
+}
+
+.itemgrid .item.blockId-247{
+    min-height: 670px !important;
+}
+
+.itemgrid .item.blockId-158{
+    min-height: 680px !important;
+}
+
+.itemgrid .item.blockId-245{
+    min-height: 630px !important;
+}
+
+.itemgrid .item.blockId-206{
+    min-height: 630px !important;
+}
+
 .itemgrid .item .center .name a {
     text-transform: uppercase;
     font-size: 12px;
@@ -1459,13 +1581,15 @@ ul.tabNavigation li > a > .counts {
 .itemgrid .item img.eshop-item-small__img {
     margin-top: 20px;
     width:100%;
+    height: 180px;
 }
 
 
 .itemgrid .inner {
     position: relative;
     height: 200px;
-    width: 200px;
+    width: 198px;
+    /*width: 200px;*/
     text-align: center;
 }
 
@@ -1978,6 +2102,12 @@ input[type="checkbox"], input[type="radio"] {
     float: right;
     width: 927px;
 }
+
+.catalog .right-block.aksessuary {
+    float: none !important;
+    width: 1200px;
+}
+
 .centerblock {color: #686868;}
 .centerblock h1 {font-family: "AVENIRNEXTCYR-THIN"; font-size: 20px; text-transform: uppercase;}
 .centerblock .title {font-family: "AVENIRNEXTCYR-THIN"; font-size: 20px; text-transform: uppercase; font-weight: bold; text-align: center;}
@@ -2255,9 +2385,30 @@ table.popup-cart-goods tbody tr td {
     margin: 0px 20px 70px 0px;
 }
 .o-nas .wi_img {float: left;}
-.o-nas .wi_img img {width: 70px;}
+.o-nas .wi_img img {width: 66px;}
 .o-nas .wi_text {margin-left: 90px;color: #555555; text-align: justify; padding: 0;}
-.o-nas .wi_text-head {text-transform: uppercase;font-size: 16px;color: #000000;margin: 12px 0px 18px 0px;}
+.o-nas .wi_text-head {text-transform: uppercase;font-size: 18px;color: #000000;margin: 12px 0px 18px 0px;}
+.title-o-nas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "AvenirNextCyr";
+    font-size: 18px;
+}
+
+.list-red a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.o-nas-foto img{
+    width: 550px;
+    height: 446px;
+}
+
+.o-nas-foto{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
 
 .chastye-voprosy h3 {font-family: "AvenirNextCyr";font-size: 16px; text-transform: uppercase;color: #e52324;margin-top: 40px}
 .chastye-voprosy {margin-bottom: 90px;}
@@ -3419,7 +3570,8 @@ table.popup-cart-goods tbody tr td {
 .footer_w_r {
     width: 1200px;
     margin: 0 auto;
-    padding: 92px 20px 0px;
+    /*padding: 92px 20px 0px;*/
+    padding: 30px 20px 0px;
 }
 
 .n_mobile_only {
@@ -3458,6 +3610,10 @@ table.popup-cart-goods tbody tr td {
 
 .n_c_h_buttons {
     width:100%;
+}
+
+.n_c_h_buttons.item-catolog-button{
+    display:none;
 }
 
 .n_c_h_el {
@@ -3672,6 +3828,16 @@ table.popup-cart-goods tbody tr td {
     width:100%!important;
 }
 
+.grid-list .itemlist .right_button_block .buy-one-click{
+    font-size:18px;
+    font-weight: bold;
+}
+
+.right_button_block .inyourcart{
+    padding: 10px 46px;
+    font-weight: bold;
+}
+
 .textiletorg-basket-fixed-prototype-default {
     z-index:99999;
 }
@@ -3723,7 +3889,8 @@ table.popup-cart-goods tbody tr td {
     background-image: url(/bitrix/templates/textiletorg/n_img/b1d522c8ee.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 20px auto;
+    /*margin: 20px auto;*/
+    margin: 10px 10px 0 10px;
 }
 
 .grid-list .n_catalog_cards {
@@ -3734,6 +3901,7 @@ table.popup-cart-goods tbody tr td {
 .itemlist .n_catalog_cards {
     width: 165px;
     height: 55px;
+    margin-left:0;
 }
 
 .grid-list .n_list {
@@ -3898,7 +4066,8 @@ table.popup-cart-goods tbody tr td {
 }
 
 .region-select a {
-   width:unset!important;
+   /*width:unset!important;*/
+   width: 220px !important;
 }
 
 .seares #results .image {
@@ -3966,11 +4135,13 @@ table.popup-cart-goods tbody tr td {
 
 .n_c_child {
     font-size: 10px;
-    color: #b56c69;
-    border-bottom: 1px dashed #9e4743;
+    /*color: #b56c69;*/
+    color: #dd1117;
+    border-bottom: 1px dashed #dd1117;
     font-weight: bold;
     width: 90%;
-    margin: 20px 0;
+    /*margin: 20px 0;*/
+    margin: 10px 0;
     position:relative;
 }
 
@@ -3988,12 +4159,14 @@ table.popup-cart-goods tbody tr td {
 
 .table_icons {
     text-transform: lowercase;
-    margin-top:30px;
+    /*margin-top:30px;*/
+    margin-top:20px;
 }
 
 .itemgrid .item .table_icons li {
     font-size: 11px;
-    height: 30px;
+    /*height: 30px;*/
+    height: 34px;
 }
 
 .itemlist .eshop-item-small__img {
@@ -4604,12 +4777,257 @@ width:100%;
 
 .geo-name div {
     width: 100%;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
 }
 
 
+.itemgrid .item .test {
+    position: absolute;
+    top: 420px;
+    bottom: 14px;
+    display: flex;
+    left: 15px;
+    right: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemgrid .item .test .test-block {
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+.itemgrid .item .test .n_catalog_cards {
+    margin-top: auto;
+}
+
+/*.itemgrid .item.blockId-20 .test {*/
+    /*position: absolute;*/
+    /*top: 420px;*/
+    /*bottom: 14px;*/
+    /*display: flex;*/
+    /*left: 15px;*/
+    /*right: 15px;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+/*}*/
+
+/*.itemgrid .item.blockId-20 .test .test-block {*/
+    /*align-self: center;*/
+    /*margin-top: auto;*/
+    /*margin-bottom: auto;*/
+    /*width: 100%;*/
+/*}*/
+
+/*.itemgrid .item.blockId-20 .test .n_catalog_cards {*/
+    /*margin-top: auto;*/
+/*}*/
 
 
 
 
 
+.n_index_catalog_blocks {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.n_index_catalog_block td {
+    width: 160px;
+    text-align: center;
+}
+
+.n_index_catalog_img {
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+
+.n_c_prezent > ul > li {
+    display: inline-block;
+    width: 16%;
+    overflow: hidden;
+    box-sizing: padding-box;
+    -webkit-box-sizing: padding-box;
+    -moz-box-sizing: padding-box;
+    vertical-align: top;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.catalog-aks-image img{
+    height:60px;
+    width: 60px;
+}
+
+.catalog-aks-text{
+    text-align:center;
+}
+
+.catalog-aks-image{
+    text-align:center;
+}
+
+
+.cent.blue.contdown h3{
+    color:#e52324;
+}
+
+.h3-info-text{
+    color:#e52324;
+}
+
+.grid-list .itemlist .price.sd{
+    text-align:center;
+}
+
+.grid-list .itemlist .price.sd{
+  font-size: 25px !important;
+}
+
+.grid-list .itemlist .n_help_child{
+    top: 2px !important;
+}
+
+.grid-list .itemgrid .label-action.setka{
+    display:none;
+}
+
+.grid-list .itemgrid .qqq{
+    display:none;
+}
+
+.akcii-skidki img {
+    width: 297px;
+}
+
+.payment-system-text{
+    color: #e52324;
+}
+
+.allarticles .article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+}
+
+.stati-text{
+    padding-left:20px;
+}
+
+.stati-text .title{
+    color: #e52324;
+}
+
+.halfcirclebox select{
+    width: 208px;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px 5px 15px 15px;
+    border: 1px solid #dddfdf;
+}
+
+.attention-dostavka{
+    background: #f7f7f3;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.attention-dostavka b{
+    color: #e52324;
+    vertical-align: super;
+    padding-left: 15px;
+}
+
+.attention-dostavka span{
+    background: url(/bitrix/templates/textiletorg/images/textiletorg-icons.png) no-repeat;
+    width: 26px;
+    height: 27px;
+    background-position: -399px -1610px;
+    display: inline-block;
+}
+
+
+.table-delivery th, .table-delivery td {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #a2a2a2;
+    text-align: center;
+    padding: 15px;
+    width: 33.33%;
+    border-right: 1px solid #a2a2a2;
+}
+
+.table-delivery td .table-red{
+    color: #e52324;
+}
+
+.table-delivery{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.container-samovyvoz > ul > li {
+    display: inline-block;
+    width: 13%;
+    overflow: hidden;
+    box-sizing: padding-box;
+    -webkit-box-sizing: padding-box;
+    -moz-box-sizing: padding-box;
+    vertical-align: top;
+    margin-top: 10px;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.container-samovyvoz{
+    background-color: #f7f7f3;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.samovyvoz-image-economy{
+    background: url(/bitrix/templates/textiletorg/images/textiletorg-icons.png) no-repeat;
+    background-position: -6px -1633px;
+    width: 89px;
+    height: 89px;
+}
+
+.samovyvoz-image-money{
+    background: url(/bitrix/templates/textiletorg/images/textiletorg-icons.png) no-repeat;
+    background-position: -106px -1633px;
+    width: 89px;
+    height: 89px;
+}
+
+.samovyvoz-image-purchase{
+    background: url(/bitrix/templates/textiletorg/images/textiletorg-icons.png) no-repeat;
+    background-position: -200px -1633px;
+    width: 89px;
+    height: 89px;
+}
+
+
+.samovyvoz-image-choice{
+    background: url(/bitrix/templates/textiletorg/images/textiletorg-icons.png) no-repeat;
+    background-position: -296px -1633px;
+    width: 89px;
+    height: 89px;
+}
+
+
+.adantages-samovyvoz b{
+    color:#e52324;
+}
+
+.as-stores-page-title{
+    color:#e52324;
+}

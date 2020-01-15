@@ -114,7 +114,7 @@
 	margin-top:10px;
 }
 .bx_compare .table_compare table tr td{
-	font-size:13px;
+	/*font-size:13px;*/
 	position:relative;
 	padding:8px 78px;
 	text-align:left;
@@ -178,7 +178,7 @@
 }
 
 #labels {
-	width:250px;
+	/*width:250px;*/
 	overflow:hidden;
 	position:absolute;
 	background:#FFFFFF;
@@ -186,7 +186,7 @@
 }
 #tables-wrapper .table-inner
 {
-	width:696px; 
+	/*width:696px; */
 	margin-left:250px;
 }
 #tables-wrapper .table-inner table tr td:first-child

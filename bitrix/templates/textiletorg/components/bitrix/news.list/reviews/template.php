@@ -27,7 +27,7 @@ $this->setFrameMode(true);
                 </a>
             </div>
         <?endif?>
-        <div class="right">
+        <div class="right" style="padding-left: 30px;padding-top: 25px;">
             <div class="name"><a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="title"><?=$arItem["NAME"]?></a></div>
                 <div class="anno"><?=$arItem["PREVIEW_TEXT"]?></div>
                 <p><a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="more">Подробнее</a></p>

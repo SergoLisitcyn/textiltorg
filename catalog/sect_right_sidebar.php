@@ -28,7 +28,9 @@ $GLOBALS["arrFilterCatalog"][] = array(
     "PROPERTY_VIEW_SITE_RU_VALUE" => "Да"
 );
 ?>
+<? if($_REQUEST["SECTION_CODE"] == 'aksessuary-dlya-vyshivaniya' || $_REQUEST["SECTION_CODE"] == 'podarochnye-karty' || $_REQUEST["SECTION_CODE"] == 'aksessuary-dlya-shitya' || $_REQUEST["SECTION_CODE"] == 'aksessuary-dlya-vyazaniya' || $_REQUEST["SECTION_CODE"] == 'aksessuary-dlya-glazheniya' ){
 
+} else {?>
 <div class="box">
     <div class="filter_both_window"></div>
     <?
@@ -267,4 +269,4 @@ $GLOBALS["arrFilterCatalog"][] = array(
         </div>
     <? endif; ?>
 </div>
-
+<? } ?>

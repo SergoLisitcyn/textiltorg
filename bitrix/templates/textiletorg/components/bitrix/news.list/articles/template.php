@@ -26,7 +26,7 @@ $this->setFrameMode(true);
                 </a>
             </div>
         <?endif?>
-		<div class="right">
+		<div class="stati-text">
 			<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="title"><?=$arItem["NAME"]?></a>
 			<div class="anno"><?=$arItem["PREVIEW_TEXT"]?></div>
             <!--<p class="date"><?/*=$arItem["TIMESTAMP_X"]*/?></p>-->

@@ -169,6 +169,7 @@ if (!empty($arResult["ALL_FIELDS"]) || !empty($arResult["ALL_PROPERTIES"]) || !e
 										alt="<?=$arElement["FIELDS"][$code]["ALT"]?>"
 										title="<?=$arElement["FIELDS"][$code]["TITLE"]?>"
 										/></a>
+                                        <a class="bx_bt_button bx_small" href="<?=$arElement["BUY_URL"]?>" rel="nofollow"><?=GetMessage("CATALOG_COMPARE_BUY"); ?></a>
 									<?endif;
 									break;
 								default:

@@ -7,7 +7,7 @@ $APPLICATION->SetTitle("Тест драйвы и обзоры");
 ?>
 
 <div class="halfcirclebox-text">
-    <img alt="" src="/upload/images/Testdrive.jpg" style="float: right; margin: 0 0px 5px 40px;">
+    <img alt="" src="/bitrix/templates/textiletorg/aks-img/o-nas/test-drive.png" style="float: right; margin: 0 0px 5px 40px;">
 	<p>Вы хотите узнать о воможностях и функциях лучших моделей техники, представленной в нашем каталоге?</p>
 <p>ТекстильТорг представляет вашему вниманию увлекательные и полезные обзоры - тест-драйвы.
 <b>Тест-драйв</b> от ТекстильТорга – это показательные выступления вязальных, вышивальных и швейных машин, а также любой другой техники.</p>

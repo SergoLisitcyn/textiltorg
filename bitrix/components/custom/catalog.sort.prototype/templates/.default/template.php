@@ -21,8 +21,10 @@
         <?endforeach?>
 
         <div class="gridlist">
-            <span class="tt-icons grid-btn activ"></span>
-            <span class="tt-icons list-btn"></span>
+<!--            <span class="tt-icons grid-btn activ"></span>-->
+<!--            <span class="tt-icons list-btn"></span>-->
+            <span class="tt-icons grid-btn"></span>
+            <span class="tt-icons list-btn activ"></span>
         </div>
     </div>
 </form>

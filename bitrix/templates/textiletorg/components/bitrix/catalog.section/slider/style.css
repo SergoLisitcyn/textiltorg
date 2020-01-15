@@ -51,9 +51,10 @@ a.product-slider-item-add-to-cart {
     font-family: "AvenirNextCyrDemi";
 }
 a.product-slider-item-one-click-order {
-    background: #f2e654;
+    /*background: #f2e654;*/
     font-size: 14px!important;
     font-weight: bold;
+    color: #fff;
 }
 .product-slider-item-btn {
     padding: 10px 30px;

@@ -5,11 +5,23 @@ $APPLICATION->SetPageProperty("keywords", "акции текстильторг, 
 $APPLICATION->SetPageProperty("description", "Акции. На данный момент у нас действуют следующие акции: Дарим 10% Рассрочка 0%. Узнайте подробности у наших менеджеров");
 $APPLICATION->SetTitle("Уважаемые покупатели и гости нашего сайта");
 ?>
-<img alt="" src="/upload/images/Akcii2.jpg" style="float: right; margin: 0 0px 5px 40px;">
-<p style="font-size: 14px;">
-    Помимо самых низких цен, высокого качества товаров и огромного ассортимента, который всегда есть в наличии, мы предлагаем Вам очень выгодные и интересные акции и скидки!
-</p>
-<p style="font-size: 14px;">С ними Вы можете ознакомиться здесь и сейчас.</p>
+    <p style="font-size: 14px;">
+        Помимо самых низких цен, высокого качества товаров и огромного ассортимента, который всегда есть в наличии,
+        <br>мы предлагаем Вам очень выгодные и интересные акции и скидки!
+    </p>
+    <p>С ними Вы можете ознакомиться здесь и сейчас.</p>
+
+    <div class="akcii-skidki">
+        <a href="/akcii/novogodnee-bezumie/"><img src="/bitrix/templates/textiletorg/aks-img/akcii/bezumie.png"></a>
+        <a href="/akcii/darim-10/"><img src="/bitrix/templates/textiletorg/aks-img/akcii/darim10.png"></a>
+        <a href="/akcii/nashli-deshevle/"><img src="/bitrix/templates/textiletorg/aks-img/akcii/sale.png"></a>
+        <a href="/akcii/ytilizacia/"><img src="/bitrix/templates/textiletorg/aks-img/akcii/util.png"></a>
+        <a href="/akcii/rassrochka/"><img src="/bitrix/templates/textiletorg/aks-img/akcii/rassro4ka.png"></a>
+        <a href="/akcii/prishla-s-podrugoy-poluchila-skidku/"><img src="/bitrix/templates/textiletorg/aks-img/akcii/beripodrug.png"></a>
+        <a href="/akcii/nevazhno-kakaya-karta-skidki-budut/"><img src="/bitrix/templates/textiletorg/aks-img/akcii/kartaskidok.png"></a>
+        <a href="/akcii/khochesh-tovar-v-tekstiltorge-kupit-spetspredlozhenie-uspey-poluchit/"><img src="/bitrix/templates/textiletorg/aks-img/akcii/magicterms.png"></a>
+
+    </div>
 
 <?$APPLICATION->IncludeComponent(
     "bitrix:news.list",
@@ -75,11 +87,5 @@ $APPLICATION->SetTitle("Уважаемые покупатели и гости н
     ),
     false
 );?>
-
-<!--<div class="main_akcii_right">
-    <div>
-        <img src="/upload/images/itisgood.png">
-    </div>
-</div>-->
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

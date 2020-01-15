@@ -30,7 +30,286 @@ if (isset($_REQUEST["AJAX_PAGEN"]) && $_REQUEST["AJAX_PAGEN"] == "Y")
 
 
 <div id = "n_c_h_catalog_content" >
+<? if ($_REQUEST["SECTION_CODE"] == 'aksessuary-dlya-shitya'){ ?>
+    <div class = "n_c_prezent" id = "n_c_prezent" >
+        <ul>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/1.png">
+                    <div class="catalog-aks-text">
+                        <span>Лапки для оверлоков и распошивальных машин</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/2.png">
+                </div>
+                <div class="catalog-aks-text">
+                    <span>Лапки для швейных машин</span>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/3.png">
+                    <div class="catalog-aks-text">
+                        <span>Приставные столики для швейных машин и оверлоков</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/4.png">
+                    <div class="catalog-aks-text">
+                        <span>Иглы для швейных машин и оверлоков</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/5.png">
+                    <div class="catalog-aks-text">
+                        <span>Шкатулка для хранения фурнитуры</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/6.png">
+                    <div class="catalog-aks-text">
+                        <span>Прочие принадлежности</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
 
+        <ul>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/7.png">
+                    <div class="catalog-aks-text">
+                        <span>Специальные нити</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/8.png">
+                </div>
+                <div class="catalog-aks-text">
+                    <span>Товары для квилтингаи пэчворка</span>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/9.png">
+                    <div class="catalog-aks-text">
+                        <span>Товары для рукоделия</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/10.png">
+                    <div class="catalog-aks-text">
+                        <span>Ножницы</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/11.png">
+                    <div class="catalog-aks-text">
+                        <span>Мебель для швейных машин и оверлоков</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/12.png">
+                    <div class="catalog-aks-text">
+                        <span>Нитки для швейных машин и оверлоков</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+<? } elseif($_REQUEST["SECTION_CODE"] == 'aksessuary-dlya-vyazaniya') { ?>
+    <div class = "n_c_prezent" id = "n_c_prezent" style="text-align: center;">
+        <ul>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/16.png">
+                    <div class="catalog-aks-text">
+                        <span>Пряжа для вязания</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/13.png">
+                </div>
+                <div class="catalog-aks-text">
+                    <span>Спицы</span>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/14.png">
+                    <div class="catalog-aks-text">
+                        <span>Прочие аксессуары</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+<? } elseif($_REQUEST["SECTION_CODE"] == 'aksessuary-dlya-vyshivaniya') { ?>
+    <div class = "n_c_prezent" id = "n_c_prezent" style="text-align: center;">
+        <ul>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/7.png">
+                    <div class="catalog-aks-text">
+                        <span>Нитки для вышивания</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/4.png">
+                </div>
+                <div class="catalog-aks-text">
+                    <span>Иглы для вышивальных машин</span>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/12.png">
+                    <div class="catalog-aks-text">
+                        <span>Флизелин для машинной вышивки</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/12.png">
+                    <div class="catalog-aks-text">
+                        <span>Стабилизатор для вышивания</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/9.png">
+                    <div class="catalog-aks-text">
+                        <span>Пяльцы и рамки для ручного вышивания</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/17.png">
+                </div>
+                <div class="catalog-aks-text">
+                    <span>Пяльцы для вышивальных машин</span>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/18.png">
+                    <div class="catalog-aks-text">
+                        <span>Флеш-накопители</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/19.png">
+                    <div class="catalog-aks-text">
+                        <span>Програмное обеспечение для вышивальных машин</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+<? } elseif($_REQUEST["SECTION_CODE"] == 'aksessuary-dlya-glazheniya') { ?>
+    <div class = "n_c_prezent" id = "n_c_prezent" style="text-align: center;">
+        <ul>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/15.png">
+                    <div class="catalog-aks-text">
+                        <span>Для гладильных прессов</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/20.png">
+                </div>
+                <div class="catalog-aks-text">
+                    <span>Для гладильных систем</span>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/21.png">
+                    <div class="catalog-aks-text">
+                        <span>Для отпаривателей</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/22.png">
+                    <div class="catalog-aks-text">
+                        <span>Для парогенераторов и утюгов</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/23.png">
+                    <div class="catalog-aks-text">
+                        <span>Для пароочистителей</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/24.png">
+                </div>
+                <div class="catalog-aks-text">
+                    <span>Вода для парогладильных устройств</span>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/25.png">
+                    <div class="catalog-aks-text">
+                        <span>Для гладильных досок</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="catalog-aks-image">
+                    <img src="/bitrix/templates/textiletorg/aks-img/26.png">
+                    <div class="catalog-aks-text">
+                        <span>Наборы для ухода за техникой</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+<? } else { ?>
 <div class = "n_c_prezent" id = "n_c_prezent" >
     <?if(isset($_REQUEST["SECTION_CODE"]))
     {
@@ -65,11 +344,15 @@ if (isset($_REQUEST["AJAX_PAGEN"]) && $_REQUEST["AJAX_PAGEN"] == "Y")
     }
     ?>
 </div>
-
+<? } ?>
 <?if ($arResult["ITEMS"]):?>
     <div class="grid-list">
-        <div id = "n_grid_items" class="itemgrid">
+<!--        <div id = "n_grid_items" class="itemgrid">-->
+        <div id = "n_grid_items" class="itemlist">
             <?foreach ($arResult["ITEMS"] as $arItem):?>
+            <?php
+            $BlockSection = $arItem["IBLOCK_SECTION_ID"];
+            ?>
 				<?
                 if (preg_match("/spb.textiletorg/i",$_SERVER["SERVER_NAME"])) {
                     if (!empty($arItem["PROPERTIES"]["SPB_PREVIEW_TEXT"]["VALUE"]["TEXT"])) {
@@ -96,7 +379,7 @@ if (isset($_REQUEST["AJAX_PAGEN"]) && $_REQUEST["AJAX_PAGEN"] == "Y")
 				<?if((intval($arItem[CATALOG_QUANTITY])== 0) and (intval($arItem["IBLOCK_SECTION_ID"]) === 848)):?>
 
 				<?else:?>
-				<div class="item <?if ($arItem["PHOTOS"]):?>sub_img<?endif?> shadow-box">
+				<div class="item blockId-<? echo $BlockSection;?> <?if ($arItem["PHOTOS"]):?>sub_img<?endif?> shadow-box">
 
 
                     <div style = "width:81%;" class="n_grid n_catalog_name name name-catalog-category-<?=$arItem["IBLOCK_SECTION_ID"];?>">
@@ -130,6 +413,19 @@ if (isset($_REQUEST["AJAX_PAGEN"]) && $_REQUEST["AJAX_PAGEN"] == "Y")
 						<div class="wrap_blok_i">
 
 							<div class="left">
+                                <? if (!empty($arItem["ACTIONS"])): ?>
+                                    <div class="label-action setka">
+                                        АКЦИЯ
+                                        <div class="wrap-actions">
+                                            <div class="actions-block">
+                                                <div class="header">Участвует в акции</div>
+                                                <? foreach ($arItem["ACTIONS"] as $arAction): ?>
+                                                    <div><a href="<?=$arAction["URL"]?>">«<?=$arAction["NAME"]?>»</a></div>
+                                                <? endforeach; ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <? endif ?>
 								<div class="inner" style="position:relative;" >
 									<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="eshop-item-img-link">
 										<img class="eshop-item-small__img" src="<?=$arItem["RESIZE_PICTURE"]["SRC"]?>" title="Фото <?=$arItem["NAME"]?> | Швейный магазин Текстильторг" alt="Фото <?=$arItem["NAME"]?> | Швейный магазин Текстильторг" width="<?=$arItem["RESIZE_PICTURE"]["WIDTH"]?>" height="<?=$arItem["RESIZE_PICTURE"]["HEIGHT"]?>">
@@ -165,19 +461,19 @@ if (isset($_REQUEST["AJAX_PAGEN"]) && $_REQUEST["AJAX_PAGEN"] == "Y")
 
                                 <div class="n_list n_catalog_name name name-catalog-category-<?=$arItem["IBLOCK_SECTION_ID"];?>">
                                    <a href="<?=$arItem["DETAIL_PAGE_URL"]?>"><?=$arItem["NAME"]?></a>
-                                    <? if (!empty($arItem["ACTIONS"])): ?>
-                                        <div class="label-action">
-                                            АКЦИЯ
-                                            <div class="wrap-actions">
-                                                <div class="actions-block">
-                                                    <div class="header">Участвует в акции</div>
-                                                    <? foreach ($arItem["ACTIONS"] as $arAction): ?>
-                                                        <div><a href="<?=$arAction["URL"]?>">«<?=$arAction["NAME"]?>»</a></div>
-                                                    <? endforeach; ?>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <? endif ?>
+<!--                                    --><?// if (!empty($arItem["ACTIONS"])): ?>
+<!--                                        <div class="label-action">-->
+<!--                                            АКЦИЯ-->
+<!--                                            <div class="wrap-actions">-->
+<!--                                                <div class="actions-block">-->
+<!--                                                    <div class="header">Участвует в акции</div>-->
+<!--                                                    --><?// foreach ($arItem["ACTIONS"] as $arAction): ?>
+<!--                                                        <div><a href="--><?//=$arAction["URL"]?><!--">«--><?//=$arAction["NAME"]?><!--»</a></div>-->
+<!--                                                    --><?// endforeach; ?>
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    --><?// endif ?>
                                 </div>
 
 
@@ -197,30 +493,30 @@ if (isset($_REQUEST["AJAX_PAGEN"]) && $_REQUEST["AJAX_PAGEN"] == "Y")
 									<?if (!empty($arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
 										<?// Textiletorg props?>
 										<?if (in_array(1083, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-											 <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки всех типов тканей."><img style = "width: 35px;" alt="" class="cloth1_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3.jpg"><div>Для всех типов ткани</div></li>
+<!--											 <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки всех типов тканей."><img style = "width: 35px;" alt="" class="cloth1_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3.jpg"><div>Для всех типов ткани</div></li>-->
 										<?else:?>
 											<?if (in_array(1084, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и сверхлегких типов тканей."><img style = "width: 35px;" alt=""  class="cloth2_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_3.jpg"><div>Для легких и сверхлегких тканей</div></li>
+<!--												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и сверхлегких типов тканей."><img style = "width: 35px;" alt=""  class="cloth2_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_3.jpg"><div>Для легких и сверхлегких тканей</div></li>-->
 											<?endif?>
 											<?if (in_array(1085, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и средних типов тканей."><img style = "width: 35px;" alt="" class="cloth3_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_2.jpg"><div>Для легких и средних тканей</div></li>
+<!--												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и средних типов тканей."><img style = "width: 35px;" alt="" class="cloth3_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_2.jpg"><div>Для легких и средних тканей</div></li>-->
 											<?endif?>
 											<?if (in_array(1086, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки тяжелых и сверхтяжелых типов тканей."><img style = "width: 35px;" alt="" class="cloth4_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_1.jpg"><div>Для тяжелых и сверхтяжелых тканей</div></li>
+<!--												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки тяжелых и сверхтяжелых типов тканей."><img style = "width: 35px;" alt="" class="cloth4_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_1.jpg"><div>Для тяжелых и сверхтяжелых тканей</div></li>-->
 											<?endif?>
 										<?endif?>
 										<?// TTProm props?>
 										<?if (in_array(1293, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-											 <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки всех типов тканей."><img style = "width: 35px;" alt="" class="cloth1_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3.jpg"><div>Для всех типов ткани</div></li>
+<!--											 <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки всех типов тканей."><img style = "width: 35px;" alt="" class="cloth1_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3.jpg"><div>Для всех типов ткани</div></li>-->
 										<?else:?>
 											<?if (in_array(1298, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и сверхлегких типов тканей."><img style = "width: 35px;" alt="" class="cloth2_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_3.jpg"><div>Для легких и сверхлегких тканей</div></li>
+<!--												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и сверхлегких типов тканей."><img style = "width: 35px;" alt="" class="cloth2_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_3.jpg"><div>Для легких и сверхлегких тканей</div></li>-->
 											<?endif?>
 											<?if (in_array(1294, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и средних типов тканей."><img style = "width: 35px;" alt="" class="cloth3_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_2.jpg"><div>Для легких и средних тканей</div></li>
+<!--												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и средних типов тканей."><img style = "width: 35px;" alt="" class="cloth3_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_2.jpg"><div>Для легких и средних тканей</div></li>-->
 											<?endif?>
 											<?if (in_array(1295, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки тяжелых и сверхтяжелых типов тканей."><img style = "width: 35px;" alt="" class="cloth4_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_1.jpg"><div>Для тяжелых и сверхтяжелых тканей</div></li>
+<!--												<li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки тяжелых и сверхтяжелых типов тканей."><img style = "width: 35px;" alt="" class="cloth4_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_1.jpg"><div>Для тяжелых и сверхтяжелых тканей</div></li>-->
 											<?endif?>
 										<?endif?>
 									<?endif?>
@@ -311,7 +607,13 @@ if($_SERVER["SERVER_NAME"] == "spb.textiletorg.ru") {
                                     <a  class="eshop-item-small__one-click scale-decrease buy-one-click" onclick="yaCounter<?=$yaCounter?>.reachGoal('zakaz_1_click'); return true;" href="#buy_one_click_form" title="Оформление заказа в 1 клик" data-good-id="<?=$arItem["ID"]?>">Купить в 1 клик</a>
                                 </div>
                             </div>
-
+                        <div class="n_catalog_iz n_grid">
+                            <a href="<?=$arItem["ADD_COMPARE_URL"]?>" class="add-compare-button add-compare n_c_el" data-add-compare-url="<?=$arItem["ADD_COMPARE_URL"]?>" data-delete-compare-url="<?=$arItem["DELETE_COMPARE_URL"]?>">
+                                <div class = "n_catalog_iz_img"></div>
+                            </a>
+                        </div>
+                        <div class="test">
+                        <div class="test-block">
                         <div class="n_c_child n_c_child_grid"> Покупая у нас Вы помогаете детям!
                             <div class = "n_help n_help_child" data-tool-text="Часть средств от продажи товаров, направляется в Детский дом (название уточним)" ></div>
                         </div>
@@ -323,7 +625,6 @@ if($_SERVER["SERVER_NAME"] == "spb.textiletorg.ru") {
                                     В кредит: <span class="credit_on tooltip-message-click" data-tooltipe-text="Размер платежа является предварительным при условии первоначального взноса 10%, срок кредита 24 месяцев.<br><br>Точные даты и размеры ежемесячных платежей будут указаны в Графике платежей, являющемся неотъемлемой частью Кредитного договора.<br><br>Кредит предоставляется на общую сумму покупки от 3 000 руб."><?=$arItem["CREDIT"]?> <small>руб.</small>/мес.</span>
                                 </div>
                             <?endif?>
-
 
                             <?if (!empty($arItem["CREDIT"]) || $arItem["PROPERTIES"]["PAYMENT_INSTALLMENTS"]["VALUE_XML_ID"] == "Y"):?>
                                 <div class="blue as-credit-info">
@@ -340,7 +641,7 @@ if($_SERVER["SERVER_NAME"] == "spb.textiletorg.ru") {
                             <?if ($arItem["QUANTITY_TEXT"]):?>
                                 <div class="instock ltl" style = "position: relative;">В наличии: <?if(intval($arItem["IBLOCK_SECTION_ID"]) == 848):?><span style = "text-transform: capitalize;"><?=intval($arItem[CATALOG_QUANTITY])?><?else:?><span style = "text-transform: capitalize; font-weight: bold; color: #222222d1;"><?=$arItem["QUANTITY_TEXT"]?></span>
                                 <? if ($arItem["QUANTITY_TEXT"] == 'много'): ?>
-                                            <img style = "width: 35px; position: absolute; top: -8px; right: 20px; " alt="" src="/bitrix/templates/textiletorg/n_img/10d7b857cd.jpg">
+                                            <img style = "width: 30px; position: absolute; top: -8px; right: 20px; " alt="" src="/bitrix/templates/textiletorg/n_img/10d7b857cd.jpg">
                                 <?endif?>
                                 <? if ($arItem["QUANTITY_TEXT"] == 'мало'): ?>
                                     <img style = "width: 35px; position: absolute; top: -8px; right: 20px; " alt="" src="/bitrix/templates/textiletorg/n_img/29ffdbf4c2.jpg">
@@ -349,12 +650,9 @@ if($_SERVER["SERVER_NAME"] == "spb.textiletorg.ru") {
                                 </div>
                             <?endif?>
 
-
-
                         <?if ($arItem["RESERVED_TEXT"] && 1 == 2):?>
                                 <div class="instock ltl">В наличие на доставку: <?if(intval($arItem["IBLOCK_SECTION_ID"]) == 848):?><span><?=intval($arItem[CATALOG_QUANTITY])?><?else:?><span><?=$arItem["RESERVED_TEXT"]?></span><?endif?> </div>
                             <?endif?>
-
 
                         <?if ($arItem["IS_ICONS"] || $arItem["GOOD_ACTIONS"]):?>
                             <ul class="table_icons n_grid">
@@ -365,30 +663,30 @@ if($_SERVER["SERVER_NAME"] == "spb.textiletorg.ru") {
                                 <?if (!empty($arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
                                     <?// Textiletorg props?>
                                     <?if (in_array(1083, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-                                        <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки всех типов тканей."><img style = "width: 30px;" alt="" class="cloth1_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3.jpg"><div>Для всех типов ткани</div></li>
+<!--                                        <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки всех типов тканей."><img style = "width: 30px;" alt="" class="cloth1_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3.jpg"><div>Для всех типов ткани</div></li>-->
                                     <?else:?>
                                         <?if (in_array(1084, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и сверхлегких типов тканей."><img style = "width: 30px;" alt=""  class="cloth2_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_3.jpg"><div>Для легких и сверхлегких тканей</div></li>
+<!--                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и сверхлегких типов тканей."><img style = "width: 30px;" alt=""  class="cloth2_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_3.jpg"><div>Для легких и сверхлегких тканей</div></li>-->
                                         <?endif?>
                                         <?if (in_array(1085, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и средних типов тканей."><img style = "width: 30px;" alt="" class="cloth3_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_2.jpg"><div>Для легких и средних тканей</div></li>
+<!--                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и средних типов тканей."><img style = "width: 30px;" alt="" class="cloth3_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_2.jpg"><div>Для легких и средних тканей</div></li>-->
                                         <?endif?>
                                         <?if (in_array(1086, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки тяжелых и сверхтяжелых типов тканей."><img style = "width: 30px;" alt="" class="cloth4_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_1.jpg"><div>Для тяжелых и сверхтяжелых тканей</div></li>
+<!--                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки тяжелых и сверхтяжелых типов тканей."><img style = "width: 30px;" alt="" class="cloth4_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_1.jpg"><div>Для тяжелых и сверхтяжелых тканей</div></li>-->
                                         <?endif?>
                                     <?endif?>
                                     <?// TTProm props?>
                                     <?if (in_array(1293, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-                                        <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки всех типов тканей."><img style = "width: 30px;" alt="" class="cloth1_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3.jpg"><div>Для всех типов ткани</div></li>
+<!--                                        <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки всех типов тканей."><img style = "width: 30px;" alt="" class="cloth1_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3.jpg"><div>Для всех типов ткани</div></li>-->
                                     <?else:?>
                                         <?if (in_array(1298, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и сверхлегких типов тканей."><img style = "width: 30px;" alt="" class="cloth2_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_3.jpg"><div>Для легких и сверхлегких тканей</div></li>
+<!--                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и сверхлегких типов тканей."><img style = "width: 30px;" alt="" class="cloth2_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_3.jpg"><div>Для легких и сверхлегких тканей</div></li>-->
                                         <?endif?>
                                         <?if (in_array(1294, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и средних типов тканей."><img style = "width: 30px;" alt="" class="cloth3_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_2.jpg"><div>Для легких и средних тканей</div></li>
+<!--                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки легких и средних типов тканей."><img style = "width: 30px;" alt="" class="cloth3_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_2.jpg"><div>Для легких и средних тканей</div></li>-->
                                         <?endif?>
                                         <?if (in_array(1295, $arItem["PROPERTIES"]["CHAR_PROSHIVAEMYE_MATERIALY"]["VALUE_ENUM_ID"])):?>
-                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки тяжелых и сверхтяжелых типов тканей."><img style = "width: 30px;" alt="" class="cloth4_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_1.jpg"><div>Для тяжелых и сверхтяжелых тканей</div></li>
+<!--                                            <li class="tooltip-message" data-tooltipe-text="Товар пригоден для обработки тяжелых и сверхтяжелых типов тканей."><img style = "width: 30px;" alt="" class="cloth4_ic-min" src="/bitrix/templates/textiletorg/n_img/4104b508b3_1.jpg"><div>Для тяжелых и сверхтяжелых тканей</div></li>-->
                                         <?endif?>
                                     <?endif?>
                                 <?endif?>
@@ -413,18 +711,13 @@ if($_SERVER["SERVER_NAME"] == "spb.textiletorg.ru") {
                             <a href="<?=$arItem["ADD_COMPARE_URL"]?>" class="add-compare-button add-compare n_c_el_l" data-add-compare-url="<?=$arItem["ADD_COMPARE_URL"]?>" data-delete-compare-url="<?=$arItem["DELETE_COMPARE_URL"]?>">Добавить к сравнению</a>
                         </div>
 
-                        <div class="n_catalog_iz n_grid">
-                            <a href="<?=$arItem["ADD_COMPARE_URL"]?>" class="add-compare-button add-compare n_c_el" data-add-compare-url="<?=$arItem["ADD_COMPARE_URL"]?>" data-delete-compare-url="<?=$arItem["DELETE_COMPARE_URL"]?>">
-                                <div class = "n_catalog_iz_img"></div>
-                            </a>
+                        </div>
+
+                            <div class="n_catalog_cards"></div>
+                        </div>
                         </div>
 
 
-                        <div class="n_catalog_cards"></div>
-
-
-
-                        </div>
                         <div class="clear"></div>
 
                     <div class = "n_c_child_list_b" >
@@ -432,6 +725,7 @@ if($_SERVER["SERVER_NAME"] == "spb.textiletorg.ru") {
                             <div class = "n_help n_help_child" data-tool-text="Часть средств от продажи товаров, направляется в Детский дом (название уточним)" ></div>
                         </div>
                     </div>
+
 
                     </div>
 
@@ -517,6 +811,25 @@ if (isset($_REQUEST["AJAX_PAGEN"]) && $_REQUEST["AJAX_PAGEN"] == "Y")
 <div class="clear"></div>
 
 <br>
+<div id="seo-source">
+    <? if (!$arResult["IS_HIDE_DESC"]): ?>
+        <div class="catalog-section-description">
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                "",
+                array(
+                    "AREA_FILE_SHOW" => "file",
+                    "PATH" => $arResult["FILE_SECTION_PATH"],
+                    "EDIT_TEMPLATE" => "text.php",
+                )
+            );?>
+
+            <? if (!$arResult["FILE_SECTION_EXISTS"] && !$_SESSION['REGION_DOMAIN_CODE']): ?>
+                <?=$arResult["DESCRIPTION"]?>
+            <? endif; ?>
+        </div>
+    <?endif?>
+</div>
 <div class="clear"></div>
 <div class="custom-form-prototype-footer-callback n_catalog_callback">
     <div class = "n_call_left"></div>

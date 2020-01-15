@@ -53,7 +53,7 @@
 
             <?if (count($arResult['ITEMS']['STORES']) > $arResult['COUNT_SHOW']):?>
                 </div>
-                <a href="#as-stores-page-hide" class="more">Подробнее</a>
+                <a href="#as-stores-page-hide" class="more" style="color:#5F9F3E!important">Подробнее</a>
             <?endif?>
 
         </div>

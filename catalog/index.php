@@ -8,12 +8,14 @@ $APPLICATION->SetTitle("Интернет - магазин швейной, гла
 if (defined("CATALOG_404")) {
     \Bitrix\Iblock\Component\Tools::process404("", true, true, true);
 }
-
-
+$sectionCode = $_REQUEST["SECTION_CODE"];
+if($sectionCode == 'aksessuary-dlya-vyshivaniya' || $sectionCode == 'podarochnye-karty' || $sectionCode == 'aksessuary-dlya-shitya'  || $sectionCode == 'aksessuary-dlya-vyazaniya' || $sectionCode == 'aksessuary-dlya-glazheniya') {
+    $classItem = 'aksessuary';
+    $classItemButton = 'item-catolog-button';
+}
 ?>
 
 	<div class="catalog">
-
 
     <div class="left-block">
 
@@ -32,9 +34,9 @@ if (defined("CATALOG_404")) {
     </div>
 
 
-    <div class="right-block">
+    <div class="right-block <? echo $classItem; ?>">
 
-        <div class = "n_c_h_buttons" >
+        <div class = "n_c_h_buttons  <? echo $classItemButton; ?>" >
             <div id = "n_c_h_catalog" class = "n_c_h_el n_c_h_active">  <div class = "n_c_h_catalog_img">  </div> <div class = "n_c_h_text"> КАТАЛОГ ШВЕЙНЫХ МАШИН </div>  </div>
             <div id = "n_c_h_vibor" class = "n_c_h_el">  <div class = "n_c_h_vibor_img">  </div> <div class = "n_c_h_text"> КАК ВЫБРАТЬ ШВЕЙНУЮ МАШИНУ </div>  </div>
             <div id = "n_c_h_proiz" class = "n_c_h_el">  <div class = "n_c_h_proiz_img">  </div> <div class = "n_c_h_text"> ПРОИЗВОДИТЕЛИ ШВЕЙНЫХ МАШИН </div>  </div>

@@ -31,18 +31,25 @@ if (!defined("IS_MOBILE")) {
 						Вы всегда найдёте то, что хотели, если посетите наш магазин.
 					</div>
 				</li>
+                <li>
+                    <div class="wi_img"><i class="tt-icons exclusive-product-icon"></i></div>
+                    <div class="wi_text">
+                        <div class="wi_text-head">Предложение<br>эксклюзивного товара</div>
+                        Только в ТекстильТорге Вы сможете найти эксклюзивные модели, которых нет на других торговых площадках.
+                    </div>
+                </li>
+                <li>
+                    <div class="wi_img"><i class="tt-icons support-24-hour-icon"></i></div>
+                    <div class="wi_text">
+                        <div class="wi_text-head">Консультируем круглосуточно — ценим каждого покупателя!</div>
+                        Если Вы никак не можете сделать выбор, наши менеджеры придут к Вам на помощь, проконсультируют по интересующим Вас вопросам и дадут подробную информацию по любой модели.
+                    </div>
+                </li>
 				<li>
 					<div class="wi_img"><i class="tt-icons new-assortment-icon"></i></div>
 					<div class="wi_text">
 						<div class="wi_text-head">Частое<br>обновление ассортимента </div>
 						Мы ежеминутно отслеживаем информацию производителей о новинках и как можно быстрее представляем их Вам.
-					</div>
-				</li>
-				<li>
-					<div class="wi_img"><i class="tt-icons exclusive-product-icon"></i></div>
-					<div class="wi_text">
-						<div class="wi_text-head">Предложение<br>эксклюзивного товара</div>
-						Только в ТекстильТорге Вы сможете найти эксклюзивные модели, которых нет на других торговых площадках.
 					</div>
 				</li>
 				<li>
@@ -53,14 +60,7 @@ if (!defined("IS_MOBILE")) {
 					</div>
 				</li>
 				<li>
-					<div class="wi_img"><i class="tt-icons support-24-hour-icon"></i></div>
-					<div class="wi_text">
-						<div class="wi_text-head">Консультируем круглосуточно — ценим каждого покупателя!</div>
-						Если Вы никак не можете сделать выбор, наши менеджеры придут к Вам на помощь, проконсультируют по интересующим Вас вопросам и дадут подробную информацию по любой модели.
-					</div>
-				</li>
-				<li>
-					<div class="wi_img"><i class="tt-icons we-have-all-icon"></i></div>
+					<div class="wi_img"><i class="tt-icons check-mark-index"></i></div>
 					<div class="wi_text">
 						<div class="wi_text-head">Тестируем машинки в Вашем присутствии </div>
 						При личном посещении нашего магазина Вы сможете получить всю информацию об интересующем Вас товаре и проверить его в действии, заказав бесплатный тест-драйв.
